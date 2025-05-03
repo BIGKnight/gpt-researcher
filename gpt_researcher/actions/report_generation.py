@@ -197,6 +197,67 @@ async def generate_draft_section_titles(
         logger.error(f"Error in generating draft section titles: {e}")
     return []
 
+async def generate_answer(
+    query: str,
+    context,
+    agent_role_prompt: str,
+    websocket,
+    cfg,
+    cost_callback: callable = None,
+    prompt_family: type[PromptFamily] | PromptFamily = PromptFamily,
+):
+    """
+    generates the final report
+    Args:
+        query:
+        context:
+        agent_role_prompt:
+        websocket:
+        cfg:
+        cost_callback:
+        prompt_family: Family of prompts
+
+    Returns:
+        report:
+
+    """
+    generate_prompt = get_prompt_by_report_type("answer", prompt_family)
+    report = ""
+    content = f"{generate_prompt(query, context)}"
+    try:
+        report = await create_chat_completion(
+            model=cfg.smart_llm_model,
+            messages=[
+                {"role": "system", "content": f"{agent_role_prompt}"},
+                {"role": "user", "content": content},
+            ],
+            temperature=0.35,
+            llm_provider=cfg.smart_llm_provider,
+            stream=True,
+            websocket=websocket,
+            max_tokens=cfg.smart_token_limit,
+            llm_kwargs=cfg.llm_kwargs,
+            cost_callback=cost_callback,
+        )
+    except:
+        try:
+            report = await create_chat_completion(
+                model=cfg.smart_llm_model,
+                messages=[
+                    {"role": "user", "content": f"{agent_role_prompt}\n\n{content}"},
+                ],
+                temperature=0.35,
+                llm_provider=cfg.smart_llm_provider,
+                stream=True,
+                websocket=websocket,
+                max_tokens=cfg.smart_token_limit,
+                llm_kwargs=cfg.llm_kwargs,
+                cost_callback=cost_callback,
+            )
+        except Exception as e:
+            print(f"Error in generate_report: {e}")
+
+    return report
 
 async def generate_report(
     query: str,

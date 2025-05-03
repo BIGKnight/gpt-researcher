@@ -97,12 +97,26 @@ class DeepResearchSkill:
     async def generate_research_plan(self, query: str, num_questions: int = 3) -> List[str]:
         """Generate follow-up questions to clarify research direction"""
         # Get initial search results to inform query generation
-        search_results = await get_search_results(query, self.researcher.retrievers[0])
-        logger.info(f"Initial web knowledge obtained: {len(search_results)} results")
+#         search_results = await get_search_results(query, self.researcher.retrievers[0])
+#         logger.info(f"Initial web knowledge obtained: {len(search_results)} results")
 
-        # Get current time for context
+#         # Get current time for context
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+#         messages = [
+#             {"role": "system", "content": "You are an expert researcher. Your task is to analyze the original query and search results, then generate targeted questions that explore different aspects and time periods of the topic."},
+#             {"role": "user",
+#              "content": f"""Original query: {query}
+
+# Current time: {current_time}
+
+# Search results:
+# {search_results}
+
+# Based on these results, the original query, and the current time, generate {num_questions} unique questions. Each question should explore a different aspect or time period of the topic, considering recent developments up to {current_time}.
+
+# Format each question on a new line starting with 'Question: '"""}
+#         ]
         messages = [
             {"role": "system", "content": "You are an expert researcher. Your task is to analyze the original query and search results, then generate targeted questions that explore different aspects and time periods of the topic."},
             {"role": "user",
@@ -110,13 +124,11 @@ class DeepResearchSkill:
 
 Current time: {current_time}
 
-Search results:
-{search_results}
-
-Based on these results, the original query, and the current time, generate {num_questions} unique questions. Each question should explore a different aspect or time period of the topic, considering recent developments up to {current_time}.
+Based on original query, and the current time, generate {num_questions} unique questions. Each question should explore a different aspect or time period of the topic, considering recent developments up to {current_time}.
 
 Format each question on a new line starting with 'Question: '"""}
         ]
+
 
         response = await create_chat_completion(
             messages=messages,

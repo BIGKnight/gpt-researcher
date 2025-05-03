@@ -235,6 +235,24 @@ The response MUST not contain any markdown format or additional text (like ```js
             " Use appropriate Markdown syntax to format the outline and ensure readability."
             " Consider using markdown tables and other formatting features where they would enhance the presentation of information."
         )
+    
+    @staticmethod
+    def generate_answer_prompt(
+        question: str,
+        context: str,
+    ):
+        return f"""
+        Using the following hierarchically researched information and citations:
+
+        "{context}"
+
+        Answer the question: "{question}"        
+        
+        Your response should be in the following format:
+        Explanation: {{your explanation for your final answer}}
+        Exact Answer: {{your succinct, final answer}}
+        Confidence: {{your confidence score between 0% and 100% for your answer}}
+        """.strip()
 
     @staticmethod
     def generate_deep_research_prompt(
@@ -655,6 +673,7 @@ report_type_mapping = {
     ReportType.CustomReport.value: "generate_custom_report_prompt",
     ReportType.SubtopicReport.value: "generate_subtopic_report_prompt",
     ReportType.DeepResearch.value: "generate_deep_research_prompt",
+    ReportType.Answer.value: "generate_answer_prompt",
 }
 
 

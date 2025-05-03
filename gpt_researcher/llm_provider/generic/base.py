@@ -99,7 +99,7 @@ class GenericLLMProvider:
             if "model" in kwargs:
                 model_name = kwargs.get("model", None)
                 kwargs = {"azure_deployment": model_name, **kwargs}
-
+            kwargs["api_version"] = "2024-12-01-preview"
             llm = AzureChatOpenAI(**kwargs)
         elif provider == "cohere":
             _check_pkg("langchain_cohere")

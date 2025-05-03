@@ -2,14 +2,15 @@ from typing import Dict, Optional
 import json
 
 from ..utils.llm import construct_subtopics
+from ..utils.llm import create_chat_completion
 from ..actions import (
     stream_output,
     generate_report,
+    generate_answer,
     generate_draft_section_titles,
     write_report_introduction,
     write_conclusion
 )
-
 
 class ReportGenerator:
     """Generates reports based on research data."""
@@ -26,6 +27,58 @@ class ReportGenerator:
             "cfg": self.researcher.cfg,
             "headers": self.researcher.headers,
         }
+
+    async def write_answer(self, question: str, ext_context=None) -> str:
+        """
+        Write a report based on existing headers and relevant contents.
+
+        Args:
+            existing_headers (list): List of existing headers.
+            relevant_written_contents (list): List of relevant written contents.
+            ext_context (Optional): External context, if any.
+
+        Returns:
+            str: The generated report.
+        """
+        # send the selected images prior to writing report
+        research_images = self.researcher.get_research_images()
+        if research_images:
+            await stream_output(
+                "images",
+                "selected_images",
+                json.dumps(research_images),
+                self.researcher.websocket,
+                True,
+                research_images
+            )
+
+        context = ext_context or self.researcher.context
+        if self.researcher.verbose:
+            await stream_output(
+                "logs",
+                "answer_written",
+                f"✍️ Write answer for '{self.researcher.query}'...",
+                self.researcher.websocket,
+            )
+
+        answer_params = self.research_params.copy()
+        answer_params["cost_callback"] = self.researcher.add_costs
+        answer = await generate_answer(
+            query=question,
+            context=context,
+            agent_role_prompt=answer_params["agent_role_prompt"],
+            websocket=answer_params["websocket"],
+            cfg=answer_params["cfg"],
+            cost_callback=answer_params["cost_callback"],
+        )
+        if self.researcher.verbose:
+            await stream_output(
+                "logs",
+                "answer_written",
+                f"📝 Answer written for '{self.researcher.query}'",
+                self.researcher.websocket,
+            )
+        return answer
 
     async def write_report(self, existing_headers: list = [], relevant_written_contents: list = [], ext_context=None, custom_prompt="") -> str:
         """

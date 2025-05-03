@@ -9,7 +9,7 @@ class ReportType(Enum):
     DetailedReport = "detailed_report"
     SubtopicReport = "subtopic_report"
     DeepResearch = "deep"
-
+    Answer = "answer"
 
 class ReportSource(Enum):
     Web = "web"
