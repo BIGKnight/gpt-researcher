@@ -25,6 +25,8 @@ my-docs/
 #Ignore pycache
 **/__pycache__/
 
+BC_eval.sh
+
 #Ignore mypy cache
 .mypy_cache/
 node_modules
