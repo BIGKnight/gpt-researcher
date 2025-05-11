@@ -242,7 +242,7 @@ The response MUST not contain any markdown format or additional text (like ```js
         context: str,
     ):
         return f"""
-        Using the following hierarchically researched information and citations:
+        Using the following hierarchically researched information:
 
         "{context}"
 

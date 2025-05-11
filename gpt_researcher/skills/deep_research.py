@@ -12,7 +12,7 @@ from ..actions.query_processing import get_search_results
 logger = logging.getLogger(__name__)
 
 # Maximum words allowed in context (25k words for safety margin)
-MAX_CONTEXT_WORDS = 25000
+MAX_CONTEXT_WORDS = 250000
 
 def count_words(text: str) -> int:
     """Count words in a text string"""
@@ -60,12 +60,17 @@ class DeepResearchSkill:
         self.research_sources = []  # Track all research sources
         self.context = []  # Track all context
 
-    async def generate_search_queries(self, query: str, num_queries: int = 3) -> List[Dict[str, str]]:
+    async def generate_search_queries(self, query: str, search_plan: Dict[str, str], current_search_step: str, num_queries: int = 3) -> List[Dict[str, str]]:
         """Generate SERP queries for research"""
         messages = [
             {"role": "system", "content": "You are an expert researcher generating search queries."},
             {"role": "user",
-             "content": f"Given the following prompt, generate {num_queries} unique search queries to research the topic thoroughly. For each query, provide a research goal. Format as 'Query: <query>' followed by 'Goal: <goal>' for each pair: {query}"}
+             "content": f"""Given the following question and the search plan, generate {num_queries} unique search queries to explore the step {current_search_step} thoroughly. 
+             
+             For each query, provide a research goal. 
+             Format as 'Query: <query>' followed by 'Goal: <goal>' for each pair. 
+
+             Here is the question and the entire search plan: {query}"""}
         ]
 
         response = await create_chat_completion(
@@ -117,38 +122,85 @@ class DeepResearchSkill:
 
 # Format each question on a new line starting with 'Question: '"""}
 #         ]
+#         messages = [
+#             {"role": "system", "content": '''You are a query analyst. Your task is to analyze the user's question and identify their underlying intent — whether they expect you to: provide a direct answer, write a report, solve a math problem, etc.Use the following format:\nUser: "{user's question}"\n Assistant: "{the expected task}"\n
+# Examples: 
+# User: "What is the capital of China?"
+# Assistant: "Provide a direct answer to the question."
+             
+# User: "Can you analyze Zhu Yuanzhang's personality?"
+# Assistant: "Write a report analyzing Zhu Yuanzhang's personality."
+#             '''},
+
+#             {"role": "user",
+#              "content": f"""{query}"""}
+#         ]
+        
+#         task_response = await create_chat_completion(
+#             messages=messages,
+#             llm_provider=self.researcher.cfg.strategic_llm_provider,
+#             model=self.researcher.cfg.strategic_llm_model,
+#             reasoning_effort=ReasoningEfforts.High.value,
+#             temperature=0.4
+#         )
+        # task = task_response.split("Assistant: ")[1].strip()
+        # print(task)
+        # messages = [
+        #     {"role": "system", "content": f"""You are an expert researcher. Your task is to solve the user's request, it could be an answer to a question, a report, a math proof, etc."""},
+        #     {"role": "user",
+        #      "content": f"""Original query: {query}.  
+             
+        #      Let's first understand the problem and devise a search plan to solve the problem. 
+             
+        #      Format requirement:
+        #      - Format each plan step on a new line starting with 'Plan Step A: ', 'Plan Step B: ', etc.
+        #      - To start with, you need to say 'My plan is: '"""}
+        # ]
         messages = [
-            {"role": "system", "content": "You are an expert researcher. Your task is to analyze the original query and search results, then generate targeted questions that explore different aspects and time periods of the topic."},
-            {"role": "user",
-             "content": f"""Original query: {query}
+            {"role": "system", "content": f"""You are a highly capable research assistant with expertise in breaking down complex problems and devising effective strategies for information retrieval and reasoning. Your role is to help address the user's request, which may involve answering a question, generating a report, or constructing a logical or mathematical proof."""},
+            
+            {"role": "user", "content": f"""Original query: {query}
 
-Current time: {current_time}
+        Your task is to first analyze and interpret the user's query to understand its underlying objectives, constraints, and required knowledge domains. Then, based on your understanding, formulate a structured search or research plan that could be executed to solve the problem effectively.
 
-Based on original query, and the current time, generate {num_questions} unique questions. Each question should explore a different aspect or time period of the topic, considering recent developments up to {current_time}.
-
-Format each question on a new line starting with 'Question: '"""}
+        **Output formatting requirements:**
+        - Begin your response with: `My search plan is:`
+        - Present each step of the plan on a new line, prefixed sequentially as: `Plan Step 1:`, `Plan Step 2:`, and so on.
+        - Ensure that each step is actionable, logically ordered, and contributes meaningfully to solving the original query."""}
         ]
-
 
         response = await create_chat_completion(
             messages=messages,
             llm_provider=self.researcher.cfg.strategic_llm_provider,
+            max_tokens=10000,
             model=self.researcher.cfg.strategic_llm_model,
             reasoning_effort=ReasoningEfforts.High.value,
             temperature=0.4
         )
-
-        questions = [q.replace('Question:', '').strip()
-                     for q in response.split('\n')
-                     if q.strip().startswith('Question:')]
-        return questions[:num_questions]
+        plan = response.replace('My search plan is:', '').strip()
+        plan_steps = [q.replace('Plan Step ', '').strip() for q in response.split('\n') if q.strip().startswith('Plan Step ')]
+        plan_steps_numbers = [q.split(':')[0].strip() for q in plan_steps]
+        plan_steps_contents = [q.split(':')[1].strip() for q in plan_steps]
+        return plan_steps, plan_steps_numbers, plan_steps_contents
+        # questions = [q.replace('Question:', '').strip()
+        #              for q in response.split('\n')
+        #              if q.strip().startswith('Question:')]
+        # return questions[:num_questions]
 
     async def process_research_results(self, query: str, context: str, num_learnings: int = 3) -> Dict[str, List[str]]:
         """Process research results to extract learnings and follow-up questions"""
         messages = [
-            {"role": "system", "content": "You are an expert researcher analyzing search results."},
+            {"role": "system", "content": "You are an expert analyzing search results."},
             {"role": "user",
-             "content": f"Given the following research results for the query '{query}', extract key learnings and suggest follow-up questions. For each learning, include a citation to the source URL if available. Format each learning as 'Learning [source_url]: <insight>' and each question as 'Question: <question>':\n\n{context}"}
+             "content": f"""Given the following search results for the query '{query}', extract key learnings from the results step by step.
+
+             **Output formatting requirements:**
+             - For each learning, include a citation to the source URL if available. 
+             - Format each learning as 'Learning [source_url]: <insight>'.
+             - Change each learning to a new line.
+             \n\n
+             Here is the search results: {context}"""
+             }
         ]
 
         response = await create_chat_completion(
@@ -162,7 +214,7 @@ Format each question on a new line starting with 'Question: '"""}
 
         lines = response.split('\n')
         learnings = []
-        questions = []
+        # questions = []
         citations = {}
 
         for line in lines:
@@ -186,12 +238,12 @@ Format each question on a new line starting with 'Question: '"""}
                         citations[learning] = url
                     else:
                         learnings.append(line.replace('Learning:', '').strip())
-            elif line.startswith('Question:'):
-                questions.append(line.replace('Question:', '').strip())
+            # elif line.startswith('Question:'):
+            #     questions.append(line.replace('Question:', '').strip())
 
         return {
             'learnings': learnings[:num_learnings],
-            'followUpQuestions': questions[:num_learnings],
+            # 'followUpQuestions': questions[:num_learnings],
             'citations': citations
         }
 
@@ -199,7 +251,8 @@ Format each question on a new line starting with 'Question: '"""}
             self,
             query: str,
             breadth: int,
-            depth: int,
+            search_plan: Dict[str, str],
+            current_search_step: str,
             learnings: List[str] = None,
             citations: Dict[str, str] = None,
             visited_urls: Set[str] = None,
@@ -218,10 +271,13 @@ Format each question on a new line starting with 'Question: '"""}
         if on_progress:
             on_progress(progress)
 
+        depth = len(search_plan.keys()) - current_search_step
         # Generate search queries
-        serp_queries = await self.generate_search_queries(query, num_queries=breadth)
+        serp_queries = await self.generate_search_queries(query, search_plan, current_search_step, num_queries=breadth)
+        f = open('queries.txt', 'a')
+        f.write("Depth: " + str(depth) + "; Breadth: " + str(breadth) + "\n" + "Query: " + query + "\n" + " SERP Queries: " + str(serp_queries) + "\n\n")
+        f.close()
         progress.total_queries = len(serp_queries)
-
         all_learnings = learnings.copy()
         all_citations = citations.copy()
         all_visited_urls = visited_urls.copy()
@@ -272,7 +328,7 @@ Format each question on a new line starting with 'Question: '"""}
                     return {
                         'learnings': results['learnings'],
                         'visited_urls': list(visited),
-                        'followUpQuestions': results['followUpQuestions'],
+                        # 'followUpQuestions': results['followUpQuestions'],
                         'researchGoal': serp_query['researchGoal'],
                         'citations': results['citations'],
                         'context': context if context else "",
@@ -304,35 +360,36 @@ Format each question on a new line starting with 'Question: '"""}
                 all_sources.extend(result['sources'])
 
             # Continue deeper if needed
-            if depth > 1:
-                new_breadth = max(2, breadth // 2)
-                new_depth = depth - 1
-                progress.current_depth += 1
+        if depth > 1:
+            new_breadth = max(2, breadth // 2)
+            # new_depth = depth - 1
+            progress.current_depth += 1
 
-                # Create next query from research goal and follow-up questions
-                next_query = f"""
-                Previous research goal: {result['researchGoal']}
-                Follow-up questions: {' '.join(result['followUpQuestions'])}
-                """
+            # Create next query from research goal and follow-up questions
+            # next_query = f"""
+            # Previous research goal: {result['researchGoal']}
+            # Follow-up questions: {' '.join(result['followUpQuestions'])}
+            # """
 
-                # Recursive research
-                deeper_results = await self.deep_research(
-                    query=next_query,
-                    breadth=new_breadth,
-                    depth=new_depth,
-                    learnings=all_learnings,
-                    citations=all_citations,
-                    visited_urls=all_visited_urls,
-                    on_progress=on_progress
-                )
+            # Recursive research
+            deeper_results = await self.deep_research(
+                query=query,
+                breadth=new_breadth,
+                search_plan=search_plan,
+                current_search_step=list(search_plan.keys())[int(current_search_step) + 1],
+                learnings=all_learnings,
+                citations=all_citations,
+                visited_urls=all_visited_urls,
+                on_progress=on_progress
+            )
 
-                all_learnings = deeper_results['learnings']
-                all_visited_urls.update(deeper_results['visited_urls'])
-                all_citations.update(deeper_results['citations'])
-                if deeper_results.get('context'):
-                    all_context.extend(deeper_results['context'])
-                if deeper_results.get('sources'):
-                    all_sources.extend(deeper_results['sources'])
+            all_learnings = deeper_results['learnings']
+            all_visited_urls.update(deeper_results['visited_urls'])
+            all_citations.update(deeper_results['citations'])
+            if deeper_results.get('context'):
+                all_context.extend(deeper_results['context'])
+            if deeper_results.get('sources'):
+                all_sources.extend(deeper_results['sources'])
 
         # Update class tracking
         self.context.extend(all_context)
@@ -357,18 +414,23 @@ Format each question on a new line starting with 'Question: '"""}
         # Log initial costs
         initial_costs = self.researcher.get_costs()
 
-        follow_up_questions = await self.generate_research_plan(self.researcher.query)
-        answers = ["Automatically proceeding with research"] * len(follow_up_questions)
+        plan_steps, plan_steps_numbers, plan_steps_contents = await self.generate_research_plan(self.researcher.query)
+        # answers = ["Automatically proceeding with research"] * len(follow_up_questions)
 
-        qa_pairs = [f"Q: {q}\nA: {a}" for q, a in zip(follow_up_questions, answers)]
+        # qa_pairs = [f"Q: {q}\nA: {a}" for q, a in zip(follow_up_questions, answers)]
+        # combined_query = f"""
+        # Initial Query: {self.researcher.query}\nFollow - up Questions and Answers:\n
+        # """ + "\n".join(qa_pairs)
         combined_query = f"""
-        Initial Query: {self.researcher.query}\nFollow - up Questions and Answers:\n
-        """ + "\n".join(qa_pairs)
+        Initial Query: {self.researcher.query}\nThe search plan is:\n
+        """ + "\n".join([f"{n}: {c}" for n, c in zip(plan_steps_numbers, plan_steps_contents)])
 
+        search_plan = {n: c for n, c in zip(plan_steps_numbers, plan_steps_contents)}
         results = await self.deep_research(
             query=combined_query,
+            search_plan=search_plan,
+            current_search_step=list(search_plan.keys())[0],
             breadth=self.breadth,
-            depth=self.depth,
             on_progress=on_progress
         )
 
