@@ -1,10 +1,10 @@
 import os
 import asyncio
-os.environ["AZURE_OPENAI_API_KEY"] = "Ei8oNtxm3u3nqriS71d80LNrcplAumyIOOoFrzqvxmgVWMbgOp8tJQQJ99ALACHYHv6XJ3w3AAABACOGiweD"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://KCAudio.openai.azure.com/"
-os.environ["AZURE_OPENAI_API_VERSION"] = "2024-12-01-preview"
-os.environ["TAVILY_API_KEY"] = "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"
-os.environ["COHERE_API_KEY"] = "B77kMATuXSH4maoAF66LhoMIyrUA8Dzw1hXUsWUz"
+os.environ["AZURE_OPENAI_API_KEY"] = "your_api_key"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "your_api_key"
+os.environ["AZURE_OPENAI_API_VERSION"] = "your_api_key"
+os.environ["TAVILY_API_KEY"] = "your_api_key"
+os.environ["COHERE_API_KEY"] = "your_api_key"
 
 from gpt_researcher import GPTResearcher
 async def main():
