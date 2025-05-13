@@ -83,6 +83,7 @@ class GPTResearcher:
         self.verbose = verbose
         self.context = context or []
         self.headers = headers or {}
+        self.learnings = []
         self.research_costs = 0.0
         self.retrievers = get_retrievers(self.headers, self.cfg)
         self.memory = Memory(
@@ -178,7 +179,7 @@ class GPTResearcher:
         })
 
         # Run deep research and get context
-        self.context = await self.deep_researcher.run(on_progress=on_progress)
+        self.context = await self.deep_researcher.run()
 
         # Get total research costs
         total_costs = self.get_costs()
@@ -208,7 +209,7 @@ class GPTResearcher:
 
         answer = await self.report_generator.write_answer(
             question=self.query,
-            ext_context=ext_context or self.context,
+            ext_context=ext_context or self.context
         )
 
         await self._log_event("research", step="answer_completed", details={

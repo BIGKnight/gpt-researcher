@@ -3,7 +3,7 @@ import asyncio
 os.environ["AZURE_OPENAI_API_KEY"] = "Ei8oNtxm3u3nqriS71d80LNrcplAumyIOOoFrzqvxmgVWMbgOp8tJQQJ99ALACHYHv6XJ3w3AAABACOGiweD"
 os.environ["AZURE_OPENAI_ENDPOINT"] = "https://KCAudio.openai.azure.com/"
 os.environ["AZURE_OPENAI_API_VERSION"] = "2024-12-01-preview"
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = "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"
 os.environ["COHERE_API_KEY"] = "B77kMATuXSH4maoAF66LhoMIyrUA8Dzw1hXUsWUz"
 
 from gpt_researcher import GPTResearcher
@@ -23,6 +23,9 @@ async def main():
     # Conduct research on the given query
     research_result = await researcher.conduct_research()
     # Write the report
+    f = open("research_result1.txt", "w")
+    f.write(researcher.context)
+    f.close()
     answer = await researcher.write_answer()
 
 if __name__ == "__main__":

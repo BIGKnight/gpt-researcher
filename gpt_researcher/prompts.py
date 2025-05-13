@@ -242,15 +242,15 @@ The response MUST not contain any markdown format or additional text (like ```js
         context: str,
     ):
         return f"""
-        Using the following hierarchically researched information:
+        Given following researched information:
 
         "{context}"
 
-        Answer the question: "{question}"        
+        Try to devise a plan to analuze the information, and then answer the question step-by-step: "{question}".        
         
         Your response should be in the following format:
-        Explanation: {{your explanation for your final answer}}
-        Exact Answer: {{your succinct, final answer}}
+        Explanation: {{your step-by-step explanation for your final answer}}
+        Exact Answer: {{your succinct, final answer, can not be not found, can not be not determined, etc.}}
         Confidence: {{your confidence score between 0% and 100% for your answer}}
         """.strip()
 

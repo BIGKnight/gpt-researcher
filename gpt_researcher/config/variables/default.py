@@ -5,8 +5,8 @@ DEFAULT_CONFIG: BaseConfig = {
     "EMBEDDING": "cohere:embed-v4.0",
     "SIMILARITY_THRESHOLD": 0.42,
     "FAST_LLM": "azure_openai:o4-mini",
-    "SMART_LLM": "azure_openai:o1",  # Has support for long responses (2k+ words).
-    "STRATEGIC_LLM": "azure_openai:o1",  # Can be used with o1 or o3, please note it will make tasks slower.
+    "SMART_LLM": "azure_openai:gpt-4.1",  # Has support for long responses (2k+ words).
+    "STRATEGIC_LLM": "azure_openai:gpt-4.1",  # Can be used with o1 or o3, please note it will make tasks slower.
     "FAST_TOKEN_LIMIT": 3000,
     "SMART_TOKEN_LIMIT": 6000,
     "STRATEGIC_TOKEN_LIMIT": 10000,
@@ -15,7 +15,7 @@ DEFAULT_CONFIG: BaseConfig = {
     "SUMMARY_TOKEN_LIMIT": 700,
     "TEMPERATURE": 0.4,
     "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
-    "MAX_SEARCH_RESULTS_PER_QUERY": 10,
+    "MAX_SEARCH_RESULTS_PER_QUERY": 20,
     "MEMORY_BACKEND": "local",
     "TOTAL_WORDS": 1200,
     "REPORT_FORMAT": "APA",

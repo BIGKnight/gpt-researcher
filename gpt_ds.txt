@@ -1,0 +1,252 @@
+I’m looking at specific fight stats, like landings and attempts, and checking for relevant profiles and nicknames related to swordsman synonyms.
+
+###Searched for stats related to featherweight fights
+ChatGPT
+I'm working through finding the fight with 14 significant strikes out of 83 by zeroing in on the phrase "14 of 83 significant strikes fight."
+
+Thinking I'll look up UFCStats or search "14 of 83 significant strikes fight stats."
+
+OK, let me see. Looking up "14 83 significant strikes featherweight fight" to gather info on strike counts.
+
+I'm gathering info on fighters with "samurai" nicknames and examining featherweight UFC fights from 2011 to 2016, with a focus on referees like Big John McCarthy.
+
+I’m gathering info on notable UFC bouts where a losing fighter had a nickname like "Samurai" or "Ronin," ensuring both fighters share the same nationality and are under 35 years old.
+
+###Searched for featherweight fighter "Samurai" nickname
+ChatGPT
+I'm researching Mauricio Flores' fight on ESPN, considering it might be a local event. The referee is Big John, but there's no notable major promotion.
+
+###Searched for strike accuracy stats
+ChatGPT
+I’m thinking of enhancing the search by including well-known fight metric websites to better identify "14 of 83 strikes" as specific fight stats.
+
+Wondering if stopping at "FightMetric 14 of 83" offers a clearer path forward.
+
+###Searched for significant strike stats in fights
+ChatGPT
+I’m looking for fighter nicknames, either from Wikipedia or lists of fighters by nickname, or by finding synonyms of "swordsman" to generate new possibilities.
+
+###Searched for MMA fighter "Swordsman" nickname
+ChatGPT
+I’m piecing together fighter nicknames like "Ronin" and thinking about UFC events with swordsman imagery. Considering American fighters and examining official fight stats for a breakthrough.
+
+###Searched for Big John McCarthy featherweight bout
+ChatGPT
+OK, let me see. The context isn't quite clear; details are needed to refine the guidance.
+
+###Searched for fighter nickname "The Ronin"
+ChatGPT
+I'm examining fighter connections and potential matches, considering weight categories and specific fight stats, like "16.87%". Progress is steady, focusing on logical deductions and statistical queries.
+
+###Searched for significant strike and takedown stats
+ChatGPT
+I'm auditing significant strikes for fighters like Jose Aldo and Conor McGregor. Current matches aren't yielding clear results.
+
+###Searched for synonym for swordsman nickname
+ChatGPT
+I'm thinking through various fighter nicknames to find a suitable one around "gladiator". Options include "The Gladiator", "Skyscraper" for Struve, or "Samurai".
+
+###Searched for featherweight bout "Samurai"
+ChatGPT
+I’m gathering info on UFC featherweight fights with Big John as referee. Checking fight details, nicknames, and nationalities to match the clues provided. Progress is steady, but more specifics are needed.
+
+###Searched for featherweight significant strike stats
+ChatGPT
+Spamming rounds, Landwehr connects with 14 out of 83 strikes.
+
+###Searched for 14 significant strikes out of 83
+ChatGPT
+Piecing together synonyms for swordsman like "ronin," "samurai," "gladiator," or "knight," I’m focusing on the striking imagery of "gladiator" and checking if any renowned fighter holds this nickname.
+
+###Searched for MMA fighter nickname "Gladiator"
+ChatGPT
+Rhyming nicknames like "Spartan" and "El Matador" evoke distinct warrior imagery. They highlight Cody Stamann's early spitfires and Roger Huerta's light-footed style.
+
+Favicon
+Read espn.com
+
+ChatGPT
+Considering Mauricio Flores' Argentinian roots, his rapid KO loss, and Big John's promotional history, I explore synonyms like "El Samurai" and "swashbuckler" to connect him to well-known fighters.
+
+Hmm, I’m thinking about FightMetric or Wikipedia for event stats and recaps. Stats like "14 of 83 significant strikes" could be notable mentions.
+
+###Searched for stats on 14 of 83 significant strikes
+ChatGPT
+I’m working through a Reddit post showcasing Max Holloway's significant strikes in UFC fights. Considering an analysis or dataset for a deeper understanding.
+
+Favicon
+Read reddit.com
+
+ChatGPT
+I’m noting UFC fights with featherweight bouts, same nationality, and a loss with high significant strikes. Considering Guida vs Mendes at UFC 164, both fighters are Americans with notable nicknames.
+
+###Searched for UFC 164 Guida Mendes stats
+ChatGPT
+OK, let me see if I can nail down the fight. Chad Mendes' sticker doesn't show head kick KO or UFC 150, Guida and McCarthy's roles need clarification, given their UFC 139 alignment.
+
+###Searched for nickname synonym for swordsman
+ChatGPT
+I’m pulling together synonyms with Gladiator or Samurai. Considering nicknames like "The Gladiator" for a fighter.
+
+Favicon
+Read sherdog.com
+
+ChatGPT
+I’m mapping out a Python script to analyze fight data from UFC stats, focusing on specific values for Chad's career achievements.
+
+Favicon
+Read espn.com
+
+ChatGPT
+I'm working through ESPN stat lines to assess both fighters' performances, confirming Chad's accomplishments and shed light on Lentz's perspective.
+
+###Searched for Lentz UFC 14/83 stats
+ChatGPT
+I'm digging into Chad's fight against Lentz, examining hit and attempt numbers to clarify accuracy, and considering checking official sources for confirmation.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+Piecing together Lentz vs Mendes stats from UFC on Fox 9, December 2013.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+I’m piecing together Lentz's performance on ESPN's "Stats" page to ensure accuracy. The process involves thorough reviewing and data analysis.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+Estou analisando o tipo e contexto das estatísticas da luta de Arnold Allen e Lentz, focando em golpes significativos e percentual de acertos.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+I’m gathering info on the UFC on Fox 9 card, focusing on the Chad Mendes vs Nik Lentz fight. Chad Mendes emerged victorious.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+I'm checking for duplicates, which might be happening due to separate tables. Progress is being made through constant monitoring.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+I’m gathering info on Rick Glenn's stats from his fight against Myles Jury in 2017. Glenn, with the nickname "The Gladiator," likely had limited significant strikes and a high percentage of significant strike attempts.
+
+###Searched for UFC 219 Jury Glenn stats
+ChatGPT
+I’m trying to interpret Ricky Glenn's MMA stats, focusing on significant and total strikes, while also considering takedown attempts.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+OK, let's take a closer look at Ricky Glenn's takedown attempts. He went for 4 in the fight but didn't score any. This insight helps accurately analyze his performance.
+
+Favicon
+Read mmafighting.com
+
+ChatGPT
+I’m gathering info on fight dynamics from official UFC sources using event ID.
+
+Analyzed with python
+ChatGPT
+I’m noting the fighters' details: Myles Jury and Rick Glenn, both under 35, from the USA, with Glenn's nickname being "The Gladiator."
+
+Favicon
+Read ufc.com
+
+Favicon
+Read tapology.com
+
+ChatGPT
+I'm confirming that Rick Glenn's nickname, "The Gladiator," aligns with the term's common understanding as it relates to swordsmen, potentially requiring minimal citation.
+
+###Searched for Myles Jury, Rick Glenn, and Big John McCarthy
+ChatGPT
+I'm gathering info on Big John McCarthy's role at UFC 219, including any references to him in the officiating context.
+
+###Searched for Myles Jury, Rick Glenn, and referee
+ChatGPT
+I found that Myles Jury was 29 and Rick Glenn was 28 during their fight at UFC 219 on December 30, 2017, confirmed by [27].
+
+Favicon
+Read mmadecisions.com
+
+ChatGPT
+I’m pulling together the relevant details about the fight, including the event name, date, location, and fighters. Also, I’m noting Glenn's nickname and his striking and takedown statistics using sources [28] and [22].
+
+Favicon
+Read ufcstats.com
+
+ChatGPT
+I’m figuring out why navigation to fight details isn't working correctly.
+
+###Searched for Jury, Glenn, takedown, ufcstats
+ChatGPT
+I'm gathering details on UFC events and considering the UFCStats event page as a reliable source.
+
+I’m integrating Tapology's detailed strike and grappling stats, using mmadecisions for scoring, and considering takedowns for refining the count.
+
+Favicon
+Read rotowire.com
+
+ChatGPT
+This analysis highlights Jury's success with constant movement causing Glenn to miss. Jury landed 56 strikes while Glenn hit only 29, with Jury even landing 2 takedowns while Glenn failed all 4.
+
+Favicon
+Read more from rotowire.com
+
+ChatGPT
+RotoWire documents Jury's 2 takedowns, while Glenn's 4 attempts remain unmentioned. Tipps seek specific sources like UFCStats or ESPN to confirm Glenn's attempts.
+
+###Searched for Rick Glenn 0/4 takedowns against Jury
+ChatGPT
+I'm piecing together Glenn's takedown attempts from the reddit post and the ESPN report. It seems he tried four times in the fight.
+
+Favicon
+Read espn.com
+
+ChatGPT
+I’m envisioning that the ESPN fight stats page could differentiate between striking and grappling. Striking might be at the top and grappling below, similar to the fight log layout.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+Mapping out striking followed by grappling details, likely around the 300th or 472nd lines, for a specific date.
+
+Favicon
+Read more from espn.com
+
+ChatGPT
+I’m piecing together that the final "0 4 0 0%" likely represents Glenn's takedowns: "Takedowns Landed: 0, Takedowns Attempted: 4, Takedown Slams: 0, Takedown Accuracy: 0%".
+
+Favicon
+Read tapology.com
+
+ChatGPT
+I’m verifying that the event is UFC 219: Cyborg vs. Holm, a prominent featherweight bout, which aligns with the bout details.
+
+Favicon
+Read fightful.com
+
+ChatGPT
+Summarizing key criteria like division, fighter stats, ages, and nicknames. Exploring referees and their debut timelines. Each detail is carefully reviewed for accuracy.
+
+###Searched for John McCarthy first UFC 2 refereed
+ChatGPT
+Opening the MMAfighting article to delve into the latest insights.
+
+Favicon
+Read mmafighting.com
+
+ChatGPT
+Structuring the answer with headings, bullet points for key criteria, and a brief event summary to confirm details.

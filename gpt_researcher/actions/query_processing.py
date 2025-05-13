@@ -119,13 +119,13 @@ async def plan_research_outline(
         A list of sub-queries
     """
 
-    sub_queries = await generate_sub_queries(
-        query,
-        parent_query,
-        report_type,
-        search_results,
-        cfg,
-        cost_callback
-    )
+    # sub_queries = await generate_sub_queries(
+    #     query,
+    #     parent_query,
+    #     report_type,
+    #     search_results,
+    #     cfg,
+    #     cost_callback
+    # )
 
-    return sub_queries
+    return [query]
