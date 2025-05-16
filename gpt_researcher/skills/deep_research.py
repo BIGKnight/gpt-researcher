@@ -12,6 +12,7 @@ from ..utils.llm import create_chat_completion
 from ..utils.enum import ReportType, ReportSource, Tone
 from ..actions.query_processing import get_search_results
 from synvofs.utils.sse.sse_manager import SSEQueue
+from tabulate import tabulate
 
 logger = logging.getLogger(__name__)
 
@@ -170,45 +171,50 @@ class DeepResearchSkill:
              }
         ]
 
-        response = await create_chat_completion(
-            messages=messages,
-            llm_provider=self.researcher.cfg.strategic_llm_provider,
-            model=self.researcher.cfg.strategic_llm_model,
-            temperature=0.4,
-            reasoning_effort=ReasoningEfforts.High.value,
-            max_tokens=1000
-        )
-        os.makedirs('deep_research_output', exist_ok=True)
-        f = open('deep_research_output/process_research_results_response.txt', 'a')
-        f.write("process_research_results_response: \n" + response + "\n")
-        f.close()
-        lines = response.split('\n')
-        learnings = []
-        # questions = []
-        
-        citations = {}
+        async with self.sse_queue.operation(f"🧠 Processing research results for query: {query}") as operation:
+            response = await create_chat_completion(
+                messages=messages,
+                llm_provider=self.researcher.cfg.strategic_llm_provider,
+                model=self.researcher.cfg.strategic_llm_model,
+                temperature=0.4,
+                reasoning_effort=ReasoningEfforts.High.value,
+                max_tokens=1000
+            )
 
-        for line in lines:
-            line = line.strip()
-            if line.startswith('Clue'):
-                import re
-                url_match = re.search(r'\[(.*?)\]:', line)
-                if url_match:
-                    url = url_match.group(1)
-                    learning = line.split(':', 1)[1].strip()
-                    learnings.append(learning)
-                    citations[learning] = url
-                else:
-                    # Try to find URL in the line itself
-                    url_match = re.search(
-                        r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
+            os.makedirs('deep_research_output', exist_ok=True)
+            f = open('deep_research_output/process_research_results_response.txt', 'a')
+            f.write("process_research_results_response: \n" + response + "\n")
+            f.close()
+            lines = response.split('\n')
+            learnings = []
+            # questions = []
+            
+            citations = {}
+
+            for line in lines:
+                line = line.strip()
+                if line.startswith('Clue'):
+                    import re
+                    url_match = re.search(r'\[(.*?)\]:', line)
                     if url_match:
-                        url = url_match.group(0)
-                        learning = line.replace(url, '').replace('Clue:', '').strip()
+                        url = url_match.group(1)
+                        learning = line.split(':', 1)[1].strip()
                         learnings.append(learning)
                         citations[learning] = url
+                        await operation.output_url(url, start_text="- Found useful URL: 🔗 ", end_text="\n")
                     else:
-                        learnings.append(line.replace('Clue:', '').strip())
+                        # Try to find URL in the line itself
+                        url_match = re.search(
+                            r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
+                        if url_match:
+                            url = url_match.group(0)
+                            learning = line.replace(url, '').replace('Clue:', '').strip()
+                            learnings.append(learning)
+                            citations[learning] = url
+                            await operation.output_url(url, start_text="Found useful URL: 🔗 ")
+                        else:
+                            learnings.append(line.lstrip('Clue:').strip())
+                            await operation.output(f"Found clue: {line.lstrip('Clue:').strip()}", end="\n")
             # elif line.startswith('Question:'):
             #     questions.append(line.replace('Question:', '').strip())
 
@@ -253,7 +259,12 @@ class DeepResearchSkill:
                 previous_learnings="\n".join(all_learnings)
             else:
                 previous_learnings="No previous learnings."
-            serp_queries = await self.generate_search_queries(query, previous_learnings, current_search_target=search_goal)
+            async with self.sse_queue.operation(f"✨ Generating search queries") as operation:
+                serp_queries = await self.generate_search_queries(query, previous_learnings, current_search_target=search_goal)
+                table = [{"No.": i + 1, "Query": q['query'], "Research Goal": q['researchGoal']} for i, q in enumerate(serp_queries)]
+                output_table = tabulate(table, headers="keys", tablefmt="github")
+                logger.info(output_table)
+                await operation.output(output_table)
             os.makedirs('deep_research_output', exist_ok=True)
             f = open('deep_research_output/queries.txt', 'a')
             f.write("current_search_step: " + str(count + 1) + "\n" + "query: " + query + "\n" + " SERP Queries: " + str(serp_queries) + "\n\n")

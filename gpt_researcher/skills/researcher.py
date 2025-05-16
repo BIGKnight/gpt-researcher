@@ -31,8 +31,18 @@ class ResearchConductor:
             self.researcher.websocket,
         )
 
-        search_results = await get_search_results(query, self.researcher.retrievers[0], query_domains)
-        self.logger.info(f"Initial search results obtained: {len(search_results)} results")
+        async with self.sse_queue.operation(f"🌐 Browsing the web to learn more about the task: {query}") as operation:
+            MAX_TITLE_LENGTH = 50
+            search_results = await get_search_results(query, self.researcher.retrievers[0], query_domains)
+            self.logger.info(f"Initial search results obtained: {len(search_results)} results")
+            if search_results:
+                for result in search_results:
+                    title = result['href']
+                    if len(title) > MAX_TITLE_LENGTH:
+                        title = f"{title[:MAX_TITLE_LENGTH]}..."
+                    await operation.output(f"🔗 [{title}]({result['href']})")
+            else:
+                await operation.output(f"🤷 No search results found")
 
         await stream_output(
             "logs",
@@ -41,17 +51,15 @@ class ResearchConductor:
             self.researcher.websocket,
         )
 
-        async with self.sse_queue.operation("🤔 Planning the research strategy and subtasks...") as operation:
-            outline = await plan_research_outline(
-                query=query,
-                search_results=search_results,
-                agent_role_prompt=self.researcher.role,
-                cfg=self.researcher.cfg,
-                parent_query=self.researcher.parent_query,
-                report_type=self.researcher.report_type,
-                cost_callback=self.researcher.add_costs,
-            )
-            await operation.output(f"Research outline planned: {outline}")
+        outline = await plan_research_outline(
+            query=query,
+            search_results=search_results,
+            agent_role_prompt=self.researcher.role,
+            cfg=self.researcher.cfg,
+            parent_query=self.researcher.parent_query,
+            report_type=self.researcher.report_type,
+            cost_callback=self.researcher.add_costs,
+        )
         self.logger.info(f"Research outline planned: {outline}")
         return outline
 
@@ -79,7 +87,7 @@ class ResearchConductor:
                 self.researcher.agent,
                 self.researcher.websocket
             )
-
+            
         # Research for relevant sources based on source types below
         if self.researcher.source_urls:
             self.logger.info("Using provided source URLs")

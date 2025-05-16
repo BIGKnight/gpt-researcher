@@ -101,12 +101,11 @@ class GPTResearcher:
         self.scraper_manager: BrowserManager = BrowserManager(self)
         self.source_curator: SourceCurator = SourceCurator(self)
         self.deep_researcher: Optional[DeepResearchSkill] = None
-        if report_type == ReportType.DeepResearch.value:
-            self.deep_researcher = DeepResearchSkill(self)
-        
         self.sse_queue = sse_queue
         if not self.sse_queue:
             self.sse_queue = SSEQueue()
+        if report_type == ReportType.DeepResearch.value:
+            self.deep_researcher = DeepResearchSkill(self, sse_queue=self.sse_queue)
 
     async def _log_event(self, event_type: str, **kwargs):
         """Helper method to handle logging events"""
