@@ -1,9 +1,9 @@
 from fastapi import WebSocket
 import uuid
 
-from gpt_researcher.utils.llm import get_llm
-from gpt_researcher.memory import Memory
-from gpt_researcher.config.config import Config
+from synvo_researcher.gpt_researcher.utils.llm import get_llm
+from synvo_researcher.gpt_researcher.memory import Memory
+from synvo_researcher.gpt_researcher.config.config import Config
 
 from langgraph.prebuilt import create_react_agent
 from langgraph.checkpoint.memory import MemorySaver

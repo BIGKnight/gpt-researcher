@@ -1,7 +1,7 @@
 from fastapi import WebSocket
 from typing import Any
 
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 
 class BasicReport:

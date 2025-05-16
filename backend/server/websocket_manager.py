@@ -4,13 +4,13 @@ from typing import Dict, List
 
 from fastapi import WebSocket
 
-from backend.report_type import BasicReport, DetailedReport
-from backend.chat import ChatAgentWithMemory
+from synvo_researcher.backend.report_type import BasicReport, DetailedReport
+from synvo_researcher.backend.chat import ChatAgentWithMemory
 
-from gpt_researcher.utils.enum import ReportType, Tone
-from multi_agents.main import run_research_task
-from gpt_researcher.actions import stream_output  # Import stream_output
-from backend.server.server_utils import CustomLogsHandler
+from synvo_researcher.gpt_researcher.utils.enum import ReportType, Tone
+from synvo_researcher.multi_agents.main import run_research_task
+from synvo_researcher.gpt_researcher.actions import stream_output  # Import stream_output
+from synvo_researcher.backend.server.server_utils import CustomLogsHandler
 
 
 class WebSocketManager:

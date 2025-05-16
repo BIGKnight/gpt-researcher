@@ -1,1 +1,1 @@
-from multi_agents import agents
+from synvo_researcher.multi_agents import agents

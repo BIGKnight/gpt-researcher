@@ -1,5 +1,5 @@
-from gpt_researcher import GPTResearcher
-from backend.utils import write_md_to_pdf
+from synvo_researcher.gpt_researcher import GPTResearcher
+from synvo_researcher.backend.utils import write_md_to_pdf
 import asyncio
 
 

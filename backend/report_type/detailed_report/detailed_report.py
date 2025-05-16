@@ -2,7 +2,7 @@ import asyncio
 from typing import List, Dict, Set, Optional, Any
 from fastapi import WebSocket
 
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 
 class DetailedReport:

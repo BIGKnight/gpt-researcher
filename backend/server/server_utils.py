@@ -7,9 +7,9 @@ import shutil
 import traceback
 from typing import Awaitable, Dict, List, Any
 from fastapi.responses import JSONResponse, FileResponse
-from gpt_researcher.document.document import DocumentLoader
-from gpt_researcher import GPTResearcher
-from backend.utils import write_md_to_pdf, write_md_to_word, write_text_to_md
+from synvo_researcher.gpt_researcher.document.document import DocumentLoader
+from synvo_researcher.gpt_researcher import GPTResearcher
+from synvo_researcher.backend.utils import write_md_to_pdf, write_md_to_word, write_text_to_md
 from pathlib import Path
 from datetime import datetime
 from fastapi import HTTPException
