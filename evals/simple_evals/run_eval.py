@@ -4,9 +4,9 @@ import argparse
 from typing import Callable, List, TypeVar
 from tqdm import tqdm
 from dotenv import load_dotenv
-from gpt_researcher.agent import GPTResearcher
-from gpt_researcher.utils.enum import ReportType, ReportSource, Tone
-from evals.simple_evals.simpleqa_eval import SimpleQAEval
+from synvo_researcher.gpt_researcher.agent import GPTResearcher
+from synvo_researcher.gpt_researcher.utils.enum import ReportType, ReportSource, Tone
+from synvo_researcher.evals.simple_evals.simpleqa_eval import SimpleQAEval
 from langchain_openai import ChatOpenAI
 import json
 
