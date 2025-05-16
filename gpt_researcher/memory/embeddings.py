@@ -1,5 +1,6 @@
 import os
 from typing import Any
+from synvofs.env import TOKENS
 
 OPENAI_EMBEDDING_MODEL = os.environ.get(
     "OPENAI_EMBEDDING_MODEL", "text-embedding-3-small"
@@ -58,7 +59,7 @@ class Memory:
             case "cohere":
                 from langchain_cohere import CohereEmbeddings
 
-                _embeddings = CohereEmbeddings(model=model, **embdding_kwargs)
+                _embeddings = CohereEmbeddings(model=model, cohere_api_key=TOKENS.cohere.api_key, **embdding_kwargs)
             case "google_vertexai":
                 from langchain_google_vertexai import VertexAIEmbeddings
 

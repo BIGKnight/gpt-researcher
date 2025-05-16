@@ -4,6 +4,7 @@ import logging
 import time
 from datetime import datetime, timedelta
 import re
+import os
 # import numpy as np
 
 from synvo_researcher.gpt_researcher.llm_provider.generic.base import ReasoningEfforts
@@ -89,7 +90,8 @@ class DeepResearchSkill:
             reasoning_effort=ReasoningEfforts.Medium.value,
             temperature=0.4
         )
-        f = open('search_queries_response.txt', 'a')
+        os.makedirs('deep_research_output', exist_ok=True)
+        f = open('deep_research_output/search_queries_response.txt', 'a')
         f.write("generate_search_queries_response: \n" + response + "\n")
         f.close()
         lines = response.split('\n')
@@ -172,7 +174,8 @@ class DeepResearchSkill:
             reasoning_effort=ReasoningEfforts.High.value,
             max_tokens=1000
         )
-        f = open('process_research_results_response.txt', 'a')
+        os.makedirs('deep_research_output', exist_ok=True)
+        f = open('deep_research_output/process_research_results_response.txt', 'a')
         f.write("process_research_results_response: \n" + response + "\n")
         f.close()
         lines = response.split('\n')
@@ -247,7 +250,8 @@ class DeepResearchSkill:
             else:
                 previous_learnings="No previous learnings."
             serp_queries = await self.generate_search_queries(query, previous_learnings, current_search_target=search_goal)
-            f = open('queries.txt', 'a')
+            os.makedirs('deep_research_output', exist_ok=True)
+            f = open('deep_research_output/queries.txt', 'a')
             f.write("current_search_step: " + str(count + 1) + "\n" + "query: " + query + "\n" + " SERP Queries: " + str(serp_queries) + "\n\n")
             f.write("search_plan: \n" + "\n".join([f"Plan Step {k}: {v}" for k, v in search_plan.items()]) + "\n")
             # if count > 0:
