@@ -132,18 +132,20 @@ class DeepResearchSkill:
         - Ensure that each step is actionable, logically ordered, and contributes meaningfully to solving the original query."""}
         ]
 
-        response = await create_chat_completion(
-            messages=messages,
-            llm_provider=self.researcher.cfg.strategic_llm_provider,
-            max_tokens=10000,
-            model=self.researcher.cfg.strategic_llm_model,
-            reasoning_effort=ReasoningEfforts.High.value,
-            temperature=0.4
-        )
-        plan = response.replace('My search plan is:', '').strip()
-        plan_steps = [q.replace('Plan Step ', '').strip() for q in response.split('\n') if q.strip().startswith('Plan Step ')]
-        plan_steps_numbers = [q.split(':')[0].strip() for q in plan_steps]
-        plan_steps_contents = [q.split(':')[1].strip() for q in plan_steps]
+        async with self.sse_queue.operation(f"🧠 Generating research plan") as operation:
+            response = await create_chat_completion(
+                messages=messages,
+                llm_provider=self.researcher.cfg.strategic_llm_provider,
+                max_tokens=10000,
+                model=self.researcher.cfg.strategic_llm_model,
+                reasoning_effort=ReasoningEfforts.High.value,
+                temperature=0.4
+            )
+            await operation.output(response)
+            plan = response.replace('My search plan is:', '').strip()
+            plan_steps = [q.replace('Plan Step ', '').strip() for q in response.split('\n') if q.strip().startswith('Plan Step ')]
+            plan_steps_numbers = [q.split(':')[0].strip() for q in plan_steps]
+            plan_steps_contents = [q.split(':')[1].strip() for q in plan_steps]
         return plan_steps, plan_steps_numbers, plan_steps_contents
         # questions = [q.replace('Question:', '').strip()
         #              for q in response.split('\n')
@@ -201,7 +203,7 @@ class DeepResearchSkill:
                         learning = line.split(':', 1)[1].strip()
                         learnings.append(learning)
                         citations[learning] = url
-                        await operation.output_url(url, start_text="- Found useful URL: 🔗 ", end_text="\n")
+                        await operation.output_url(url, start_text="Found useful URL: 🔗 ", end_text="\n")
                     else:
                         # Try to find URL in the line itself
                         url_match = re.search(

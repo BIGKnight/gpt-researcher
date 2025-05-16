@@ -32,15 +32,11 @@ class ResearchConductor:
         )
 
         async with self.sse_queue.operation(f"🌐 Browsing the web to learn more about the task: {query}") as operation:
-            MAX_TITLE_LENGTH = 50
             search_results = await get_search_results(query, self.researcher.retrievers[0], query_domains)
             self.logger.info(f"Initial search results obtained: {len(search_results)} results")
             if search_results:
                 for result in search_results:
-                    title = result['href']
-                    if len(title) > MAX_TITLE_LENGTH:
-                        title = f"{title[:MAX_TITLE_LENGTH]}..."
-                    await operation.output(f"🔗 [{title}]({result['href']})")
+                    await operation.output_url(result['href'])
             else:
                 await operation.output(f"🤷 No search results found")
 
