@@ -1,7 +1,7 @@
 import asyncio
 import pytest
 from typing import List
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings

@@ -3,7 +3,7 @@
 If you're interested in using GPT Researcher as a standalone agent, you can easily import it into any existing Python project. Below, is an example of calling the agent to generate a research report:
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 async def fetch_report(query):

@@ -51,7 +51,7 @@ Imagine deploying a team of AI researchers, each following their own research pa
 Integrating deep research into your projects is remarkably straightforward:
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 async def main():

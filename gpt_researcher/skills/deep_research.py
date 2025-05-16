@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import re
 # import numpy as np
 
-from gpt_researcher.llm_provider.generic.base import ReasoningEfforts
+from synvo_researcher.gpt_researcher.llm_provider.generic.base import ReasoningEfforts
 from ..utils.llm import create_chat_completion
 from ..utils.enum import ReportType, ReportSource, Tone
 from ..actions.query_processing import get_search_results

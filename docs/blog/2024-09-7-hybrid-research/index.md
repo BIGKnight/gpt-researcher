@@ -148,7 +148,7 @@ GPT Researcher can be easily initialized with params that signal it to run a hyb
 To get GPT Researcher to run a hybrid research, you need to include all relevant files in my-docs directory (create it if it doesn't exist), and set the instance report_source to "hybrid" as seen below. Once the report source is set to hybrid, GPT Researcher will look for existing documents in the my-docs directory and include them in the research. If no documents exist, it will ignore it.
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 async def get_research_report(query: str, report_type: str, report_source: str) -> str:

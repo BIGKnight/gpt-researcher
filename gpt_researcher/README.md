@@ -27,7 +27,7 @@ $ export TAVILY_API_KEY={Your Tavily API Key here}
 ```
 > **Step 3** - Start Coding using GPT Researcher in your own code, example:
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 

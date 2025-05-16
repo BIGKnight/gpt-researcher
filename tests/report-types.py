@@ -2,7 +2,7 @@ import os
 import asyncio
 import pytest
 from unittest.mock import AsyncMock
-from gpt_researcher.agent import GPTResearcher
+from synvo_researcher.gpt_researcher.agent import GPTResearcher
 from backend.server.server_utils import CustomLogsHandler
 from typing import List, Dict, Any
 

@@ -5,7 +5,7 @@ Here is a snippet of code to help you handle the streaming logs of your Research
 ```python
 from typing import Dict, Any
 import asyncio
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 class CustomLogsHandler:
     """A custom Logs handler class to handle JSON data."""

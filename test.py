@@ -6,7 +6,7 @@ os.environ["AZURE_OPENAI_API_VERSION"] = "your_api_key"
 os.environ["TAVILY_API_KEY"] = "your_api_key"
 os.environ["COHERE_API_KEY"] = "your_api_key"
 
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 async def main():
     # query = '''
     # - Using clues taken from sources published between January 1, 2000, and December 31, 2023, determine the answer to the final question. 

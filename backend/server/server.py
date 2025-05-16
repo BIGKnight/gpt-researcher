@@ -10,17 +10,17 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
-from backend.server.websocket_manager import WebSocketManager
-from backend.server.server_utils import (
+from synvo_researcher.backend.server.websocket_manager import WebSocketManager
+from synvo_researcher.backend.server.server_utils import (
     get_config_dict, sanitize_filename,
     update_environment_variables, handle_file_upload, handle_file_deletion,
     execute_multi_agents, handle_websocket_communication
 )
 
-from backend.server.websocket_manager import run_agent
-from backend.utils import write_md_to_word, write_md_to_pdf
-from gpt_researcher.utils.logging_config import setup_research_logging
-from gpt_researcher.utils.enum import Tone
+from synvo_researcher.backend.server.websocket_manager import run_agent
+from synvo_researcher.backend.utils import write_md_to_word, write_md_to_pdf
+from synvo_researcher.gpt_researcher.utils.logging_config import setup_research_logging
+from synvo_researcher.gpt_researcher.utils.enum import Tone
 
 import logging
 

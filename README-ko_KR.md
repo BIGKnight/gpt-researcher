@@ -135,7 +135,7 @@ pip install gpt-researcher
 
 ```python
 ...
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 query = "왜 Nvidia 주식이 오르고 있나요?"
 researcher = GPTResearcher(query=query, report_type="research_report")

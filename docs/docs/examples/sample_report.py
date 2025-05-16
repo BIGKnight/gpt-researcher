@@ -2,7 +2,7 @@ import nest_asyncio  # required for notebooks
 
 nest_asyncio.apply()
 
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 

@@ -23,8 +23,8 @@ Think of it as deploying a team of AI researchers, each following their own rese
 ## Quick Start
 
 ```python
-from gpt_researcher import GPTResearcher
-from gpt_researcher.utils.enum import ReportType, Tone
+from synvo_researcher.gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher.utils.enum import ReportType, Tone
 import asyncio
 
 async def main():

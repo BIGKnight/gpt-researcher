@@ -10,7 +10,7 @@ If you want GPT Researcher to perform additional research outside of the URLs yo
 
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 async def get_report(query: str, report_type: str, sources: list) -> str:
@@ -37,7 +37,7 @@ You can specify the agent prompt instruction upon which the research is conducte
 Simply pass the prompt as the `query` argument to the `GPTResearcher` class and the "custom_report" `report_type`.
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 async def get_report(prompt: str, report_type: str) -> str:
@@ -70,7 +70,7 @@ export DOC_PATH="./my-docs"
 GPT Researcher will then conduct research on the provided documents.
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 async def get_report(query: str, report_source: str) -> str:
@@ -103,7 +103,7 @@ For example:
 ```python
 from langchain_core.documents import Document
 from typing import List, Dict
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 from langchain_postgres.vectorstores import PGVector
 from langchain_openai import OpenAIEmbeddings
 from sqlalchemy import create_engine

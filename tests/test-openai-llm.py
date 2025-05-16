@@ -1,6 +1,6 @@
 import asyncio
-from gpt_researcher.utils.llm import get_llm
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher.utils.llm import get_llm
+from synvo_researcher.gpt_researcher import GPTResearcher
 from dotenv import load_dotenv
 load_dotenv()
 

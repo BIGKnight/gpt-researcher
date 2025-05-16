@@ -12,7 +12,7 @@ import logging
 from typing import Dict, Any, Optional
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 # Load environment variables
 load_dotenv()

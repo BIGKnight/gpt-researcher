@@ -128,7 +128,7 @@ pip install gpt-researcher
 ### Example Usage:
 ```python
 ...
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 query = "why is Nvidia stock going up?"
 researcher = GPTResearcher(query=query, report_type="research_report")

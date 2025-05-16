@@ -1,8 +1,8 @@
 import asyncio
 from dotenv import load_dotenv
-from gpt_researcher.config.config import Config
-from gpt_researcher.actions.retriever import get_retrievers
-from gpt_researcher.skills.researcher import ResearchConductor
+from synvo_researcher.gpt_researcher.config.config import Config
+from synvo_researcher.gpt_researcher.actions.retriever import get_retrievers
+from synvo_researcher.gpt_researcher.skills.researcher import ResearchConductor
 import pprint
 # Load environment variables from .env file
 load_dotenv()

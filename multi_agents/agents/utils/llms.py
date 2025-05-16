@@ -3,8 +3,8 @@ from langchain_community.adapters.openai import convert_openai_messages
 from langchain_core.utils.json import parse_json_markdown
 from loguru import logger
 
-from gpt_researcher.config.config import Config
-from gpt_researcher.utils.llm import create_chat_completion
+from synvo_researcher.gpt_researcher.config.config import Config
+from synvo_researcher.gpt_researcher.utils.llm import create_chat_completion
 
 
 async def call_model(

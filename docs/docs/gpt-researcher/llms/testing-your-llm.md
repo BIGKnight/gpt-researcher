@@ -3,8 +3,8 @@
 Here is a snippet of code to help you verify that your LLM-related environment variables are set up correctly.
 
 ```python
-from gpt_researcher.config.config import Config
-from gpt_researcher.utils.llm import create_chat_completion
+from synvo_researcher.gpt_researcher.config.config import Config
+from synvo_researcher.gpt_researcher.utils.llm import create_chat_completion
 import asyncio
 from dotenv import load_dotenv
 load_dotenv()

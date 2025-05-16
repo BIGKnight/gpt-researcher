@@ -30,7 +30,7 @@ export TAVILY_API_KEY={Your Tavily API Key here}
 ## Example Usage
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 async def get_report(query: str, report_type: str):
@@ -91,7 +91,7 @@ report_type = "outline_report"
 
 ```python
 from fastapi import FastAPI
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 import asyncio
 
 app = FastAPI()
@@ -129,7 +129,7 @@ pip install 'flask[async]'
 
 ```python
 from flask import Flask, request, jsonify
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 app = Flask(__name__)
 

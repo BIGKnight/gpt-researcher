@@ -28,7 +28,7 @@ class TestWebSocket(WebSocket):
 @pytest.mark.asyncio
 async def test_log_output_file():
     """Test to verify logs are properly written to output file"""
-    from gpt_researcher.agent import GPTResearcher
+    from synvo_researcher.gpt_researcher.agent import GPTResearcher
     from backend.server.server_utils import CustomLogsHandler
     
     # 1. Setup like the main app

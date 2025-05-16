@@ -11,7 +11,7 @@ import nest_asyncio  # Required for notebooks/interactive environments
 # Apply nest_asyncio to allow for nested event loops (needed in notebooks)
 nest_asyncio.apply()
 
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 
 async def custom_report_example():

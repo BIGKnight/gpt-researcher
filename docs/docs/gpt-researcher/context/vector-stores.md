@@ -10,7 +10,7 @@ GPT-Researcher will work with any langchain vector store that implements the `as
 
 ## Faiss
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
@@ -88,7 +88,7 @@ report = await researcher.write_report()
 
 ## PGVector
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 from langchain_postgres.vectorstores import PGVector
 from langchain_openai import OpenAIEmbeddings
 
@@ -128,7 +128,7 @@ report = await researcher.write_report()
 In some cases in which you want to store the scraped data and documents into your own vector store for future usages, GPT-Researcher also allows you to do so seamlessly just by inputting your vector store (make sure to set `report_source` value to something other than `langchain_vectorstore`)
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 from langchain_community.vectorstores import InMemoryVectorStore
 from langchain_openai import OpenAIEmbeddings

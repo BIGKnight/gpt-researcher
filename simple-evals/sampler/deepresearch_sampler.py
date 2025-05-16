@@ -1,6 +1,6 @@
 from typing import Any
 
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 from ..types import MessageList, SamplerBase
 

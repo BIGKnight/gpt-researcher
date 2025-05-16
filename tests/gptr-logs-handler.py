@@ -1,7 +1,7 @@
 import logging
 from typing import List, Dict, Any
 import asyncio
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 from backend.server.server_utils import CustomLogsHandler  # Update import
 
 async def run() -> None:

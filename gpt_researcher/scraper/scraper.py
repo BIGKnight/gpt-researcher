@@ -7,7 +7,7 @@ import sys
 import importlib
 import logging
 
-from gpt_researcher.utils.workers import WorkerPool
+from synvo_researcher.gpt_researcher.utils.workers import WorkerPool
 
 from . import (
     ArxivScraper,

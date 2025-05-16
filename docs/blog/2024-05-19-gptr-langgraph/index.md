@@ -93,7 +93,7 @@ Initializing the graph with LangGraph
 As stated above, one of the great things about multi-agent development is building each agent to have specialized and scoped skills. Let’s take an example of the Researcher agent using GPT Researcher python package:
 
 ```python
-from gpt_researcher import GPTResearcher
+from synvo_researcher.gpt_researcher import GPTResearcher
 
 class ResearchAgent:
     def __init__(self):
