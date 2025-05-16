@@ -7,15 +7,17 @@ from ..actions.query_processing import plan_research_outline, get_search_results
 from ..document import DocumentLoader, OnlineDocumentLoader, LangChainDocumentLoader
 from ..utils.enum import ReportSource
 from ..utils.logging_config import get_json_handler
+from synvofs.utils.sse.sse_manager import SSEQueue
 
 
 class ResearchConductor:
     """Manages and coordinates the research process."""
 
-    def __init__(self, researcher):
+    def __init__(self, researcher, sse_queue: SSEQueue):
         self.researcher = researcher
         self.logger = logging.getLogger('research')
         self.json_handler = get_json_handler()
+        self.sse_queue = sse_queue
 
     async def plan_research(self, query, query_domains=None):
         self.logger.info(f"Planning research for query: {query}")
@@ -39,15 +41,17 @@ class ResearchConductor:
             self.researcher.websocket,
         )
 
-        outline = await plan_research_outline(
-            query=query,
-            search_results=search_results,
-            agent_role_prompt=self.researcher.role,
-            cfg=self.researcher.cfg,
-            parent_query=self.researcher.parent_query,
-            report_type=self.researcher.report_type,
-            cost_callback=self.researcher.add_costs,
-        )
+        async with self.sse_queue.operation("🤔 Planning the research strategy and subtasks...") as operation:
+            outline = await plan_research_outline(
+                query=query,
+                search_results=search_results,
+                agent_role_prompt=self.researcher.role,
+                cfg=self.researcher.cfg,
+                parent_query=self.researcher.parent_query,
+                report_type=self.researcher.report_type,
+                cost_callback=self.researcher.add_costs,
+            )
+            await operation.output(f"Research outline planned: {outline}")
         self.logger.info(f"Research outline planned: {outline}")
         return outline
 

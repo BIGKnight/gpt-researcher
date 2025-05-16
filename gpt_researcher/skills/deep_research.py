@@ -11,6 +11,7 @@ from synvo_researcher.gpt_researcher.llm_provider.generic.base import ReasoningE
 from ..utils.llm import create_chat_completion
 from ..utils.enum import ReportType, ReportSource, Tone
 from ..actions.query_processing import get_search_results
+from synvofs.utils.sse.sse_manager import SSEQueue
 
 logger = logging.getLogger(__name__)
 
@@ -49,7 +50,7 @@ class ResearchProgress:
 
 
 class DeepResearchSkill:
-    def __init__(self, researcher):
+    def __init__(self, researcher, sse_queue: SSEQueue | None = None):
         self.researcher = researcher
         self.breadth = getattr(researcher.cfg, 'deep_research_breadth', 4)
         self.depth = getattr(researcher.cfg, 'deep_research_depth', 2)
@@ -62,6 +63,9 @@ class DeepResearchSkill:
         self.learnings = []
         self.research_sources = []  # Track all research sources
         # self.context = []  # Track all context
+        self.sse_queue = sse_queue
+        if not self.sse_queue:
+            self.sse_queue = SSEQueue()
 
     async def generate_search_queries(self, query: str, previous_learnings: str, current_search_target: str) -> List[Dict[str, str]]:
         """Generate SERP queries for research"""
@@ -273,7 +277,8 @@ class DeepResearchSkill:
                             websocket=self.websocket,
                             config_path=self.config_path,
                             headers=self.headers,
-                            visited_urls=self.visited_urls
+                            visited_urls=self.visited_urls,
+                            sse_queue=self.sse_queue
                         )
                         # Conduct research
                         context = await researcher.conduct_research()

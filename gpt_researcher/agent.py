@@ -26,11 +26,13 @@ from .actions import (
     choose_agent
 )
 
+from synvofs.utils.sse.sse_manager import SSEQueue
 
 class GPTResearcher:
     def __init__(
         self,
         query: str,
+        sse_queue: SSEQueue | None = None,
         report_type: str = ReportType.ResearchReport.value,
         report_format: str = "markdown",
         report_source: str = ReportSource.Web.value,
@@ -93,7 +95,7 @@ class GPTResearcher:
         self.prompt_family = get_prompt_family(prompt_family or self.cfg.prompt_family, self.cfg)
 
         # Initialize components
-        self.research_conductor: ResearchConductor = ResearchConductor(self)
+        self.research_conductor: ResearchConductor = ResearchConductor(self, sse_queue=sse_queue)
         self.report_generator: ReportGenerator = ReportGenerator(self)
         self.context_manager: ContextManager = ContextManager(self)
         self.scraper_manager: BrowserManager = BrowserManager(self)
@@ -101,6 +103,10 @@ class GPTResearcher:
         self.deep_researcher: Optional[DeepResearchSkill] = None
         if report_type == ReportType.DeepResearch.value:
             self.deep_researcher = DeepResearchSkill(self)
+        
+        self.sse_queue = sse_queue
+        if not self.sse_queue:
+            self.sse_queue = SSEQueue()
 
     async def _log_event(self, event_type: str, **kwargs):
         """Helper method to handle logging events"""

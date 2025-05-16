@@ -5,7 +5,7 @@ import os
 from typing import Literal, Sequence, Optional
 import requests
 import json
-
+from synvofs.env import TOKENS
 
 class TavilySearch:
     """
@@ -41,7 +41,8 @@ class TavilySearch:
         api_key = self.headers.get("tavily_api_key")
         if not api_key:
             try:
-                api_key = os.environ["TAVILY_API_KEY"]
+                # api_key = os.environ["TAVILY_API_KEY"]
+                api_key = TOKENS.tavily.api_key
             except KeyError:
                 print(
                     "Tavily API key not found, set to blank. If you need a retriver, please set the TAVILY_API_KEY environment variable."
