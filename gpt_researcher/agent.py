@@ -212,10 +212,11 @@ class GPTResearcher:
             "context_source": "external" if ext_context else "internal"
         })
 
-        answer = await self.report_generator.write_answer(
-            question=self.query,
-            ext_context=ext_context or self.context
-        )
+        with self.sse_queue.operation(f"🧠 Writing answer for query: {self.query}"):
+            answer = await self.report_generator.write_answer(
+                question=self.query,
+                ext_context=ext_context or self.context
+            )
 
         await self._log_event("research", step="answer_completed", details={
             "answer_length": len(answer)
