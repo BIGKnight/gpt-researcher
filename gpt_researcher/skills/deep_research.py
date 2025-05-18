@@ -62,26 +62,32 @@ class DeepResearchSkill:
         self.research_sources = []  # Track all research sources
         # self.context = []  # Track all context
 
-    async def generate_search_queries(self, query: str, previous_learnings: str, current_search_target: str) -> List[Dict[str, str]]:
+    async def generate_search_queries(self, query: str, previous_learnings: str, current_search_target: str, previous_serp_queries: List[Dict[str, str]] = None) -> List[Dict[str, str]]:
         """Generate SERP queries for research"""
         # string_conclusions = "\n".join(intermediate_conclusions) if len(intermediate_conclusions) > 0 else "No previous conclusions."
         messages = [
-            {"role": "system", "content": "You are an expert researcher generating search queries."},
-            {"role": "user",
-             "content": f"""Given the following question and the search objective, generate several search queries to explore it thoroughly. 
+            {"role": "system", "content": """
+             You are an expert generating search queries. 
+             You need to generate several sub-questions for further searching based on the main question, the current search objective, and some previous search results (with importance scores).
+             Make sure the sub-questions are helpful to resolve the main question.
 
-             **Output Requirements:**
-             - For each query, you need to provide a step-by-step thought process for why you are searching it, aling with a brief reason as summary of the thought process.
-             - Each query should explore a different aspect of the question.
-             - Format as '<thought Process>\nQuery: <query>\nReason: <reason>\n\n<thought Process>\nQuery: <query>\nReason: <reason>\n ...'. 
+            **Output Requirements:**
+             - For each query, you need to provide reasonable thoughts to explain the intention of the sub-question.
+             - (Important) Each sub-question should explore a different aspect of the main question. And **do not repeat the similar content of the previous sub-questions**.
+             - (Important) Format as 'Query: <query>\nReason: <intention>\nQuery: <query>\nReason: <intention>\n ...'. 
              - For each query, you should limit the number of words to 10.
              - The number of queries should less than 5. 
-
-             Here is the question: {query} \n\n
+             """
+            },
+            {"role": "user",
+             "content": f"""
+             Here is the main question: {query} \n\n
              Here is the current search objective: {current_search_target}\n\n
-             Here are some previous learnings: {previous_learnings}\n\n
+             Here are some summarized results of previous search: {previous_learnings}\n\n
+             Here are some previous search queries: {previous_serp_queries}\n\n
 """}
         ]
+                    #  
         response = await create_chat_completion(
             messages=messages,
             llm_provider=self.researcher.cfg.strategic_llm_provider,
@@ -89,9 +95,9 @@ class DeepResearchSkill:
             reasoning_effort=ReasoningEfforts.Medium.value,
             temperature=0.4
         )
-        f = open('search_queries_response.txt', 'a')
-        f.write("generate_search_queries_response: \n" + response + "\n")
-        f.close()
+        # f = open('search_queries_response.txt', 'a')
+        # f.write("generate_search_queries_response: \n" + response + "\n")
+        # f.close()
         lines = response.split('\n')
         queries = []
         current_query = {}
@@ -114,16 +120,22 @@ class DeepResearchSkill:
         messages = [
             {"role": "system", "content": f"""You are a highly capable research assistant with expertise in breaking down complex problems and devising effective strategies for information retrieval and reasoning. Your role is to help address the user's request, which may involve answering a question, generating a report, or constructing a logical or mathematical proof."""},
             
-            {"role": "user", "content": f"""Original query: {query}
+            {"role": "user", "content": f"""
 
-        Your task is to first analyze and interpret the user's query to understand its underlying objectives, constraints, and required knowledge domains. Then, based on your understanding, formulate a structured search or research plan that could be executed to solve the problem effectively.
-
+        Given the following query, you need to identify the key constraints of the query and formulate a structured search plan for retriving valuable information towards the query. The user will use the retrieved information to answer the query, so make sure the search plan is comprehensive and covers all the necessary information.
+        
         **Output formatting requirements:**
         - Begin your response with: `My search plan is:`
         - Present each step of the plan on a new line, prefixed sequentially as: `Plan Step 1:`, `Plan Step 2:`, and so on.
         - The total number of steps should be less or equal to 6.
-        - Ensure that each step is actionable, logically ordered, and contributes meaningfully to solving the original query."""}
+        - Note that the plan step do not need to include a finalizing step as it will be conducted independently.
+             
+        Here is the query: {query}
+        """}
         ]
+
+        # Your task is to first analyze and interpret the user's query to understand its underlying objectives, constraints, and required knowledge domains. Then, based on your understanding, formulate a structured search plan for retriving valuable information towards the query.
+
 
         response = await create_chat_completion(
             messages=messages,
@@ -145,24 +157,30 @@ class DeepResearchSkill:
 
     async def process_research_results(self, query: str, context: str, previous_learnings: str, num_learnings: int = 3) -> Dict[str, List[str]]:
         """Process research results to extract learnings and follow-up questions"""
+        previous_learnings = "\n".join(previous_learnings) if len(previous_learnings) > 0 else "No previous search results."
         messages = [
             {"role": "system", "content": "You are an expert analyzing search results."},
             {"role": "user",
-             "content": f"""Given the following search results and some previous learnings for the query '{query}', extract key clues.
+             "content": f"""Given the following search results and some previous informations for the query '{query}', extract key clues to the query.
 
              **Output Requirements:**
-             - For each clue, you need to provide a step-by-step thought process for why you conclude it.
+             - For each clue, you need to provide a step-by-step thought process to tell why you conclude such clue.
              - For each clue, include a citation to the source URL if available. 
-             - Format as '<thought Process>\nClue [source_url]: <insight>\n<thought Process>\nClue [source_url]: <insight>\n ...'.
+             - For each clue, you need to provide a importance score for the clue, which indicates the relevance of the clue to the query. The score should be a number between 0% and 100%. The more relevant the clue is to the query, the higher the score.
+             - Format as 'Thoughts: <lets analyze step by step>\nClue [source_url]: <insight>. Importance Score: <importance score>\nThoughts: <lets analyze step by step>\nClue [source_url]: <insight>. Importance Score: <importance score>\n ...'.
              \n\n
-             Here is the search results: 
+             Here is the current search results: 
              {context}
-             \n\n
-             Here are some previous learnings:
+             \n\n 
+             Here is the previous search results:
              {previous_learnings}
-"""
+            """
              }
         ]
+
+            #  \n\n
+            #  Here are some previous learnings:
+            #  {previous_learnings}
 
         response = await create_chat_completion(
             messages=messages,
@@ -172,9 +190,6 @@ class DeepResearchSkill:
             reasoning_effort=ReasoningEfforts.High.value,
             max_tokens=1000
         )
-        f = open('process_research_results_response.txt', 'a')
-        f.write("process_research_results_response: \n" + response + "\n")
-        f.close()
         lines = response.split('\n')
         learnings = []
         # questions = []
@@ -206,7 +221,8 @@ class DeepResearchSkill:
             #     questions.append(line.replace('Question:', '').strip())
 
         return {
-            'learnings': learnings[:num_learnings],
+            'learnings': learnings,
+            # 'learnings': [response],
             # 'followUpQuestions': questions[:num_learnings],
             'citations': citations
         }
@@ -220,6 +236,7 @@ class DeepResearchSkill:
             # intermediate_conclusions: List[str] = None,
             citations: Dict[str, str] = None,
             visited_urls: Set[str] = None,
+            context: List[str] = None
     ) -> Dict[str, Any]:
         """Conduct deep iterative research"""
         if learnings is None:
@@ -228,15 +245,18 @@ class DeepResearchSkill:
             citations = {}
         if visited_urls is None:
             visited_urls = set()
+        if context is None:
+            context = []
         # if intermediate_conclusions is None:
         #     intermediate_conclusions = []
 
         all_learnings = learnings.copy()
         all_citations = citations.copy()
         all_visited_urls = visited_urls.copy()
+        all_context = context.copy()
         # all_conclusions = intermediate_conclusions.copy()
-        all_context = []
         all_sources = []
+        all_serp_queries = []
         # cur_search_plan = [initial_search_step]
         # current_search_step = list(search_plan.keys())[0]
         
@@ -246,13 +266,12 @@ class DeepResearchSkill:
                 previous_learnings="\n".join(all_learnings)
             else:
                 previous_learnings="No previous learnings."
-            serp_queries = await self.generate_search_queries(query, previous_learnings, current_search_target=search_goal)
-            f = open('queries.txt', 'a')
-            f.write("current_search_step: " + str(count + 1) + "\n" + "query: " + query + "\n" + " SERP Queries: " + str(serp_queries) + "\n\n")
-            f.write("search_plan: \n" + "\n".join([f"Plan Step {k}: {v}" for k, v in search_plan.items()]) + "\n")
-            # if count > 0:
-            #     f.write("conclusions: \n" + "\n".join([f"conclusion: {c}" for c in all_conclusions]) + "\n\n")
-            f.close()
+            serp_queries = await self.generate_search_queries(query, previous_learnings, current_search_target=search_goal, previous_serp_queries=all_serp_queries)
+            all_serp_queries.extend(serp_queries)
+            # f = open('queries.txt', 'a')
+            # f.write("current_search_step: " + str(count + 1) + "\n" + "query: " + query + "\n" + " SERP Queries: \n" + "\n".join([f"Query: {q['query']}\nReason: {q['researchGoal']}" for q in serp_queries]) + "\n")
+            # f.write("search_plan: \n" + "\n".join([f"Plan Step {k}: {v}" for k, v in search_plan.items()]) + "\n\n")
+            # f.close()
 
             # Process queries with concurrency limit
             semaphore = asyncio.Semaphore(self.concurrency_limit)
@@ -280,7 +299,8 @@ class DeepResearchSkill:
                         results = await self.process_research_results(
                             query=serp_query['query'],
                             previous_learnings=previous_learnings,
-                            context=context
+                            context=context,
+                            # previous_context=all_context
                         )
                         return {
                             'learnings': results['learnings'],
@@ -315,63 +335,75 @@ class DeepResearchSkill:
             self.research_sources.extend(all_sources)
             trimmed_context = trim_context_to_word_limit(all_context)
             logger.info(f"Trimmed context from {len(all_context)} items to {len(trimmed_context)} items to stay within word limit")
-
-            # summarize the learnings
-            # string_intermediate_conclusions = "\n".join(intermediate_conclusions)
-            # string_current_learnings = "\n".join(result['learnings'])
-    #         messages_conclude = [
-    #             {"role": "system", "content": "You are an expert analyst. "},
-    #             {"role": "user", "content": f"""Based on previous conclusions and the current learnings, extract a key conclusion. It is not allowed to say "I don't know", "I don't have any information", etc.
-
-    # **Format:**: "conclusion: <conclusion>."
-
-    # Here are the previous conclusions: \n
-    # {string_intermediate_conclusions} \n
-
-    # Here are the current learnings: \n
-    # {string_current_learnings}"""
-    # }
-    #         ]
-    #         response_conclude = await create_chat_completion(
-    #             messages=messages_conclude,
-    #             llm_provider=self.researcher.cfg.strategic_llm_provider,
-    #             model=self.researcher.cfg.strategic_llm_model,
-    #             temperature=0.4,
-    #             reasoning_effort=ReasoningEfforts.High.value,
-    #             max_tokens=1000
-    #         )
-
-    #         conclusion = response_conclude.split("conclusion:")[1].strip()
-    #         all_conclusions.append(conclusion)
-
-    #         string_all_conclusions = "\n".join(all_conclusions)
-    #         messages_revise = [
-    #             {"role": "system", "content": "You are an expert summarizer."},
-    #             {"role": "user", "content": f"""Based on the current conclusions, propose the subsequent search plan step.
-                 
-    # **Format:**: "Next search step is: <step_content>. \n "
-
-    # Here are the conclusions: \n
-    # {string_all_conclusions}"""
-    # }
-    #         ]
-
-    #         response_revise = await create_chat_completion(
-    #             messages=messages_revise,
-    #             llm_provider=self.researcher.cfg.strategic_llm_provider,
-    #             model=self.researcher.cfg.strategic_llm_model,
-    #             temperature=0.4,
-    #             reasoning_effort=ReasoningEfforts.High.value,
-    #             max_tokens=1000
-    #         )
-
-    #         new_plan = response_revise.replace('Next search step is: ', '').strip()
-    #         cur_search_plan.append(new_plan)
             count += 1
+
+            # messages = [
+            #     {"role": "system", "content": """
+            #     You are an information-summarization expert. I will give you a Main Question followed by a list of statements, all factually correct but differing in how useful they are for answering the Main Question.
+
+            #     For each statement:
+
+            #     - Assess its usefulness for answering the Main Question.
+
+            #     - Reassign a relative usefulness score on a continuous scale from 0 % (no help) to 100 % (crucial). You need to score the most useful statement as 100% and the least useful statement as 0%.
+
+            #     - Re-order the statements from most to least useful based on these scores.
+
+            #     - Return the results as an ordered lines in the following format: 'Clue [source_url]: <insight>. Importance Score: <importance score>\nClue [source_url]: <insight>. Importance Score: <importance score>\n...'
+                 
+            #     """},
+            #     {"role": "user", "content": f"""
+            #     Here is the main question: {query}
+            #     \n\n
+            #     Here are some statements:
+            #     {all_learnings}
+            #     """}
+            # ]
+
+            # response = await create_chat_completion(
+            #     messages=messages,
+            #     llm_provider=self.researcher.cfg.strategic_llm_provider,
+            #     model=self.researcher.cfg.strategic_llm_model,
+            #     reasoning_effort=ReasoningEfforts.High.value,
+            #     temperature=0.8
+            # )
+            # f = open('summarize_learnings_response.txt', 'a')
+            # f.write("summarize_learnings_response: \n" + "\n".join(all_learnings) + "\n")
+            # lines = response.split('\n')
+            # all_learnings = []
+            # # questions = []
+            
+            # all_citations = {}
+
+            # for line in lines:
+            #     line = line.strip()
+            #     if line.startswith('Clue'):
+            #         import re
+            #         url_match = re.search(r'\[(.*?)\]:', line)
+            #         if url_match:
+            #             url = url_match.group(1)
+            #             learning = line.split(':', 1)[1].strip()
+            #             all_learnings.append(learning)
+            #             all_citations[learning] = url
+            #         else:
+            #             # Try to find URL in the line itself
+            #             url_match = re.search(
+            #                 r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
+            #             if url_match:
+            #                 url = url_match.group(0)
+            #                 learning = line.replace(url, '').replace('Clue:', '').strip()
+            #                 all_learnings.append(learning)
+            #                 all_citations[learning] = url
+            #             else:
+            #                 all_learnings.append(line.replace('Clue:', '').strip())
+            
+            
+            # f.write("summarize_learnings_response: \n" + "\n".join(all_learnings) + "\n\n")
+            # f.close()
 
         return {
             'learnings': list(set(all_learnings)),
-            'visited_urls': list(all_visited_urls),
+            'visited_urls': set(all_visited_urls),
             'citations': all_citations,
             'context': trimmed_context,
             'sources': all_sources
@@ -390,10 +422,27 @@ class DeepResearchSkill:
         # """ + "\n".join([f"{n}: {c}" for n, c in zip(plan_steps_numbers, plan_steps_contents)])
 
         search_plan = {n: c for n, c in zip(plan_steps_numbers, plan_steps_contents)}
+        # search_plan = {
+        #     "1": "Identify the key constraints from the query",
+        #     "2": "Compile a list of prominent MMA promotions with featherweight divisions and referees who started officiating for them in 1994, focusing on those with detailed bout statistics (e.g., UFC, Bellator).",
+        #     "3": "Search fight databases (e.g., UFC Stats, Sherdog, Tapology) for featherweight bouts before 2022 where the losing fighter attempted 83 significant strikes, landed 14, and attempted 4 takedowns with 0 success.",
+        #     "4": "Cross-reference the results to identify bouts where both fighters were under 35 years old at the time and shared the same nationality.",
+        #     "5": 'Check the nicknames of the losing fighters in these bouts to find one that is a synonym for "swordsman."',
+        #     "6": "Verify the referee for the identified bout and confirm that he officiated his first event for the promotion in 1994."
+        # }
         results = await self.deep_research(
             query=self.researcher.query,
             search_plan=search_plan
         )
+        # for i in range(2):
+        #     results = await self.deep_research(
+        #         query=self.researcher.query,
+        #         search_plan=search_plan,
+        #         learnings=results['learnings'],
+        #         citations=results['citations'],
+        #         visited_urls=results['visited_urls'],
+        #         context=results['context']
+        #     )
 
         # Get costs after deep research
         research_costs = self.researcher.get_costs() - initial_costs
@@ -408,24 +457,21 @@ class DeepResearchSkill:
         # Prepare context with citations
         context_with_citations = []
         for learning in results['learnings']:
-            citation = results['citations'].get(learning, '')
-            if citation:
-                context_with_citations.append(f"{learning} [Source: {citation}]")
-            else:
-                context_with_citations.append(learning)
-
-        # for conclusion in results['all_conclusions']:
-        #     context_with_citations.append(f"Intermediate clue: {conclusion}")
+            context_with_citations.append(learning)
 
         # Add all research context
-        # if results.get('context'):
-        #     context_with_citations.extend(results['context'])
+        context_with_citations.append("*****raw web context*****")
+        if results.get('context'):
+            context_with_citations.extend(results['context'])
 
         # Trim final context to word limit
         final_context = trim_context_to_word_limit(context_with_citations)
         
         # Set enhanced context and visited URLs
         self.researcher.context = "\n".join(final_context)
+        # if len(scraped_content) > 0:
+        #     self.researcher.context += "\n" + "**Following is the most relevant urls' content** \n\n" + "\n".join([f"{i+1}. {content}" for i, content in enumerate(scraped_content)])
+
         self.researcher.visited_urls = results['visited_urls']
 
         # Set research sources

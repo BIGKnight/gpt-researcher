@@ -1,10 +1,6 @@
 import os
 import asyncio
-os.environ["AZURE_OPENAI_API_KEY"] = "your_api_key"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "your_api_key"
-os.environ["AZURE_OPENAI_API_VERSION"] = "your_api_key"
-os.environ["TAVILY_API_KEY"] = "your_api_key"
-os.environ["COHERE_API_KEY"] = "your_api_key"
+
 
 from gpt_researcher import GPTResearcher
 async def main():
@@ -23,8 +19,9 @@ async def main():
     # Conduct research on the given query
     research_result = await researcher.conduct_research()
     # Write the report
-    f = open("research_result1.txt", "w")
+    f = open("research_result5.txt", "w")
     f.write(researcher.context)
+    # ext_context = f.read()
     f.close()
     answer = await researcher.write_answer()
 

@@ -15,7 +15,7 @@ DEFAULT_CONFIG: BaseConfig = {
     "SUMMARY_TOKEN_LIMIT": 700,
     "TEMPERATURE": 0.4,
     "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0",
-    "MAX_SEARCH_RESULTS_PER_QUERY": 20,
+    "MAX_SEARCH_RESULTS_PER_QUERY": 30,
     "MEMORY_BACKEND": "local",
     "TOTAL_WORDS": 1200,
     "REPORT_FORMAT": "APA",

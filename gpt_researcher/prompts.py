@@ -241,19 +241,24 @@ The response MUST not contain any markdown format or additional text (like ```js
         question: str,
         context: str,
     ):
+        raw_context = context.split("*****raw web context*****")[1] or "No raw context found"
+        summary_context = context.split("*****raw web context*****")[0] or context
         return f"""
-        Given following researched information:
-
-        "{context}"
-
-        Try to devise a plan to analuze the information, and then answer the question step-by-step: "{question}".        
+        Lets first understand the problem and devise a plan to solve the problem. Then, let's carry out the plan and solve the problem step by step.
+        Try to devise a plan to analyze the information, and then answer the question step-by-step: "{question}".        
         
         Your response should be in the following format:
-        Explanation: {{your step-by-step explanation for your final answer}}
-        Exact Answer: {{your succinct, final answer, can not be not found, can not be not determined, etc.}}
+        Explanation: {{your resolution plan and the step-by-step process to solve the problem}}
+        Exact Answer: {{your succinct, final answer. If there are conflicts, you should give the most likely answer.}}
         Confidence: {{your confidence score between 0% and 100% for your answer}}
+        
+    
+        Here is summarized information:
+        "{summary_context}"
+        And here is the raw context from the web:
+        "{raw_context}"
         """.strip()
-
+    
     @staticmethod
     def generate_deep_research_prompt(
         question: str,

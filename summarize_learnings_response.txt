@@ -1,0 +1,708 @@
+summarize_learnings_response: 
+Joao Victor de Mello is a featherweight MMA fighter whose nickname is "The Swordsman". His professional record and weight class (146 lbs) confirm he competes at featherweight, and his nickname is directly "The Swordsman". Importance Score: 100%
+"Scott Harrison vs. Michael Brodie" (2005) is a featherweight bout between two British fighters, both under 35 at the time. Importance Score: 95%
+None of the listed current or past featherweight champions (e.g., Alexander Volkanovski, Max Holloway, José Aldo, etc.) have a nickname that means "swordsman". Importance Score: 70%
+Top featherweights of the same nationality (e.g., Mexican) often appear on the same card but rarely face each other at the world title level. Importance Score: 70%
+Same-nationality featherweight world title bouts are rare, but do occur, especially at the national title or eliminator level. Importance Score: 80%
+Extensive lists of MMA nicknames do not mention any featherweight fighters with the nickname "Swordsman" or any translation thereof (e.g., "Espadachim" in Portuguese, "Kenjutsuka" in Japanese, etc.), suggesting Joao Victor de Mello is unique or at least rare in this regard. Importance Score: 60%
+No direct match found for a featherweight MMA bout before 2022 with a loser landing 14 of 83 significant strikes, 4 takedown attempts, and other specific parameters. This implies the fight is not well-documented or widely discussed. Importance Score: 60%
+The most lopsided featherweight striking bouts (e.g., Holloway vs. Kattar, Holloway vs. Ortega) have the opponent landing far more than 14 significant strikes. Therefore, the 14/83 stat is not from these famous bouts. Importance Score: 50%
+No featherweight fighters in the best UFC nicknames list have a nickname that means "swordsman". Importance Score: 50%
+The majority of featherweight title bouts are between fighters of different nationalities, making same-nationality matchups rare at world title level. Importance Score: 60%
+The list of notable featherweights provides potential candidates for same-nationality matchups, but does not specify ages or bout details. Importance Score: 40%
+The list of UFC records for significant strikes landed in a fight does not show any featherweight bout with such a low output for the loser. The fights listed (Holloway vs. Ortega/Kattar, Volkanovski vs. Ortega) all have much higher numbers for both fighters. Importance Score: 40%
+The Max Holloway vs. Calvin Kattar, Brian Ortega, and Yair Rodriguez fights show extremely high significant strike numbers for Holloway (e.g., 445 vs. Kattar, 290 vs. Ortega, 230 vs. Rodriguez) but do not mention an opponent landing only 14 of 83 significant strikes. These fights are notable for the high output of Holloway, not for a lopsidedly low output from the opponent. Importance Score: 30%
+Floyd Mayweather Jr.'s featherweight/super featherweight bouts were not typically against same-nationality opponents. Importance Score: 30%
+High-volume striking stats are not relevant to the query, which is about a very low-output performance. Importance Score: 10%
+
+summarize_learnings_response: 
+"Big John McCarthy is often considered the standard for what people consider the best UFC referees. He was one of the first UFC referees... Rorion let John be a referee from the second UFC on." This establishes that John McCarthy debuted as a referee in 1994 at UFC 2. Importance Score: 100%
+"Years Active: 1994 to 2017 ... Fights Officiated: 957 Fights ... He was one of the first UFC referees and set the standard for the job." This confirms John McCarthy refereed many events between 1994 and 2017, well before 2022. Importance Score: 100%
+Clue [Joao Victor de Mello is a featherweight MMA fighter whose nickname is "The Swordsman". His professional record and weight class (146 lbs) confirm he competes at featherweight, and his nickname is directly "The Swordsman". Importance Score: 100%
+According to Sherdog, Joao Victor de Mello has a professional record of 2 wins and 0 losses, both at featherweight (146 lbs), with no losses listed in his pro career. Importance Score: 100%
+Tapology lists Joao Victor de Mello's pro record as 2-0, with both wins at featherweight (Gabriel Ferreira at FMS: Fight Night 4, Mauro Bahamonde at SFH 18/RyskCombat MMA 12). There are no losses recorded in his pro featherweight career. Importance Score: 100%
+Super Lutas also lists Joao Victor de Mello as undefeated (2-0) in professional MMA, both wins at featherweight, and no losses. Importance Score: 100%
+Next Knockout confirms a 2-0 professional record for Joao Victor de Mello at featherweight, with no losses. Importance Score: 100%
+None of the detailed featherweight bout recaps (Volkanovski vs Lopes, Rodriguez vs Freire, Silva vs Mitchell, Erosa vs Elkins) match the exact stat line of 14/83 significant strikes and 0/4 takedowns for the loser. In all recaps, the losing fighter either landed more or fewer strikes, or the takedown attempts/successes do not match. Importance Score: 90%
+"In 1994 the UFC held 3 events beginning with, UFC 2. ... UFC 2: No Way Out (Mar 11, 1994), UFC 3: The American Dream (Sep 9, 1994), UFC 4: Revenge of the Warriors (Dec 16, 1994)." This provides the list of events in 1994, which are likely to have been refereed by 1994 debut officials such as John McCarthy. Importance Score: 95%
+No featherweight MMA bout matching all the specified criteria (stat line, nickname, age, nationality, referee history) is found in indexed sources, suggesting the bout is obscure or unrecorded in major databases. Importance Score: 85%
+Clue ["Scott Harrison vs. Michael Brodie" (2005) is a featherweight bout between two British fighters, both under 35 at the time. Importance Score: 95%
+//www.postwrestling.com/2025/04/12/live-ufc-314-volkanovski-vs-lopes-results-coverage/]: None of the UFC 314 featherweight losers (Lopes, Freire, Mitchell, Elkins) had a stat line matching 14/83 significant strikes and 0/4 takedowns. The recaps and numbers confirm different outcomes and statistics. Importance Score: 80%
+The list of famous referees does not mention others with a 1994 debut, supporting that John McCarthy is the primary figure for this period. Importance Score: 80%
+This event lists a featherweight pro MMA bout between Pablo Côrte and "João Victor" (nickname "Vitinho"), where "João Victor" lost by KO/TKO. However, this is not "Joao Victor de Mello 'The Swordsman'" but a different fighter (likely "João Victor Medalha" or another "João Victor"). Importance Score: 80% (clarifies potential confusion)
+Clue [Joao Victor de Mello is unique as a featherweight nicknamed "The Swordsman," but there is no record of a bout with the queried stat line (14/83, 0/4 takedowns) involving him. Importance Score: 75%
+"1993 (UFC 1): ... The first match ended by referee stoppage, a detail not officially recognized then. 1994 (UFC 2): ... 1995 (UFC 3): Referees could stop fights if a fighter couldn’t defend themselves." This suggests the referee's role became more formalized in 1994, supporting the importance of 1994 debut referees. Importance Score: 70%
+Clue [Same-nationality featherweight world title bouts are rare, but do occur, especially at the national title or eliminator level. Importance Score: 80%
+Clue [Extensive lists of MMA nicknames do not mention any featherweight fighters with the nickname "Swordsman" or any translation thereof (e.g., "Espadachim" in Portuguese, "Kenjutsuka" in Japanese, etc.), suggesting Joao Victor de Mello is unique or at least rare in this regard. Importance Score: 60%
+Clue [None of the listed current or past featherweight champions (e.g., Alexander Volkanovski, Max Holloway, José Aldo, etc.) have a nickname that means "swordsman". Importance Score: 70%
+Clue [Top featherweights of the same nationality (e.g., Mexican) often appear on the same card but rarely face each other at the world title level. Importance Score: 70%
+//www.ufc.com/news/numbers-ufc-206-edition]: High-profile featherweight bouts typically feature much higher significant strike numbers for both fighters, making a 14/83 stat line extremely rare or undocumented at the elite level. Importance Score: 70%
+"KRAVCHENKO OLEG ... DEBUT 1994 ... REFEREED EVENTS 2022 September GBF MMA Lightweight World Title National Title GBF Professional Ukraine." This shows Oleg Kravchenko debuted as a referee in 1994, but the only listed events he refereed are in 2022, with no evidence of events before 2022. Importance Score: 60%
+Clue [No direct match found for a featherweight MMA bout before 2022 with a loser landing 14 of 83 significant strikes, 4 takedown attempts, and other specific parameters. This implies the fight is not well-documented or widely discussed. Importance Score: 60%
+Clue [The majority of featherweight title bouts are between fighters of different nationalities, making same-nationality matchups rare at world title level. Importance Score: 60%
+"João Victor Medalha" is a featherweight fighter with losses, but he is not "Joao Victor de Mello 'The Swordsman'". Importance Score: 70% (helps clarify identity confusion)
+Clue [The most lopsided featherweight striking bouts (e.g., Holloway vs. Kattar, Holloway vs. Ortega) have the opponent landing far more than 14 significant strikes. Therefore, the 14/83 stat is not from these famous bouts. Importance Score: 50%
+Clue [No featherweight fighters in the best UFC nicknames list have a nickname that means "swordsman". Importance Score: 50%
+Clue [The list of notable featherweights provides potential candidates for same-nationality matchups, but does not specify ages or bout details. Importance Score: 40%
+"The year 2022 was the 30th year in the history of the Ultimate Fighting Championship (UFC)..." This provides context for the timeline but does not specify referee names. Importance Score: 40%
+Clue [The list of UFC records for significant strikes landed in a fight does not show any featherweight bout with such a low output for the loser. The fights listed (Holloway vs. Ortega/Kattar, Volkanovski vs. Ortega) all have much higher numbers for both fighters. Importance Score: 40%
+Clue [The Max Holloway vs. Calvin Kattar, Brian Ortega, and Yair Rodriguez fights show extremely high significant strike numbers for Holloway (e.g., 445 vs. Kattar, 290 vs. Ortega, 230 vs. Rodriguez) but do not mention an opponent landing only 14 of 83 significant strikes. These fights are notable for the high output of Holloway, not for a lopsidedly low output from the opponent. Importance Score: 30%
+Clue [Floyd Mayweather Jr.'s featherweight/super featherweight bouts were not typically against same-nationality opponents. Importance Score: 30%
+Clue [High-volume striking stats are not relevant to the query, which is about a very low-output performance. Importance Score: 10%
+
+summarize_learnings_response: 
+Clue [No featherweight MMA bout matching all the specified criteria (stat line, nickname, age, nationality, referee history) is found in indexed sources, suggesting the bout is obscure or unrecorded in major databases. Importance Score: 100%
+Clue [Joao Victor de Mello is a featherweight MMA fighter whose nickname is "The Swordsman". His professional record and weight class (146 lbs) confirm he competes at featherweight, and his nickname is directly "The Swordsman". Importance Score: 93%
+Clue [Joao Victor de Mello is unique as a featherweight nicknamed "The Swordsman," but there is no record of a bout with the queried stat line (14/83, 0/4 takedowns) involving him. Importance Score: 78%
+Clue ["Scott Harrison vs. Michael Brodie" (2005) is a featherweight bout between two British fighters, both under 35 at the time. Importance Score: 64%
+Clue [Same-nationality featherweight world title bouts are rare, but do occur, especially at the national title or eliminator level. Importance Score: 60%
+Clue [The list of famous referees does not mention others with a 1994 debut, supporting that John McCarthy is the primary figure for this period. Importance Score: 58%
+Clue [No direct match found for a featherweight MMA bout before 2022 with a loser landing 14 of 83 significant strikes, 4 takedown attempts, and other specific parameters. This implies the fight is not well-documented or widely discussed. Importance Score: 50%
+Clue [Extensive lists of MMA nicknames do not mention any featherweight fighters with the nickname "Swordsman" or any translation thereof (e.g., "Espadachim" in Portuguese, "Kenjutsuka" in Japanese, etc.), suggesting Joao Victor de Mello is unique or at least rare in this regard. Importance Score: 45%
+Clue [None of the listed current or past featherweight champions (e.g., Alexander Volkanovski, Max Holloway, José Aldo, etc.) have a nickname that means "swordsman". Importance Score: 43%
+Clue [Top featherweights of the same nationality (e.g., Mexican) often appear on the same card but rarely face each other at the world title level. Importance Score: 41%
+Clue [The majority of featherweight title bouts are between fighters of different nationalities, making same-nationality matchups rare at world title level. Importance Score: 39%
+Clue ["João Victor Medalha" is a featherweight fighter with losses, but he is not "Joao Victor de Mello 'The Swordsman'". Importance Score: 35% (helps clarify identity confusion)
+Clue [The most lopsided featherweight striking bouts (e.g., Holloway vs. Kattar, Holloway vs. Ortega) have the opponent landing far more than 14 significant strikes. Therefore, the 14/83 stat is not from these famous bouts. Importance Score: 30%
+Clue [No featherweight fighters in the best UFC nicknames list have a nickname that means "swordsman". Importance Score: 28%
+Clue [The list of notable featherweights provides potential candidates for same-nationality matchups, but does not specify ages or bout details. Importance Score: 26%
+Clue [The list of UFC records for significant strikes landed in a fight does not show any featherweight bout with such a low output for the loser. The fights listed (Holloway vs. Ortega/Kattar, Volkanovski vs. Ortega) all have much higher numbers for both fighters. Importance Score: 25%
+Clue [The Max Holloway vs. Calvin Kattar, Brian Ortega, and Yair Rodriguez fights show extremely high significant strike numbers for Holloway (e.g., 445 vs. Kattar, 290 vs. Ortega, 230 vs. Rodriguez) but do not mention an opponent landing only 14 of 83 significant strikes. These fights are notable for the high output of Holloway, not for a lopsidedly low output from the opponent. Importance Score: 22%
+Clue [Floyd Mayweather Jr.'s featherweight/super featherweight bouts were not typically against same-nationality opponents. Importance Score: 15%
+Clue [High-volume striking stats are not relevant to the query, which is about a very low-output performance. Importance Score: 0%
+
+summarize_learnings_response: 
+Clue [No featherweight MMA bout matching all the specified criteria (stat line, nickname, age, nationality, referee history) is found in indexed sources, suggesting the bout is obscure or unrecorded in major databases. Importance Score: 100%
+João Victor de Mello is an MMA fighter from Brazil whose nickname is "The Swordsman." This is a direct and explicit example of an MMA nickname meaning "swordsman" in English, confirming at least one global instance. Importance Score: 98%
+Clue [Joao Victor de Mello is a featherweight MMA fighter whose nickname is "The Swordsman". His professional record and weight class (146 lbs) confirm he competes at featherweight, and his nickname is directly "The Swordsman". Importance Score: 96%
+Clue [Joao Victor de Mello is a featherweight MMA fighter with the nickname "The Swordsman," which is the English equivalent of "Espadachim." He is confirmed as a featherweight, and his nickname is directly relevant. Importance Score: 94%
+Clue [Joao Victor de Mello is unique as a featherweight nicknamed "The Swordsman," but there is no record of a bout with the queried stat line (14/83, 0/4 takedowns) involving him. Importance Score: 92%
+The primary English synonym for "swordsman" is "fencer," with related words including "battler," "belligerent," "combatant," "fighter," and "scrapper." Of these, "Fencer," "Fighter," and "Combatant" are plausible as MMA nicknames, but "Fencer" is the most direct synonym for "swordsman." Importance Score: 75%
+Common and creative nicknames related to "swordsman" include "Blade," "Samurai," "Duelist," "Knight," "Gladiator," and "Swashbuckler." These are all terms that evoke the image of a swordsman and are used as nicknames in combat sports. "Blade" and "Samurai" are especially popular as MMA nicknames. Importance Score: 73%
+Synonyms for "swordsman" include "fencer," "gladiator," "swashbuckler," "soldier," "dueler," "blade," "sabreur," "adventurer," "buccaneer," "daredevil," "ruffian," "battler," "belligerent," "combatant," "fighter," "pirate," "swaggerer," "fortune hunter," "scrapper." "Blade," "Gladiator," "Swashbuckler," and "Duelist" are all plausible as MMA nicknames and are direct or close synonyms. Importance Score: 69%
+Synonyms and analogies for "swordsman" include "fencer," "warrior," "fighter," "duellist," "samurai," "swashbuckler," "blade," "swordfighter," "gladiator," "swordswoman." "Warrior," "Samurai," "Blade," and "Gladiator" are all used as MMA nicknames. Importance Score: 65%
+"Blade," "Samurai," "Duelist," "Knight," "Gladiator," "Warrior," and "Assassin" are all listed as common nicknames for "swordsman" and are plausible MMA nicknames. "Blade" and "Samurai" are especially common in combat sports. Importance Score: 62%
+"Swordsman" is itself used as a nickname, as evidenced by MMA fighter Joao Victor de Mello, whose nickname is "The Swordsman." Importance Score: 61%
+Hyun "Espadachim Negro" Kel is a mixed martial arts fighter with the nickname "Espadachim Negro" (which translates to "Black Swordsman"). His listed weight is 170 lbs (welterweight), but he can cut to 155.6 lbs (lightweight). There is no evidence in this profile that he ever fought at featherweight (145 lbs). However, the nickname is directly "Espadachim," matching the query. Importance Score: 59%
+Hyun "Espadachim Negro" Kel's lowest listed weight is 155.6 lbs, which is lightweight, not featherweight (145 lbs). There is no evidence he ever made featherweight. Importance Score: 55%
+Clue ["Scott Harrison vs. Michael Brodie" (2005) is a featherweight bout between two British fighters, both under 35 at the time. Importance Score: 46%
+Clue [Same-nationality featherweight world title bouts are rare, but do occur, especially at the national title or eliminator level. Importance Score: 41%
+Clue [Extensive lists of MMA nicknames do not mention any featherweight fighters with the nickname "Swordsman" or any translation thereof (e.g., "Espadachim" in Portuguese, "Kenjutsuka" in Japanese, etc.), suggesting Joao Victor de Mello is unique or at least rare in this regard. Importance Score: 37%
+Clue [The list of famous referees does not mention others with a 1994 debut, supporting that John McCarthy is the primary figure for this period. Importance Score: 36%
+Clue [No direct match found for a featherweight MMA bout before 2022 with a loser landing 14 of 83 significant strikes, 4 takedown attempts, and other specific parameters. This implies the fight is not well-documented or widely discussed. Importance Score: 32%
+Clue [The majority of featherweight title bouts are between fighters of different nationalities, making same-nationality matchups rare at world title level. Importance Score: 30%
+Clue [Top featherweights of the same nationality (e.g., Mexican) often appear on the same card but rarely face each other at the world title level. Importance Score: 28%
+Clue [None of the listed current or past featherweight champions (e.g., Alexander Volkanovski, Max Holloway, José Aldo, etc.) have a nickname that means "swordsman". Importance Score: 26%
+Clue ["João Victor Medalha" is a featherweight fighter with losses, but he is not "Joao Victor de Mello 'The Swordsman'". Importance Score: 23%
+Clue [The most lopsided featherweight striking bouts (e.g., Holloway vs. Kattar, Holloway vs. Ortega) have the opponent landing far more than 14 significant strikes. Therefore, the 14/83 stat is not from these famous bouts. Importance Score: 21%
+Clue [No featherweight fighters in the best UFC nicknames list have a nickname that means "swordsman". Importance Score: 17%
+Clue [The list of notable featherweights provides potential candidates for same-nationality matchups, but does not specify ages or bout details. Importance Score: 15%
+Clue [The list of UFC records for significant strikes landed in a fight does not show any featherweight bout with such a low output for the loser. The fights listed (Holloway vs. Ortega/Kattar, Volkanovski vs. Ortega) all have much higher numbers for both fighters. Importance Score: 13%
+Clue [The Max Holloway vs. Calvin Kattar, Brian Ortega, and Yair Rodriguez fights show extremely high significant strike numbers for Holloway (e.g., 445 vs. Kattar, 290 vs. Ortega, 230 vs. Rodriguez) but do not mention an opponent landing only 14 of 83 significant strikes. These fights are notable for the high output of Holloway, not for a lopsidedly low output from the opponent. Importance Score: 10%
+Clue [Floyd Mayweather Jr.'s featherweight/super featherweight bouts were not typically against same-nationality opponents. Importance Score: 2%
+Clue [High-volume striking stats are not relevant to the query, which is about a very low-output performance. Importance Score: 0%
+
+summarize_learnings_response: 
+Clue [No featherweight MMA bout matching all the specified criteria (stat line, nickname, age, nationality, referee history) is found in indexed sources, suggesting the bout is obscure or unrecorded in major databases. Importance Score: 100%
+Clue [João Victor de Mello is an MMA fighter from Brazil whose nickname is "The Swordsman." This is a direct and explicit example of an MMA nickname meaning "swordsman" in English, confirming at least one global instance. Importance Score: 95%
+Clue [Joao Victor de Mello is a featherweight MMA fighter whose nickname is "The Swordsman". His professional record and weight class (146 lbs) confirm he competes at featherweight, and his nickname is directly "The Swordsman". Importance Score: 87%
+Clue [Joao Victor de Mello is a featherweight MMA fighter with the nickname "The Swordsman," which is the English equivalent of "Espadachim." He is confirmed as a featherweight, and his nickname is directly relevant. Importance Score: 80%
+Clue [Joao Victor de Mello is unique as a featherweight nicknamed "The Swordsman," but there is no record of a bout with the queried stat line (14/83, 0/4 takedowns) involving him. Importance Score: 65%
+Clue ["Scott Harrison vs. Michael Brodie" (2005) is a featherweight bout between two British fighters, both under 35 at the time. Importance Score: 6%
+Clue [Same-nationality featherweight world title bouts are rare, but do occur, especially at the national title or eliminator level. Importance Score: 2%
+Clue [Extensive lists of MMA nicknames do not mention any featherweight fighters with the nickname "Swordsman" or any translation thereof (e.g., "Espadachim" in Portuguese, "Kenjutsuka" in Japanese, etc.), suggesting Joao Victor de Mello is unique or at least rare in this regard. Importance Score: 1%
+Clue [The list of famous referees does not mention others with a 1994 debut, supporting that John McCarthy is the primary figure for this period. Importance Score: 0%
+
+summarize_learnings_response: 
+Joao Victor de Mello's professional MMA record is 2-0-0 (2 wins, 0 losses, 0 draws), with both victories coming after 2022 (October 2024 and February 2025). There is no record of any professional losses, let alone featherweight losses before 2022. Importance Score: 100%
+Sherdog lists Joao Victor de Mello with a 2-0 professional record, with no losses recorded. Both wins are after 2022. No evidence of any featherweight losses before 2022. Importance Score: 100%
+Clue [No featherweight MMA bout matching all the specified criteria (stat line, nickname, age, nationality, referee history) is found in indexed sources, suggesting the bout is obscure or unrecorded in major databases. Importance Score: 100%
+Clue [João Victor de Mello is a featherweight MMA fighter nicknamed "The Swordsman," but no fight with the queried stat line (14/83, 0/4) is recorded for him or in major MMA databases. Importance Score: 95%
+MMA Oracle confirms Joao Victor de Mello's professional career began in 2025, with only wins and no losses. Importance Score: 95%
+Clue [João Victor de Mello is an MMA fighter from Brazil whose nickname is "The Swordsman." This is a direct and explicit example of an MMA nickname meaning "swordsman" in English, confirming at least one global instance. Importance Score: 95%
+FightTime also shows Joao Victor de Mello as undefeated in professional MMA, with no losses before 2022. Importance Score: 90%
+Clue [Joao Victor de Mello is a featherweight MMA fighter whose nickname is "The Swordsman". His professional record and weight class (146 lbs) confirm he competes at featherweight, and his nickname is directly "The Swordsman". Importance Score: 87%
+Joao Victor de Mello fought Lucas Geraldo in an amateur featherweight bout on April 6, 2024, and won. There is no mention of any prior amateur losses at featherweight before 2022. Importance Score: 80%
+Clue [Joao Victor de Mello is a featherweight MMA fighter with the nickname "The Swordsman," which is the English equivalent of "Espadachim." He is confirmed as a featherweight, and his nickname is directly relevant. Importance Score: 80%
+The bout between John McCarthy and Paul Oraha at Night at the Fights 16 (June 7, 2012) was at featherweight (145 lbs), and McCarthy won by triangle choke in round 1. This confirms the previous clue with more detail, including the event name and location (Phoenix, Arizona). Importance Score: 100%
+There is a record of John McCarthy fighting at featherweight (145 lbs) on June 7, 2012, at an event in Arizona. The fight was against Paul Oraha, and McCarthy won by triangle choke in round 1. This is a direct, explicit record of a featherweight bout before 2022. Importance Score: 100%
+Most of John McCarthy's other recorded MMA bouts were at flyweight (125 lbs) or bantamweight (135 lbs), not featherweight. The only clear featherweight bout before 2022 is the 2012 fight against Paul Oraha. Importance Score: 90%
+The June 7, 2012, featherweight bout between John McCarthy and Paul Oraha was an amateur MMA fight. This is important for distinguishing between amateur and professional records. Importance Score: 85%
+John "Big" McCarthy is a referee, not an MMA fighter, and has no featherweight MMA bouts. This helps clarify that the only featherweight MMA bouts involving "John McCarthy" are from the fighter, not the referee. Importance Score: 80%
+There is a fighter named Joao Victor Medalha in the featherweight division with losses before 2022, but this is a different individual (different surname, different record). Importance Score: 60%
+Clue [Joao Victor de Mello is unique as a featherweight nicknamed "The Swordsman," but there is no record of a bout with the queried stat line (14/83, 0/4 takedowns) involving him. Importance Score: 65%
+Icaro Brito, a 24-year-old Brazilian featherweight, recently fought Junior Duarte in the LFA. Both are Brazilian, and given the context ("prospects under 30"), it is likely that Duarte is also under 35. This provides a concrete example of a Brazilian featherweight bout with both fighters under 35. Importance Score: 95%
+Giovanni Garcia, 21, won the Iron Man featherweight belt by defeating Carlos Alberto Silva in November 2022. Both fighters are Brazilian, and Garcia is confirmed under 35. While Silva's age isn't given, the context (regional circuit, title fight) and the "prospects" theme imply Silva is also likely under 35. Importance Score: 85%
+The Ultimate Fighter: Brazil featherweight tournament included bouts such as Rodrigo Damm (32) vs. Fabricio De Assis Costa Da Silva (younger, exact age not given but described as a "young fighter"), and John Teixeira (25) vs. Giovanni Da Silva Santos Jr. (age not stated, but both are Brazilian and competing in a prospect tournament). These are examples of Brazilian featherweight bouts with both fighters under 35. Importance Score: 80%
+LFA 191 features a featherweight main event between Wellington Prado and Keweny Lopes, described as "two of Brazil’s most exciting featherweight prospects." The term "prospects" and the lack of mention of veteran status strongly suggest both are under 35. Importance Score: 80%
+Márcio "Ticotô" Barbosa is ranked #1 in Brazil's pro men's featherweight division. Recent fights listed for 2022–2024 suggest he is active and likely under 35, as are most fighters in regional rankings. This implies that many Brazilian featherweight bouts at the national level feature fighters under 35. Importance Score: 70%
+Luis Rafael, 26, won a featherweight title bout against another Brazilian in Serbia in December (2018). Both fighters are Brazilian and under 35, providing another direct example. Importance Score: 75%
+The Guida vs. Hioki fight is specifically referenced as an example where takedowns were attempted but not capitalized on, and the discussion centers on how judges weigh stats like 0/4 takedowns and low significant strike numbers. Importance Score: 90%
+The stat line "14/83 significant strikes, 0/4 takedowns" refers to 14 landed out of 83 attempted significant strikes, and 0 takedowns out of 4 attempts. Importance Score: 85%
+There is no fixed exchange rate between significant strikes and takedowns in MMA judging; context and what happens after a takedown are crucial. Importance Score: 80%
+Judges often decide close rounds based on small differences in significant strikes or takedowns, especially when neither fighter is dominant in either area. Importance Score: 70%
+//cageintel.com/fight/6973]: No major fight database records a fight with the exact stat line of 14/83 significant strikes and 0/4 takedowns, suggesting the event is obscure or unrecorded in mainstream sources. Importance Score: 75%
+Clue [Same-nationality featherweight world title bouts are rare, but do occur, especially at the national title or eliminator level. Importance Score: 2%
+Clue [Extensive lists of MMA nicknames do not mention any featherweight fighters with the nickname "Swordsman" or any translation thereof (e.g., "Espadachim" in Portuguese, "Kenjutsuka" in Japanese, etc.), suggesting Joao Victor de Mello is unique or at least rare in this regard. Importance Score: 1%
+Clue [The list of famous referees does not mention others with a 1994 debut, supporting that John McCarthy is the primary figure for this period. Importance Score: 0%
+Clue ["Scott Harrison vs. Michael Brodie" (2005) is a featherweight bout between two British fighters, both under 35 at the time. Importance Score: 6%
+
+summarize_learnings_response: 
+//www.soyuz.ru/search/index?search=featherweight+MMA+bout+before+2022,+loser+14+significant+strikes+(16.87%+=+14/83),+no+takedowns,+4+attempts,+nickname+swordsman+synonym,+same+nationality,+under+35,+referee+first+UFC+event+1994]: The bout in question likely occurred before 2022, involved a featherweight losing fighter who landed 14 of 83 significant strikes, had 4 failed takedown attempts, was under 35, had a nickname meaning "swordsman," shared nationality with the opponent, and the referee's first UFC event was in 1994. Importance Score: 95%
+//www.sherdog.com/news/articles/By-the-Numbers-UFC-Fight-Night-237-192729] and [https://www.ufc.com/news/numbers-ufc-206-edition]: Featherweight significant strike statistics are closely tracked and reported, but a 14 of 83 stat line is rare and notable, suggesting the bout in question is unusual and may stand out in fight metric databases. Importance Score: 70%
+//www.guinnessworldrecords.com/world-records/601439-most-significant-strikes-landed-in-a-ufc-career]: Significant strike stats are a core part of MMA bout analysis, and an unusual stat line like 14 of 83 would be easily searchable and notable. Importance Score: 60%
+//www.sherdog.com/news/articles/By-the-Numbers-UFC-287-189644]: 14 significant strikes landed is a low tally, typically associated with abbreviated or one-sided bouts; a featherweight bout with 14 of 83 would be highly unusual and likely notable. Importance Score: 75%
+//thesaurus.plus/synonyms/swordsman]: The following words are listed as synonyms for "Swordsman": fencer, gladiator, swashbuckler, soldier, dueler, blade, sabreur, adventurer, buccaneer, daredevil, ruffian, battler, belligerent, combatant, fighter, swash, pirate, swaggerer, fortune hunter, beau sabreur, scrapper. Many of these (e.g., Gladiator, Soldier, Warrior, Fighter, Blade, Samurai, Knight, Spartan) are commonly used as nicknames in combat sports. Importance Score: 95%
+//nicknamedb.com/swordsman]: This nickname database lists the following as related or alternative nicknames: Mercenary, Warrior, Assassin, Rogue, Soldier, Sword, Protector, Ghost, Guardian, Slayer, Blade, Cutthroat, Legend, Fighter, Hero, Samurai, Swordsman, Tytan, Kiroshi, Blind, Ninja, Duelist, Viking, Rōnin, Raider, Titan, Barbarian, Adventurer, Master, Champion, Knight, Paladin, Bandit, Spartan. Many of these are used as MMA nicknames (e.g., Assassin, Samurai, Ninja, Knight, Spartan, Viking, Guardian, Slayer, Blade). Importance Score: 95%
+//www.synonyms.com/synonym/swordsman]: Lists "blade", "warrior", "foil", "samurai", "fencing", "fencer" as synonyms. "Samurai", "Blade", and "Warrior" are especially notable as MMA nicknames. Importance Score: 90%
+//www.worddb.com/another-word-for/swordsman]: Lists "combatant, fighter, battler, belligerent, champion, duelist, gladiator, scrapper, soldier, warrior" as hypernyms or synonyms. "Gladiator", "Warrior", "Soldier", "Champion", "Duelist" are all used as MMA nicknames. Importance Score: 90%
+//nicknamedb.com/swordsman]: "Samurai", "Rōnin", and "Ninja" are all listed as nicknames related to "Swordsman". These are common in MMA and combat sports. Importance Score: 90%
+//thesaurus.com/browse/swordsman]: "Gladiator", "fencer", "dueler" are listed as synonyms. "Gladiator" is a well-known MMA nickname. Importance Score: 85%
+//nicknamedb.com/swordsman]: "Knight", "Spartan", "Paladin", "Champion" are listed as related nicknames. These are archetypes of sword-wielding warriors and are used as MMA nicknames. Importance Score: 80%
+No direct evidence of an MMA fighter with the exact nickname "Swordsman" is found in
+//www.fight.tv/post/the-icons-in-the-octagon-a-tribute-to-mma-s-most-legendary-referees]: "Big" John McCarthy debuted as a referee in UFC at UFC 2 in 1994, making him one of the first major MMA referees to debut in that year. Importance Score: 100%
+//mixedmartialarts.fandom.com/wiki/UFC_4]: "Big" John McCarthy was the referee for UFC 4 in 1994, further confirming his debut and presence as a referee in major MMA events that year. Importance Score: 95%
+//www.goodreads.com/book/show/11102165-let-s-get-it-on]: John McCarthy himself confirms he started refereeing at UFC 2 in 1994, providing a primary source for his referee debut in a major MMA promotion. Importance Score: 100%
+//www.lowkickmma.com/best-ufc-referees/]: John McCarthy began refereeing in UFC at UFC 2 in 1994, setting the standard for MMA officiating. Importance Score: 95%
+//en.wikipedia.org/wiki/1994_in_UFC]: No direct information about referee debuts in 1994, only fighter debuts. Importance Score: 10%
+//en.wikipedia.org/wiki/Category:1994_in_mixed_martial_arts]: The major MMA promotions active in 1994 were UFC, Pancrase, and Shooto, which are the relevant organizations for identifying referee debuts in that year. Importance Score: 60%
+//mma-oracle.com/en/rating/promotion/page-0]: UFC, Shooto, and Pancrase were the major MMA promotions in 1994, providing the scope for possible referee debuts. Importance Score: 60%
+//evolve-mma.com/blog/from-gloves-to-whistle-mma-referees-you-didnt-know-could-fight/]: No evidence of Herb Dean or Frank Trigg debuting as referees in 1994; their debuts were later. Importance Score: 5%
+//www.espn.com/boxing/story/_/id/20509438/featherweight-champions-leo-santa-cruz-abner-mares-headline-oct-14-card]: Leo Santa Cruz and Abner Mares, both of Mexican descent and fighting out of the US, fought each other in featherweight title bouts (notably in 2015 and 2018). This is a clear example of a featherweight world title bout before 2022 featuring two fighters of the same (Mexican/Mexican-American) nationality. Importance Score: 95%
+//openboxing.org/featherweight/]: Scott Harrison (Scotland) vs. Michael Brodie (England) for the WBO featherweight title on June 3, 2005, is an example of a featherweight title bout between two fighters from the UK (same country for sanctioning purposes, though different regions within the UK). Importance Score: 85%
+//openboxing.org/featherweight/]: No direct UK vs. UK or other same-nationality featherweight title bout is noted in the early 1990s. Importance Score: 20%
+//openboxing.org/featherweight/]: No evidence of same-nationality featherweight title bouts in this period from this source. Importance Score: 10%
+//en.wikipedia.org/wiki/Featherweight]: In countries with a strong featherweight tradition (Mexico, UK, US), domestic matchups at the world level are possible and have occurred, such as Santa Cruz vs. Mares (US/Mexican-American). Importance Score: 70%
+//openboxing.org/featherweight/]: Josh Warrington vs. Kid Galahad (both English) for the IBF featherweight title in 2019, and Josh Warrington vs. James Dickens (both English) in 2021, are examples of featherweight world title bouts before 2022 where both fighters had the same nationality. Importance Score: 90%
+//openboxing.org/featherweight/]: No same-nationality clue here. Importance Score: 10%
+summarize_learnings_response: 
+"Big" John McCarthy debuted as a referee in UFC at UFC 2 in 1994, making him one of the first major MMA referees to debut in that year. Importance Score: 100%
+John McCarthy himself confirms he started refereeing at UFC 2 in 1994, providing a primary source for his referee debut in a major MMA promotion. Importance Score: 100%
+The bout in question likely occurred before 2022, involved a featherweight losing fighter who landed 14 of 83 significant strikes, had 4 failed takedown attempts, was under 35, had a nickname meaning "swordsman," shared nationality with the opponent, and the referee's first UFC event was in 1994. Importance Score: 95%
+The following words are listed as synonyms for "Swordsman": fencer, gladiator, swashbuckler, soldier, dueler, blade, sabreur, adventurer, buccaneer, daredevil, ruffian, battler, belligerent, combatant, fighter, swash, pirate, swaggerer, fortune hunter, beau sabreur, scrapper. Many of these (e.g., Gladiator, Soldier, Warrior, Fighter, Blade, Samurai, Knight, Spartan) are commonly used as nicknames in combat sports. Importance Score: 95%
+Leo Santa Cruz and Abner Mares, both of Mexican descent and fighting out of the US, fought each other in featherweight title bouts (notably in 2015 and 2018). This is a clear example of a featherweight world title bout before 2022 featuring two fighters of the same (Mexican/Mexican-American) nationality. Importance Score: 95%
+"Big" John McCarthy was the referee for UFC 4 in 1994, further confirming his debut and presence as a referee in major MMA events that year. Importance Score: 95%
+John McCarthy began refereeing in UFC at UFC 2 in 1994, setting the standard for MMA officiating. Importance Score: 95%
+This nickname database lists the following as related or alternative nicknames: Mercenary, Warrior, Assassin, Rogue, Soldier, Sword, Protector, Ghost, Guardian, Slayer, Blade, Cutthroat, Legend, Fighter, Hero, Samurai, Swordsman, Tytan, Kiroshi, Blind, Ninja, Duelist, Viking, Rōnin, Raider, Titan, Barbarian, Adventurer, Master, Champion, Knight, Paladin, Bandit, Spartan. Many of these are used as MMA nicknames (e.g., Assassin, Samurai, Ninja, Knight, Spartan, Viking, Guardian, Slayer, Blade). Importance Score: 95%
+Josh Warrington vs. Kid Galahad (both English) for the IBF featherweight title in 2019, and Josh Warrington vs. James Dickens (both English) in 2021, are examples of featherweight world title bouts before 2022 where both fighters had the same nationality. Importance Score: 90%
+Lists "blade", "warrior", "foil", "samurai", "fencing", "fencer" as synonyms. "Samurai", "Blade", and "Warrior" are especially notable as MMA nicknames. Importance Score: 90%
+Lists "combatant, fighter, battler, belligerent, champion, duelist, gladiator, scrapper, soldier, warrior" as hypernyms or synonyms. "Gladiator", "Warrior", "Soldier", "Champion", "Duelist" are all used as MMA nicknames. Importance Score: 90%
+"Samurai", "Rōnin", and "Ninja" are all listed as nicknames related to "Swordsman". These are common in MMA and combat sports. Importance Score: 90%
+14 significant strikes landed is a low tally, typically associated with abbreviated or one-sided bouts; a featherweight bout with 14 of 83 would be highly unusual and likely notable. Importance Score: 75%
+"Gladiator", "fencer", "dueler" are listed as synonyms. "Gladiator" is a well-known MMA nickname. Importance Score: 85%
+Scott Harrison (Scotland) vs. Michael Brodie (England) for the WBO featherweight title on June 3, 2005, is an example of a featherweight title bout between two fighters from the UK (same country for sanctioning purposes, though different regions within the UK). Importance Score: 85%
+"Knight", "Spartan", "Paladin", "Champion" are listed as related nicknames. These are archetypes of sword-wielding warriors and are used as MMA nicknames. Importance Score: 80%
+//www.ufc.com/news/numbers-ufc-206-edition]: Featherweight significant strike statistics are closely tracked and reported, but a 14 of 83 stat line is rare and notable, suggesting the bout in question is unusual and may stand out in fight metric databases. Importance Score: 70%
+In countries with a strong featherweight tradition (Mexico, UK, US), domestic matchups at the world level are possible and have occurred, such as Santa Cruz vs. Mares (US/Mexican-American). Importance Score: 70%
+Significant strike stats are a core part of MMA bout analysis, and an unusual stat line like 14 of 83 would be easily searchable and notable. Importance Score: 60%
+1994_in_mixed_martial_arts]: The major MMA promotions active in 1994 were UFC, Pancrase, and Shooto, which are the relevant organizations for identifying referee debuts in that year. Importance Score: 60%
+UFC, Shooto, and Pancrase were the major MMA promotions in 1994, providing the scope for possible referee debuts. Importance Score: 60%
+No direct UK vs. UK or other same-nationality featherweight title bout is noted in the early 1990s. Importance Score: 20%
+No evidence of same-nationality featherweight title bouts in this period from this source. Importance Score: 10%
+No same-nationality clue here. Importance Score: 10%
+No direct information about referee debuts in 1994, only fighter debuts. Importance Score: 10%
+No evidence of Herb Dean or Frank Trigg debuting as referees in 1994; their debuts were later. Importance Score: 5%
+Importance Score: 0%
+
+summarize_learnings_response: 
+"Big" John McCarthy debuted as a referee in UFC at UFC 2 in 1994, making him one of the first major MMA referees to debut in that year. Importance Score: 100%
+John McCarthy himself confirms he started refereeing at UFC 2 in 1994, providing a primary source for his referee debut in a major MMA promotion. Importance Score: 100%
+The bout in question likely occurred before 2022, involved a featherweight losing fighter who landed 14 of 83 significant strikes, had 4 failed takedown attempts, was under 35, had a nickname meaning "swordsman," shared nationality with the opponent, and the referee's first UFC event was in 1994. Importance Score: 95%
+The following words are listed as synonyms for "Swordsman": fencer, gladiator, swashbuckler, soldier, dueler, blade, sabreur, adventurer, buccaneer, daredevil, ruffian, battler, belligerent, combatant, fighter, swash, pirate, swaggerer, fortune hunter, beau sabreur, scrapper. Many of these (e.g., Gladiator, Soldier, Warrior, Fighter, Blade, Samurai, Knight, Spartan) are commonly used as nicknames in combat sports. Importance Score: 95%
+Leo Santa Cruz and Abner Mares, both of Mexican descent and fighting out of the US, fought each other in featherweight title bouts (notably in 2015 and 2018). This is a clear example of a featherweight world title bout before 2022 featuring two fighters of the same (Mexican/Mexican-American) nationality. Importance Score: 95%
+"Big" John McCarthy was the referee for UFC 4 in 1994, further confirming his debut and presence as a referee in major MMA events that year. Importance Score: 95%
+John McCarthy began refereeing in UFC at UFC 2 in 1994, setting the standard for MMA officiating. Importance Score: 95%
+This nickname database lists the following as related or alternative nicknames: Mercenary, Warrior, Assassin, Rogue, Soldier, Sword, Protector, Ghost, Guardian, Slayer, Blade, Cutthroat, Legend, Fighter, Hero, Samurai, Swordsman, Tytan, Kiroshi, Blind, Ninja, Duelist, Viking, Rōnin, Raider, Titan, Barbarian, Adventurer, Master, Champion, Knight, Paladin, Bandit, Spartan. Many of these are used as MMA nicknames (e.g., Assassin, Samurai, Ninja, Knight, Spartan, Viking, Guardian, Slayer, Blade). Importance Score: 95%
+Josh Warrington vs. Kid Galahad (both English) for the IBF featherweight title in 2019, and Josh Warrington vs. James Dickens (both English) in 2021, are examples of featherweight world title bouts before 2022 where both fighters had the same nationality. Importance Score: 90%
+Lists "blade", "warrior", "foil", "samurai", "fencing", "fencer" as synonyms. "Samurai", "Blade", and "Warrior" are especially notable as MMA nicknames. Importance Score: 90%
+Lists "combatant, fighter, battler, belligerent, champion, duelist, gladiator, scrapper, soldier, warrior" as hypernyms or synonyms. "Gladiator", "Warrior", "Soldier", "Champion", "Duelist" are all used as MMA nicknames. Importance Score: 90%
+"Samurai", "Rōnin", and "Ninja" are all listed as nicknames related to "Swordsman". These are common in MMA and combat sports. Importance Score: 90%
+14 significant strikes landed is a low tally, typically associated with abbreviated or one-sided bouts; a featherweight bout with 14 of 83 would be highly unusual and likely notable. Importance Score: 75%
+"Gladiator", "fencer", "dueler" are listed as synonyms. "Gladiator" is a well-known MMA nickname. Importance Score: 85%
+Scott Harrison (Scotland) vs. Michael Brodie (England) for the WBO featherweight title on June 3, 2005, is an example of a featherweight title bout between two fighters from the UK (same country for sanctioning purposes, though different regions within the UK). Importance Score: 85%
+"Knight", "Spartan", "Paladin", "Champion" are listed as related nicknames. These are archetypes of sword-wielding warriors and are used as MMA nicknames. Importance Score: 80%
+//www.ufc.com/news/numbers-ufc-206-edition]: Featherweight significant strike statistics are closely tracked and reported, but a 14 of 83 stat line is rare and notable, suggesting the bout in question is unusual and may stand out in fight metric databases. Importance Score: 70%
+In countries with a strong featherweight tradition (Mexico, UK, US), domestic matchups at the world level are possible and have occurred, such as Santa Cruz vs. Mares (US/Mexican-American). Importance Score: 70%
+Significant strike stats are a core part of MMA bout analysis, and an unusual stat line like 14 of 83 would be easily searchable and notable. Importance Score: 60%
+1994_in_mixed_martial_arts]: The major MMA promotions active in 1994 were UFC, Pancrase, and Shooto, which are the relevant organizations for identifying referee debuts in that year. Importance Score: 60%
+UFC, Shooto, and Pancrase were the major MMA promotions in 1994, providing the scope for possible referee debuts. Importance Score: 60%
+No direct UK vs. UK or other same-nationality featherweight title bout is noted in the early 1990s. Importance Score: 20%
+No evidence of same-nationality featherweight title bouts in this period from this source. Importance Score: 10%
+No same-nationality clue here. Importance Score: 10%
+No direct information about referee debuts in 1994, only fighter debuts. Importance Score: 10%
+No evidence of Herb Dean or Frank Trigg debuting as referees in 1994; their debuts were later. Importance Score: 5%
+Importance Score: 0%
+//www.ufc.com/news/numbers-ufc-206-edition]: UFC statistical summaries track takedown attempts and successes in detail for featherweight bouts, but a 0/4 takedown stat line is rare and notable. This suggests that if such a stat line exists, it would likely be highlighted in fight metric databases or post-event summaries. Importance Score: 70%
+//www.tapology.com/rankings/all-time-top-ten-best-featherweight-mma-fights-145-pounds]: While Tapology lists the greatest featherweight fights, the summaries do not include specific failed takedown stats, indicating that such granular data must be sourced from official UFC stats or detailed fight metric breakdowns. Importance Score: 50%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: Wikipedia is useful for context on featherweight title fights and champions, but does not help directly with identifying bouts with 0/4 takedown success. Importance Score: 20%
+//www.postwrestling.com/2025/04/12/live-ufc-314-volkanovski-vs-lopes-results-coverage/]: Event recaps mention grappling exchanges and takedown defense (e.g., Silva shutting down over a dozen takedowns), but do not specify individual failed takedown stats like 0/4. However, they do confirm that featherweight bouts often feature grappling-heavy fighters who may have multiple failed takedown attempts. Importance Score: 40%
+//www.ufc.com/news/fight-night-berlin-numbers]: UFC statistical summaries sometimes highlight fighters with failed takedown attempts, but a 0/4 stat line for featherweights is rare and would likely be highlighted if it occurred, suggesting such a fight is unusual and notable. Importance Score: 60%
+The bout in question is highly specific: featherweight, fighter with "swordsman"-related nickname, 0/4 takedown success, 14 of 83 significant strikes landed, under 35 years old, same nationality as opponent, and likely occurred before 2022. This level of detail makes the bout highly identifiable if cross-referenced with fight metric databases. Importance Score: 95%
+The nickname "swordsman" or its synonyms (e.g., Gladiator, Samurai, Warrior, Blade, Spartan) is a key clue to identifying the fighter in the bout with 0/4 takedown success. Importance Score: 90%
+The referee for the bout likely debuted in UFC in 1994, which points to "Big" John McCarthy, further narrowing the possible event and bout.
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]: Mateus Rodrigues, nickname "Blade", is an amateur MMA fighter born Feb 1, 2001 (making him 24 in 2025), fights at featherweight, and is from Brazil. He fits all criteria: under 35, featherweight, and has the "Blade" nickname. Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/123111-ilias-bulaid]: Ilias Bulaid, nickname "The Blade", born May 1, 1995 (will be 29 or 30 in 2025), fights at featherweight (145.6 lbs), undefeated at 7-0, and is from the Netherlands. He fits all criteria: under 35, featherweight, "Blade" nickname (with "The" prefix). Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/345761-flavio-oliveira-blade]: Flávio Oliveira, nickname "Blade", born Aug 21, 1995 (will be 29 or 30 in 2025), pro MMA record 1-2-0, but weight class is not specified. However, his height (5'10") and presence on Tapology suggest he could be a featherweight or lightweight. No explicit featherweight confirmation, so only a partial match. Importance Score: 60%
+//www.tapology.com/fightcenter/fighters/457129-sean-nigel-masangcay]: Sean Nigel Masangcay, nickname "SWITCH BLADE", fights at featherweight, but age is not listed. Since he is active as of August 2024 and has a 1-0 record, he is likely under 35, but this is not certain. "SWITCH BLADE" is a variant of "Blade", but not exact. Importance Score: 50%
+//www.tapology.com/fightcenter/fighters/134680-savio-chaves-blade]: Sávio Chaves, nickname "Blade", born Sep 15, 1987 (will be 37 or 38 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%
+//www.tapology.com/fightcenter/fighters/231497-tiago-blade]: Tiago Vieira, nickname "Blade", born July 4, 1988 (will be 36 or 37 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%
+//www.tapology.com/fightcenter/fighters/491717-nego-blade]: Nego Blade fights at featherweight, but no age or date of birth is provided, so we cannot confirm if he is under 35. Importance Score: 30%
+//www.mma-core.com/fighters/Blade_Street/251158]: Blade Street, born Jan 1, 1990 (age 35 in 2025), fights at 155 lbs (lightweight), so not featherweight and not under 35. Importance Score: 10%
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]:
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: The Tapology database can be filtered to specifically identify featherweight fights officiated by John McCarthy before 2022, even if not shown in the snippet. Importance Score: 95%
+//en.wikipedia.org/wiki/John_McCarthy_(referee)]: John McCarthy refereed UFC fights from 1994 to 2018, and then worked as a commentator for Bellator. Thus, any UFC featherweight fight he officiated would be before 2018; for Bellator, up to his commentator transition. Importance Score: 95%
+//www.sportskeeda.com/mma/news-john-mccarthy-keen-seeing-petr-yan-featherweight]: McCarthy is recognized as an authority on featherweight MMA but this source does not confirm specific fights refereed. Importance Score: 20%
+//www.lowkickmma.com/big-john-mccarthy/]: John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 100%
+//en.wikipedia.org/wiki/2022_in_UFC]: Lists of featherweight fights in 2022 and before, but does not specify referee, so only useful for cross-referencing. Importance Score: 40%
+//wwjournals.com/big-john-mccarthy/]: John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 95%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy] & [https://www.lowkickmma.com/big-john-mccarthy/]: John McCarthy's refereeing record includes both men's and women's featherweight title fights in the UFC before 2022, such as Jose Aldo vs. Conor McGregor (2015) and Cris Cyborg vs. Holly Holm (2017). Importance Score: 100%
+//www.espn.com/boxing/story/_/id/12496344/division-division-rankings-featherweight]: Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two fighters of the same nationality (Mexican/Mexican-American), both under 35 at the time of the bout. Importance Score: 95%
+In countries with strong featherweight traditions (Mexico, UK, US), domestic world title matchups at featherweight have occurred, often with both fighters under 35. Importance Score: 70%
+Josh Warrington vs. Kid Galahad (2019) and Josh Warrington vs. James Dickens (2021) are featherweight world title bouts with both fighters under 35 and of the same nationality (English). Importance Score: 90%
+Nicknames such as "Gladiator," "Samurai," "Blade," and "Warrior" are common in combat sports and can be synonymous with "swordsman," which may help identify a fighter in a same-nationality featherweight bout. Importance Score: 75%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. Importance Score: 60%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: Featherweight is defined as up to 126 lbs in boxing and 145 lbs in MMA, which sets the weight class for relevant matchups. Importance Score: 60%
+There exists a featherweight bout before 2022 where the losing fighter (under 35, same nationality as opponent) landed 14 of 83 significant strikes, had 4 failed takedown attempts, and had a nickname meaning "swordsman." Importance Score: 95%
+John McCarthy's referee debut in UFC 2 (1994) marks the earliest possible major MMA featherweight bouts with him officiating. Importance Score: 80%
+Notable feather
+summarize_learnings_response: 
+Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 100%
+John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 100%
+Mateus Rodrigues, nickname "Blade", is an amateur MMA fighter born Feb 1, 2001 (making him 24 in 2025), fights at featherweight, and is from Brazil. He fits all criteria: under 35, featherweight, and has the "Blade" nickname. Importance Score: 100%
+Ilias Bulaid, nickname "The Blade", born May 1, 1995 (will be 29 or 30 in 2025), fights at featherweight (145.6 lbs), undefeated at 7-0, and is from the Netherlands. He fits all criteria: under 35, featherweight, "Blade" nickname (with "The" prefix). Importance Score: 100%
+//www.lowkickmma.com/big-john-mccarthy/]: John McCarthy's refereeing record includes both men's and women's featherweight title fights in the UFC before 2022, such as Jose Aldo vs. Conor McGregor (2015) and Cris Cyborg vs. Holly Holm (2017). Importance Score: 100%
+Importance Score: 100%
+Importance Score: 100%
+Importance Score: 95%
+Importance Score: 95%
+featherweight, fighter with "swordsman"-related nickname, 0/4 takedown success, 14 of 83 significant strikes landed, under 35 years old, same nationality as opponent, and likely occurred before 2022. This level of detail makes the bout highly identifiable if cross-referenced with fight metric databases.]: Importance Score: 95%
+Importance Score: 95%
+fencer, gladiator, swashbuckler, soldier, dueler, blade, sabreur, adventurer, buccaneer, daredevil, ruffian, battler, belligerent, combatant, fighter, swash, pirate, swaggerer, fortune hunter, beau sabreur, scrapper. Many of these (e.g., Gladiator, Soldier, Warrior, Fighter, Blade, Samurai, Knight, Spartan) are commonly used as nicknames in combat sports.]: Importance Score: 95%
+Importance Score: 95%
+Importance Score: 95%
+John McCarthy refereed UFC fights from 1994 to 2018, and then worked as a commentator for Bellator. Thus, any UFC featherweight fight he officiated would be before 2018; for Bellator, up to his commentator transition. Importance Score: 95%
+John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 95%
+Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two fighters of the same nationality (Mexican/Mexican-American), both under 35 at the time of the bout. Importance Score: 95%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 85%
+Importance Score: 85%
+Importance Score: 80%
+Importance Score: 75%
+Importance Score: 75%
+Importance Score: 70%
+Featherweight significant strike statistics are closely tracked and reported, but a 14 of 83 stat line is rare and notable, suggesting the bout in question is unusual and may stand out in fight metric databases. Importance Score: 70%
+UFC statistical summaries track takedown attempts and successes in detail for featherweight bouts, but a 0/4 takedown stat line is rare and notable. This suggests that if such a stat line exists, it would likely be highlighted in fight metric databases or post-event summaries. Importance Score: 70%
+Importance Score: 70%
+Flávio Oliveira, nickname "Blade", born Aug 21, 1995 (will be 29 or 30 in 2025), pro MMA record 1-2-0, but weight class is not specified. However, his height (5'10") and presence on Tapology suggest he could be a featherweight or lightweight. No explicit featherweight confirmation, so only a partial match. Importance Score: 60%
+Importance Score: 60%
+Importance Score: 60%
+Wikipedia is useful for context on featherweight title fights and champions, but does not help directly with identifying bouts with 0/4 takedown success. Importance Score: 20%
+The major MMA promotions active in 1994 were UFC, Pancrase, and Shooto, which are the relevant organizations for identifying referee debuts in that year. Importance Score: 60%
+UFC statistical summaries sometimes highlight fighters with failed takedown attempts, but a 0/4 stat line for featherweights is rare and would likely be highlighted if it occurred, suggesting such a fight is unusual and notable. Importance Score: 60%
+Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. Importance Score: 60%
+Featherweight is defined as up to 126 lbs in boxing and 145 lbs in MMA, which sets the weight class for relevant matchups. Importance Score: 60%
+Nego Blade fights at featherweight, but no age or date of birth is provided, so we cannot confirm if he is under 35. Importance Score: 30%
+Sean Nigel Masangcay, nickname "SWITCH BLADE", fights at featherweight, but age is not listed. Since he is active as of August 2024 and has a 1-0 record, he is likely under 35, but this is not certain. "SWITCH BLADE" is a variant of "Blade", but not exact. Importance Score: 50%
+Sávio Chaves, nickname "Blade", born Sep 15, 1987 (will be 37 or 38 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%
+Tiago Vieira, nickname "Blade", born July 4, 1988 (will be 36 or 37 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%
+Blade Street, born Jan 1, 1990 (age 35 in 2025), fights at 155 lbs (lightweight), so not featherweight and not under 35. Importance Score: 10%
+Importance Score: 0%
+While Tapology lists the greatest featherweight fights, the summaries do not include specific failed takedown stats, indicating that such granular data must be sourced from official UFC stats or detailed fight metric breakdowns. Importance Score: 50%
+Lists of featherweight fights in 2022 and before, but does not specify referee, so only useful for cross-referencing. Importance Score: 40%
+Event recaps mention grappling exchanges and takedown defense (e.g., Silva shutting down over a dozen takedowns), but do not specify individual failed takedown stats like 0/4. However, they do confirm that featherweight bouts often feature grappling-heavy fighters who may have multiple failed takedown attempts. Importance Score: 40%
+Importance Score: 20%
+Importance Score: 10%
+Importance Score: 10%
+Importance Score: 10%
+Importance Score: 5%
+Clue [Importance Score: 0%]
+
+summarize_learnings_response: 
+Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 100%
+John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 100%
+Mateus Rodrigues, nickname "Blade", is an amateur MMA fighter born Feb 1, 2001 (making him 24 in 2025), fights at featherweight, and is from Brazil. He fits all criteria: under 35, featherweight, and has the "Blade" nickname. Importance Score: 100%
+Ilias Bulaid, nickname "The Blade", born May 1, 1995 (will be 29 or 30 in 2025), fights at featherweight (145.6 lbs), undefeated at 7-0, and is from the Netherlands. He fits all criteria: under 35, featherweight, "Blade" nickname (with "The" prefix). Importance Score: 100%
+//www.lowkickmma.com/big-john-mccarthy/]: John McCarthy's refereeing record includes both men's and women's featherweight title fights in the UFC before 2022, such as Jose Aldo vs. Conor McGregor (2015) and Cris Cyborg vs. Holly Holm (2017). Importance Score: 100%
+Importance Score: 100%
+Importance Score: 100%
+Importance Score: 95%
+Importance Score: 95%
+featherweight, fighter with "swordsman"-related nickname, 0/4 takedown success, 14 of 83 significant strikes landed, under 35 years old, same nationality as opponent, and likely occurred before 2022. This level of detail makes the bout highly identifiable if cross-referenced with fight metric databases.]: Importance Score: 95%
+Importance Score: 95%
+fencer, gladiator, swashbuckler, soldier, dueler, blade, sabreur, adventurer, buccaneer, daredevil, ruffian, battler, belligerent, combatant, fighter, swash, pirate, swaggerer, fortune hunter, beau sabreur, scrapper. Many of these (e.g., Gladiator, Soldier, Warrior, Fighter, Blade, Samurai, Knight, Spartan) are commonly used as nicknames in combat sports.]: Importance Score: 95%
+Importance Score: 95%
+Importance Score: 95%
+John McCarthy refereed UFC fights from 1994 to 2018, and then worked as a commentator for Bellator. Thus, any UFC featherweight fight he officiated would be before 2018; for Bellator, up to his commentator transition. Importance Score: 95%
+John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 95%
+Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two fighters of the same nationality (Mexican/Mexican-American), both under 35 at the time of the bout. Importance Score: 95%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 90%
+Importance Score: 85%
+Importance Score: 85%
+Importance Score: 80%
+Importance Score: 75%
+Importance Score: 75%
+Importance Score: 70%
+Featherweight significant strike statistics are closely tracked and reported, but a 14 of 83 stat line is rare and notable, suggesting the bout in question is unusual and may stand out in fight metric databases. Importance Score: 70%
+UFC statistical summaries track takedown attempts and successes in detail for featherweight bouts, but a 0/4 takedown stat line is rare and notable. This suggests that if such a stat line exists, it would likely be highlighted in fight metric databases or post-event summaries. Importance Score: 70%
+Importance Score: 70%
+Flávio Oliveira, nickname "Blade", born Aug 21, 1995 (will be 29 or 30 in 2025), pro MMA record 1-2-0, but weight class is not specified. However, his height (5'10") and presence on Tapology suggest he could be a featherweight or lightweight. No explicit featherweight confirmation, so only a partial match. Importance Score: 60%
+Importance Score: 60%
+Importance Score: 60%
+Wikipedia is useful for context on featherweight title fights and champions, but does not help directly with identifying bouts with 0/4 takedown success. Importance Score: 20%
+The major MMA promotions active in 1994 were UFC, Pancrase, and Shooto, which are the relevant organizations for identifying referee debuts in that year. Importance Score: 60%
+UFC statistical summaries sometimes highlight fighters with failed takedown attempts, but a 0/4 stat line for featherweights is rare and would likely be highlighted if it occurred, suggesting such a fight is unusual and notable. Importance Score: 60%
+Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. Importance Score: 60%
+Featherweight is defined as up to 126 lbs in boxing and 145 lbs in MMA, which sets the weight class for relevant matchups. Importance Score: 60%
+Nego Blade fights at featherweight, but no age or date of birth is provided, so we cannot confirm if he is under 35. Importance Score: 30%
+Sean Nigel Masangcay, nickname "SWITCH BLADE", fights at featherweight, but age is not listed. Since he is active as of August 2024 and has a 1-0 record, he is likely under 35, but this is not certain. "SWITCH BLADE" is a variant of "Blade", but not exact. Importance Score: 50%
+Sávio Chaves, nickname "Blade", born Sep 15, 1987 (will be 37 or 38 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%
+Tiago Vieira, nickname "Blade", born July 4, 1988 (will be 36 or 37 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%
+Blade Street, born Jan 1, 1990 (age 35 in 2025), fights at 155 lbs (lightweight), so not featherweight and not under 35. Importance Score: 10%
+Importance Score: 0%
+While Tapology lists the greatest featherweight fights, the summaries do not include specific failed takedown stats, indicating that such granular data must be sourced from official UFC stats or detailed fight metric breakdowns. Importance Score: 50%
+Lists of featherweight fights in 2022 and before, but does not specify referee, so only useful for cross-referencing. Importance Score: 40%
+Event recaps mention grappling exchanges and takedown defense (e.g., Silva shutting down over a dozen takedowns), but do not specify individual failed takedown stats like 0/4. However, they do confirm that featherweight bouts often feature grappling-heavy fighters who may have multiple failed takedown attempts. Importance Score: 40%
+Importance Score: 20%
+Importance Score: 10%
+Importance Score: 10%
+Importance Score: 10%
+Importance Score: 5%
+Clue [Importance Score: 0%]
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]: Mateus Rodrigues, nicknamed "Blade", is a featherweight (145 lbs) amateur MMA fighter from Brazil with a 3-1-0 record, and is under 35 years old. Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/123111-ilias-bulaid]: Ilias "The Blade" Bulaid is a featherweight but has never lost, so he cannot fit the "losing, 0/4 takedowns" clue. Importance Score: 90%
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]: Mateus Rodrigues lost to Will Reis by submission at featherweight (Copa Thunder Fight 31, 2024-08-31), which matches the "losing" part of the query. However, takedown stats are not listed. Importance Score: 95%
+"0/4 takedowns" is a rare stat, typically only found in UFC-level fight metric summaries. Since Mateus Rodrigues' fights are amateur/regional, this stat is likely not officially recorded or publicly available. Importance Score: 80%
+//www.tapology.com/fightcenter/fighters/69755-rafael-silva-blade, https://www.tapology.com/fightcenter/fighters/123848-blade-street, https://www.sherdog.com/fighter/Anderson-Da-Silva-Lima-411357]: No other "Blade" featherweights have a loss with possible takedown stats matching "0/4". Importance Score: 85%
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]: The only plausible featherweight "Blade" loss is Mateus Rodrigues vs. Will Reis, Copa Thunder Fight 31, 2024-08-31, but takedown stats are unverified. Importance Score: 90%
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade, https://www.sherdog.com/fighter/Mateus-Rodrigues-444564]: No public record confirms a "Blade" featherweight loss with 0/4 takedowns; this stat is likely unavailable for regional/amateur fights. Importance Score: 85%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: The UFC featherweight division includes fighters between 136–145 lb (61.7-65.8 kg). This defines the weight class for relevant matchups. Importance Score: 100%
+//www.espn.com/mma/story?id=42759816]: Mairon Santos, UFC featherweight, age 24 (turns 25 on June 10, 2025), Brazilian nationality. He recently fought Kaan Ofli in the TUF 32 featherweight finale. Importance Score: 95%
+//en.wikipedia.org/wiki/List_of_UFC_champions]: TUF 32 Featherweight finale: Mairon Santos vs. Kaan Ofli. However, Kaan Ofli is not Brazilian (he is Turkish-Australian), so this fight does not meet the "same nationality" criterion. Importance Score: 70%
+//www.espn.com/mma/story?id=42759816]: Vallejos, UFC featherweight, age 22, but no fight listed against another Argentinian. Importance Score: 60%
+Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two Mexican/Mexican-American fighters, both under 35 at the time of the bout. This is a key example of a same-nationality featherweight fight with both fighters under 35. Importance Score: 95%
+//www.mmafighting.com/2025/4/14/24407556/ufc-314-report-who-suffered-the-most-damaging-loss-in-miami]: Alexander Volkanovski (born 1988, age 36 in 2024/2025) recently fought Diego Lopes (born 1994, age 30 in 2024), but Volkanovski is over 35, so this does not fit. Importance Score: 60%
+Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. This contextual clue suggests such fights are not rare, but specific examples require more granular data. Importance Score: 60%
+Tapology provides a searchable list of MMA fights, including featherweight bouts, fighter ages, and nationalities, making it a primary resource for confirming which featherweight fights meet the criteria. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology lists all fights refereed by John McCarthy, allowing direct filtering for featherweight bouts and cross-referencing with fighter nicknames. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy was the referee for Jose Aldo vs. Conor McGregor, a major featherweight title fight. Importance Score: 100%
+Mateus Rodrigues ("Blade") is a featherweight MMA fighter, but no direct link to a McCarthy-refereed loss. Importance Score: 100% for identifying a "Blade" at featherweight, but 70% for query match.
+Ilias Bulaid ("The Blade") is a featherweight, but has not lost, so cannot be the losing fighter in the query. Importance Score: 100% for exclusion.
+Flávio Oliveira ("Blade") is a possible featherweight, but insufficient evidence links him to a McCarthy-officiated featherweight loss. Importance Score: 60%
+Sean Nigel Masangcay ("Switch Blade") is a featherweight, but nickname is not an exact match, and no McCarthy connection. Importance Score: 50%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: McCarthy officiated multiple featherweight title bouts, including Cyborg vs. Holm, confirming his involvement in high-profile featherweight fights. Importance Score: 100%
+//en.wikipedia.org/wiki/John_McCarthy_(referee)]: McCarthy's UFC refereeing ended in 2018, narrowing the possible fights to pre-2018 events. Importance Score: 95%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: No record found of a featherweight fighter with the nickname "Blade" losing in a McCarthy-refereed fight. Importance Score: 90%
+//www.sherdog.com/news/articles/By-the-Numbers-UFC-314-196662]: The Sherdog "By the Numbers" articles provide detailed breakdowns of significant strikes landed and attempted in featherweight fights, but none in the visible excerpts match the 14/83 stat line for a loser. However, such detailed breakdowns are available and would be the type of source to confirm this stat. Importance Score: 80%
+Mateus Rodrigues (Blade) and Ilias Bulaid (The Blade) are both featherweights under 35, with "Blade" in their nickname, making them prime candidates for the query. Importance Score: 100%
+UFC statistical summaries and fight metric databases track takedown attempts and significant strikes in detail; a 0/4 takedown and 14/83 significant strikes stat line for a loser would stand out and be findable in such databases. Importance Score: 95%
+The loser is the one with 14/83 significant strikes, so when searching fight stats, focus on the losing fighter's numbers, not the winner's. Importance Score: 90%
+Both Mateus Rodrigues and Ilias Bulaid fit the under 35 and featherweight criteria; if their fights were domestic (same nationality), this matches the query's constraints. Importance Score: 90%
+The nickname "Blade" is more common in regional or international circuits than in UFC title fights, suggesting the fight in question may not be a high-profile UFC bout. Importance Score: 85%
+Tapology provides searchable lists of featherweight fights and nicknames, making it a key tool for matching the "Blade" nickname to a specific bout and stat line. Importance Score: 100%
+A featherweight fight with 14/83 significant strikes for the loser is statistically unusual and would be highlighted in detailed post-event summaries or fight metric breakdowns. Importance Score: 90%
+To identify the fight, cross-reference featherweight fighters nicknamed "Blade" (from Tapology/Sherdog) with detailed fight stats (from UFCStats/Sherdog) for a losing performance of 14/83 significant strikes and 0/4 takedowns. Importance Score: 100
+summarize_learnings_response: 
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology lists all fights refereed by John McCarthy, allowing direct filtering for featherweight bouts and cross-referencing with fighter nicknames. Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]: Mateus Rodrigues, nicknamed "Blade", is a featherweight (145 lbs) amateur MMA fighter from Brazil with a 3-1-0 record, and is under 35 years old. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy was the referee for Jose Aldo vs. Conor McGregor, a major featherweight title fight. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: McCarthy officiated multiple featherweight title bouts, including Cyborg vs. Holm, confirming his involvement in high-profile featherweight fights. Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/123111-ilias-bulaid]: Ilias Bulaid, nickname "The Blade", born May 1, 1995 (will be 29 or 30 in 2025), fights at featherweight (145.6 lbs), undefeated at 7-0, and is from the Netherlands. He fits all criteria: under 35, featherweight, "Blade" nickname (with "The" prefix). Importance Score: 100%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: The UFC featherweight division includes fighters between 136–145 lb (61.7-65.8 kg). This defines the weight class for relevant matchups. Importance Score: 100%
+Clue [Mateus Rodrigues (Blade) and Ilias Bulaid (The Blade) are both featherweights under 35, with "Blade" in their nickname, making them prime candidates for the query. Importance Score: 100%]
+Clue [Tapology provides a searchable list of MMA fights, including featherweight bouts, fighter ages, and nationalities, making it a primary resource for confirming which featherweight fights meet the criteria. Importance Score: 100%]
+Clue [Tapology provides searchable lists of featherweight fights and nicknames, making it a key tool for matching the "Blade" nickname to a specific bout and stat line. Importance Score: 100%]
+Clue [To identify the fight, cross-reference featherweight fighters nicknamed "Blade" (from Tapology/Sherdog) with detailed fight stats (from UFCStats/Sherdog) for a losing performance of 14/83 significant strikes and 0/4 takedowns. Importance Score: 100%]
+Clue [John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 100%]
+John McCarthy's refereeing record includes both men's and women's featherweight title fights in the UFC before 2022, such as Jose Aldo vs. Conor McGregor (2015) and Cris Cyborg vs. Holly Holm (2017). Importance Score: 100%
+Importance Score: 95%
+Mairon Santos, UFC featherweight, age 24 (turns 25 on June 10, 2025), Brazilian nationality. He recently fought Kaan Ofli in the TUF 32 featherweight finale. Importance Score: 95%
+Clue [Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two Mexican/Mexican-American fighters, both under 35 at the time of the bout. This is a key example of a same-nationality featherweight fight with both fighters under 35. Importance Score: 95%]
+Importance Score: 95%
+Clue [UFC statistical summaries and fight metric databases track takedown attempts and significant strikes in detail; a 0/4 takedown and 14/83 significant strikes stat line for a loser would stand out and be findable in such databases. Importance Score: 95%]
+Clue [John McCarthy refereed UFC fights from 1994 to 2018, and then worked as a commentator for Bellator. Thus, any UFC featherweight fight he officiated would be before 2018; for Bellator, up to his commentator transition. Importance Score: 95%]
+McCarthy's UFC refereeing ended in 2018, narrowing the possible fights to pre-2018 events. Importance Score: 95%
+Clue [Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two fighters of the same nationality (Mexican/Mexican-American), both under 35 at the time of the bout. Importance Score: 95%]
+Mateus Rodrigues lost to Will Reis by submission at featherweight (Copa Thunder Fight 31, 2024-08-31), which matches the "losing" part of the query. However, takedown stats are not listed. Importance Score: 95%
+Clue [John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 95%
+Clue [A featherweight fight with 14/83 significant strikes for the loser is statistically unusual and would be highlighted in detailed post-event summaries or fight metric breakdowns. Importance Score: 90%]
+Clue [The loser is the one with 14/83 significant strikes, so when searching fight stats, focus on the losing fighter's numbers, not the winner's. Importance Score: 90%]
+Clue [Both Mateus Rodrigues and Ilias Bulaid fit the under 35 and featherweight criteria; if their fights were domestic (same nationality), this matches the query's constraints. Importance Score: 90%]
+No record found of a featherweight fighter with the nickname "Blade" losing in a McCarthy-refereed fight. Importance Score: 90%
+Ilias "The Blade" Bulaid is a featherweight but has never lost, so he cannot fit the "losing, 0/4 takedowns" clue. Importance Score: 90%
+Clue [The nickname "Blade" is more common in regional or international circuits than in UFC title fights, suggesting the fight in question may not be a high-profile UFC bout. Importance Score: 85%]
+//www.sherdog.com/fighter/Mateus-Rodrigues-444564]: No public record confirms a "Blade" featherweight loss with 0/4 takedowns; this stat is likely unavailable for regional/amateur fights. Importance Score: 85%
+//www.tapology.com/fightcenter/fighters/123848-blade-street, https://www.sherdog.com/fighter/Anderson-Da-Silva-Lima-411357]: No other "Blade" featherweights have a loss with possible takedown stats matching "0/4". Importance Score: 85%
+Clue ["0/4 takedowns" is a rare stat, typically only found in UFC-level fight metric summaries. Since Mateus Rodrigues' fights are amateur/regional, this stat is likely not officially recorded or publicly available. Importance Score: 80%]
+The Sherdog "By the Numbers" articles provide detailed breakdowns of significant strikes landed and attempted in featherweight fights, but none in the visible excerpts match the 14/83 stat line for a loser. However, such detailed breakdowns are available and would be the type of source to confirm this stat. Importance Score: 80%
+Clue [Featherweight significant strike statistics are closely tracked and reported, but a 14 of 83 stat line is rare and notable, suggesting the bout in question is unusual and may stand out in fight metric databases. Importance Score: 70%]
+Clue [UFC statistical summaries track takedown attempts and successes in detail for featherweight bouts, but a 0/4 takedown stat line is rare and notable. This suggests that if such a stat line exists, it would likely be highlighted in fight metric databases or post-event summaries. Importance Score: 70%]
+Clue [Mateus Rodrigues ("Blade") is a featherweight MMA fighter, but no direct link to a McCarthy-refereed loss. Importance Score: 100% for identifying a "Blade" at featherweight, but 70% for query match.]
+Clue [Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. This contextual clue suggests such fights are not rare, but specific examples require more granular data. Importance Score: 60%]
+Vallejos, UFC featherweight, age 22, but no fight listed against another Argentinian. Importance Score: 60%
+Alexander Volkanovski (born 1988, age 36 in 2024/2025) recently fought Diego Lopes (born 1994, age 30 in 2024), but Volkanovski is over 35, so this does not fit. Importance Score: 60%
+Clue [The major MMA promotions active in 1994 were UFC, Pancrase, and Shooto, which are the relevant organizations for identifying referee debuts in that year. Importance Score: 60%]
+Clue [UFC statistical summaries sometimes highlight fighters with failed takedown attempts, but a 0/4 stat line for featherweights is rare and would likely be highlighted if it occurred, suggesting such a fight is unusual and notable. Importance Score: 60%]
+Clue [Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. Importance Score: 60%]
+Clue [Featherweight is defined as up to 126 lbs in boxing and 145 lbs in MMA, which sets the weight class for relevant matchups. Importance Score: 60%]
+Clue [Flávio Oliveira ("Blade") is a possible featherweight, but insufficient evidence links him to a McCarthy-officiated featherweight loss. Importance Score: 60%]
+Clue [Flávio Oliveira, nickname "Blade", born Aug 21, 1995 (will be 29 or 30 in 2025), pro MMA record 1-2-0, but weight class is not specified. However, his height (5'10") and presence on Tapology suggest he could be a featherweight or lightweight. No explicit featherweight confirmation, so only a partial match. Importance Score: 60%]
+Clue [Sean Nigel Masangcay, nickname "SWITCH BLADE", fights at featherweight, but age is not listed. Since he is active as of August 2024 and has a 1-0 record, he is likely under 35, but this is not certain. "SWITCH BLADE" is a variant of "Blade", but not exact. Importance Score: 50%]
+Clue [While Tapology lists the greatest featherweight fights, the summaries do not include specific failed takedown stats, indicating that such granular data must be sourced from official UFC stats or detailed fight metric breakdowns. Importance Score: 50%]
+Clue [Lists of featherweight fights in 2022 and before, but does not specify referee, so only useful for cross-referencing. Importance Score: 40%]
+Clue [Event recaps mention grappling exchanges and takedown defense (e.g., Silva shutting down over a dozen takedowns), but do not specify individual failed takedown stats like 0/4. However, they do confirm that featherweight bouts often feature grappling-heavy fighters who may have multiple failed takedown attempts. Importance Score: 40%]
+Clue [Nego Blade fights at featherweight, but no age or date of birth is provided, so we cannot confirm if he is under 35. Importance Score: 30%]
+Clue [Wikipedia is useful for context on featherweight title fights and champions, but does not help directly with identifying bouts with 0/4 takedown success. Importance Score: 20%]
+Clue [Importance Score: 20%]
+Clue [Blade Street, born Jan 1, 1990 (age 35 in 2025), fights at 155 lbs (lightweight), so not featherweight and not under 35. Importance Score: 10%]
+Clue [Sávio Chaves, nickname "Blade", born Sep 15, 1987 (will be 37 or 38 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%]
+Clue [Tiago Vieira, nickname "Blade", born July 4, 1988 (will be 36 or 37 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%]
+Clue [Importance Score: 10%]
+Clue [Importance Score: 10%]
+Clue [Importance Score: 10%]
+Clue [Importance Score: 5%]
+Clue [Importance Score: 0%]
+
+summarize_learnings_response: 
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology lists all fights refereed by John McCarthy, allowing direct filtering for featherweight bouts and cross-referencing with fighter nicknames. Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]: Mateus Rodrigues, nicknamed "Blade", is a featherweight (145 lbs) amateur MMA fighter from Brazil with a 3-1-0 record, and is under 35 years old. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy was the referee for Jose Aldo vs. Conor McGregor, a major featherweight title fight. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: McCarthy officiated multiple featherweight title bouts, including Cyborg vs. Holm, confirming his involvement in high-profile featherweight fights. Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/123111-ilias-bulaid]: Ilias Bulaid, nickname "The Blade", born May 1, 1995 (will be 29 or 30 in 2025), fights at featherweight (145.6 lbs), undefeated at 7-0, and is from the Netherlands. He fits all criteria: under 35, featherweight, "Blade" nickname (with "The" prefix). Importance Score: 100%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: The UFC featherweight division includes fighters between 136–145 lb (61.7-65.8 kg). This defines the weight class for relevant matchups. Importance Score: 100%
+Clue [Mateus Rodrigues (Blade) and Ilias Bulaid (The Blade) are both featherweights under 35, with "Blade" in their nickname, making them prime candidates for the query. Importance Score: 100%]
+Clue [Tapology provides a searchable list of MMA fights, including featherweight bouts, fighter ages, and nationalities, making it a primary resource for confirming which featherweight fights meet the criteria. Importance Score: 100%]
+Clue [Tapology provides searchable lists of featherweight fights and nicknames, making it a key tool for matching the "Blade" nickname to a specific bout and stat line. Importance Score: 100%]
+Clue [To identify the fight, cross-reference featherweight fighters nicknamed "Blade" (from Tapology/Sherdog) with detailed fight stats (from UFCStats/Sherdog) for a losing performance of 14/83 significant strikes and 0/4 takedowns. Importance Score: 100%]
+Clue [John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 100%]
+John McCarthy's refereeing record includes both men's and women's featherweight title fights in the UFC before 2022, such as Jose Aldo vs. Conor McGregor (2015) and Cris Cyborg vs. Holly Holm (2017). Importance Score: 100%
+Importance Score: 95%
+Mairon Santos, UFC featherweight, age 24 (turns 25 on June 10, 2025), Brazilian nationality. He recently fought Kaan Ofli in the TUF 32 featherweight finale. Importance Score: 95%
+Clue [Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two Mexican/Mexican-American fighters, both under 35 at the time of the bout. This is a key example of a same-nationality featherweight fight with both fighters under 35. Importance Score: 95%]
+Importance Score: 95%
+Clue [UFC statistical summaries and fight metric databases track takedown attempts and significant strikes in detail; a 0/4 takedown and 14/83 significant strikes stat line for a loser would stand out and be findable in such databases. Importance Score: 95%]
+Clue [John McCarthy refereed UFC fights from 1994 to 2018, and then worked as a commentator for Bellator. Thus, any UFC featherweight fight he officiated would be before 2018; for Bellator, up to his commentator transition. Importance Score: 95%]
+McCarthy's UFC refereeing ended in 2018, narrowing the possible fights to pre-2018 events. Importance Score: 95%
+Clue [Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two fighters of the same nationality (Mexican/Mexican-American), both under 35 at the time of the bout. Importance Score: 95%]
+Mateus Rodrigues lost to Will Reis by submission at featherweight (Copa Thunder Fight 31, 2024-08-31), which matches the "losing" part of the query. However, takedown stats are not listed. Importance Score: 95%
+Clue [John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 95%
+Clue [A featherweight fight with 14/83 significant strikes for the loser is statistically unusual and would be highlighted in detailed post-event summaries or fight metric breakdowns. Importance Score: 90%]
+Clue [The loser is the one with 14/83 significant strikes, so when searching fight stats, focus on the losing fighter's numbers, not the winner's. Importance Score: 90%]
+Clue [Both Mateus Rodrigues and Ilias Bulaid fit the under 35 and featherweight criteria; if their fights were domestic (same nationality), this matches the query's constraints. Importance Score: 90%]
+No record found of a featherweight fighter with the nickname "Blade" losing in a McCarthy-refereed fight. Importance Score: 90%
+Ilias "The Blade" Bulaid is a featherweight but has never lost, so he cannot fit the "losing, 0/4 takedowns" clue. Importance Score: 90%
+Clue [The nickname "Blade" is more common in regional or international circuits than in UFC title fights, suggesting the fight in question may not be a high-profile UFC bout. Importance Score: 85%]
+//www.sherdog.com/fighter/Mateus-Rodrigues-444564]: No public record confirms a "Blade" featherweight loss with 0/4 takedowns; this stat is likely unavailable for regional/amateur fights. Importance Score: 85%
+//www.tapology.com/fightcenter/fighters/123848-blade-street, https://www.sherdog.com/fighter/Anderson-Da-Silva-Lima-411357]: No other "Blade" featherweights have a loss with possible takedown stats matching "0/4". Importance Score: 85%
+Clue ["0/4 takedowns" is a rare stat, typically only found in UFC-level fight metric summaries. Since Mateus Rodrigues' fights are amateur/regional, this stat is likely not officially recorded or publicly available. Importance Score: 80%]
+The Sherdog "By the Numbers" articles provide detailed breakdowns of significant strikes landed and attempted in featherweight fights, but none in the visible excerpts match the 14/83 stat line for a loser. However, such detailed breakdowns are available and would be the type of source to confirm this stat. Importance Score: 80%
+Clue [Featherweight significant strike statistics are closely tracked and reported, but a 14 of 83 stat line is rare and notable, suggesting the bout in question is unusual and may stand out in fight metric databases. Importance Score: 70%]
+Clue [UFC statistical summaries track takedown attempts and successes in detail for featherweight bouts, but a 0/4 takedown stat line is rare and notable. This suggests that if such a stat line exists, it would likely be highlighted in fight metric databases or post-event summaries. Importance Score: 70%]
+Clue [Mateus Rodrigues ("Blade") is a featherweight MMA fighter, but no direct link to a McCarthy-refereed loss. Importance Score: 100% for identifying a "Blade" at featherweight, but 70% for query match.]
+Clue [Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. This contextual clue suggests such fights are not rare, but specific examples require more granular data. Importance Score: 60%]
+Vallejos, UFC featherweight, age 22, but no fight listed against another Argentinian. Importance Score: 60%
+Alexander Volkanovski (born 1988, age 36 in 2024/2025) recently fought Diego Lopes (born 1994, age 30 in 2024), but Volkanovski is over 35, so this does not fit. Importance Score: 60%
+Clue [The major MMA promotions active in 1994 were UFC, Pancrase, and Shooto, which are the relevant organizations for identifying referee debuts in that year. Importance Score: 60%]
+Clue [UFC statistical summaries sometimes highlight fighters with failed takedown attempts, but a 0/4 stat line for featherweights is rare and would likely be highlighted if it occurred, suggesting such a fight is unusual and notable. Importance Score: 60%]
+Clue [Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. Importance Score: 60%]
+Clue [Featherweight is defined as up to 126 lbs in boxing and 145 lbs in MMA, which sets the weight class for relevant matchups. Importance Score: 60%]
+Clue [Flávio Oliveira ("Blade") is a possible featherweight, but insufficient evidence links him to a McCarthy-officiated featherweight loss. Importance Score: 60%]
+Clue [Flávio Oliveira, nickname "Blade", born Aug 21, 1995 (will be 29 or 30 in 2025), pro MMA record 1-2-0, but weight class is not specified. However, his height (5'10") and presence on Tapology suggest he could be a featherweight or lightweight. No explicit featherweight confirmation, so only a partial match. Importance Score: 60%]
+Clue [Sean Nigel Masangcay, nickname "SWITCH BLADE", fights at featherweight, but age is not listed. Since he is active as of August 2024 and has a 1-0 record, he is likely under 35, but this is not certain. "SWITCH BLADE" is a variant of "Blade", but not exact. Importance Score: 50%]
+Clue [While Tapology lists the greatest featherweight fights, the summaries do not include specific failed takedown stats, indicating that such granular data must be sourced from official UFC stats or detailed fight metric breakdowns. Importance Score: 50%]
+Clue [Lists of featherweight fights in 2022 and before, but does not specify referee, so only useful for cross-referencing. Importance Score: 40%]
+Clue [Event recaps mention grappling exchanges and takedown defense (e.g., Silva shutting down over a dozen takedowns), but do not specify individual failed takedown stats like 0/4. However, they do confirm that featherweight bouts often feature grappling-heavy fighters who may have multiple failed takedown attempts. Importance Score: 40%]
+Clue [Nego Blade fights at featherweight, but no age or date of birth is provided, so we cannot confirm if he is under 35. Importance Score: 30%]
+Clue [Wikipedia is useful for context on featherweight title fights and champions, but does not help directly with identifying bouts with 0/4 takedown success. Importance Score: 20%]
+Clue [Importance Score: 20%]
+Clue [Blade Street, born Jan 1, 1990 (age 35 in 2025), fights at 155 lbs (lightweight), so not featherweight and not under 35. Importance Score: 10%]
+Clue [Sávio Chaves, nickname "Blade", born Sep 15, 1987 (will be 37 or 38 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%]
+Clue [Tiago Vieira, nickname "Blade", born July 4, 1988 (will be 36 or 37 in 2025), so he is over 35 and does not fit the age criteria. Importance Score: 10%]
+Clue [Importance Score: 10%]
+Clue [Importance Score: 10%]
+Clue [Importance Score: 10%]
+Clue [Importance Score: 5%]
+Clue [Importance Score: 0%]
+//bleacherreport.com/articles/159803-ufc-timeline-before-there-was-zuffa]: The Bleacher Report timeline states, "March 11, 1994 — UFC 2 is presented and Royce Gracie wins the tournament again. Big John McCarthy referees for the first time in the UFC." This is a direct and explicit answer to the query, confirming both the event (UFC 2) and the date (March 11, 1994). Importance Score: 100%
+//www.lowkickmma.com/big-john-mccarthy/]: LowKickMMA specifically says, "He would make his officiating debut at UFC 2: No Way Out in 1994." This matches the previous clue and gives the event subtitle ("No Way Out"), confirming the debut. Importance Score: 100%
+//books.google.com/books/about/Let_s_Get_It_On.html?id=PX3iAgAAQBAJ]: In the summary of John McCarthy's autobiography, it says, "A fixture of the sport, 'Big' John started refereeing at UFC 2 in 1994 when MMA was in its infancy..." This is a primary source (his own autobiography) and confirms the event and year. Importance Score: 100%
+//www.ufc.com/news/road-ufc-200-iconic-referee-john-mccarthy]: The UFC.com article explains, "The referee didn’t have the power to stop the fight under the original rules, which is absolutely stupid,” said McCarthy, who was then recruited by Rorion to referee the second event in March of 1994." This gives context that McCarthy was brought in for UFC 2 after issues at UFC 1. Importance Score: 90%
+//mehanhapkido.com/10-most-memorable-moments-in-mma-as-remembered-by-big-john-mccarthy/]: This article lists "Date: March 11, 1994, Event: UFC 2: No Way Out, Fighters: Johnny Rhodes and David Levicki" as one of McCarthy's most memorable moments, confirming he refereed at UFC 2 and was present for specific fights. Importance Score: 90%
+//uncoverred.blogspot.com/2013/07/john-mccarthy-mixed-martial-arts.html]: This biographical blog says McCarthy "has served as head referee for hundreds of bouts in major MMA promotions dating back to 1993," but does not specify UFC 2. However, it does state he is the "first head referee for the Ultimate Fighting Championship," indirectly supporting the other sources. Importance Score: 70%
+//en.wikipedia.org/wiki/John_McCarthy_(referee)]: Wikipedia says McCarthy is "best known for officiating numerous bouts promoted by the Ultimate Fighting Championship (UFC), dating back to UFC 2." This matches the other sources. Importance Score: 95%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology provides a searchable list of all MMA fights refereed by John McCarthy, allowing direct filtering for featherweight bouts before 2022. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy was the referee for Jose Aldo vs. Conor McGregor, a major featherweight title fight before 2022. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy refereed Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight before 2022. Importance Score: 100%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: The MMA featherweight division is 136–145 lbs, defining the relevant weight class for the query. Importance Score: 100%
+//en.wikipedia.org/wiki/John_McCarthy_(referee)]: John McCarthy refereed UFC fights from 1994 to 2018, so all UFC featherweight bouts he officiated were before 2018. Importance Score: 95%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology allows cross-referencing of event dates and weight classes, confirming which featherweight fights John McCarthy refereed before 2022. Importance Score: 95%
+//www.sherdog.com/referee/John-McCarthy-1]: John McCarthy is not a featherweight MMA fighter; all relevant featherweight fights are those he refereed, not fought in. Importance Score: 90%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy refereed both men's and women's featherweight fights before 2022. Importance Score: 90%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Examples of pre-2022 featherweight fights refereed by John McCarthy include Aldo vs. McGregor and Cyborg vs. Holm. Importance Score:
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology lists all fights refereed by John McCarthy, allowing direct filtering for featherweight bouts and cross-referencing with fighter nationalities. This enables identification of same-nationality matchups. Importance Score: 100%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: The UFC's featherweight division includes fighters between 136–145 lb (61.7-65.8 kg), defining the relevant weight class for the query. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy was the referee for Jose Aldo vs. Conor McGregor (UFC 194, 2015), a major featherweight title fight. However, the fighters are not of the same nationality (Brazil vs. Ireland), so this is a counter-example, but it confirms McCarthy's involvement in high-profile featherweight fights. Importance Score: 100%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology lists all featherweight fights refereed by McCarthy, including fighter nationalities, making it possible to identify if both fighters shared the same nationality in any given bout. Importance Score: 100%
+//en.wikipedia.org/wiki/John_McCarthy_(referee)]: John McCarthy refereed UFC fights from 1994 to 2018, then worked as a commentator for Bellator. Any UFC featherweight fight he officiated would be before 2018; for Bellator, up to his commentator transition. Importance Score: 95%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: Major MMA promotions with featherweight divisions include UFC and Bellator, which are the relevant organizations for McCarthy's refereeing record. Importance Score: 95%
+//www.tapology.com/fightcenter/bouts/635998-bellator-277-aj-mercenary-mckee-jr-vs-patricio-pitbull-ii]: The Bellator 277 featherweight title fight between AJ McKee Jr. and Patricio Pitbull was between two Americans, but the referee is not specified in the visible excerpt. Importance Score: 90%
+//en.wikipedia.org/wiki/Featherweight_(MMA)]: Most top featherweight MMA fighters are under 35, and matchups between fighters of the same country are common, especially in domestic promotions or early UFC events. Importance Score: 60%
+//groundedmma.com/ufc-referees/]: John McCarthy is the most experienced referee in UFC history, having officiated over 500 fights, including many featherweight bouts, but the nationality pairing must be
+//www.tapology.com/fightcenter/fighters/345761-flavio-oliveira-blade]: Flávio "Blade" Oliveira is a featherweight/bantamweight MMA fighter from Brazil with losses, but none of his fights are recorded as being refereed by John McCarthy. Importance Score: 60%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: Tapology allows direct filtering for featherweight bouts refereed by John McCarthy, which is essential for identifying if any "Blade" nicknamed fighter lost under his officiating. Importance Score: 100%
+//www.tapology.com/fightcenter/fighters/323520-mateus-rodrigues-blade]: Mateus Rodrigues, nicknamed "Blade", is a featherweight with a loss, but no record of John McCarthy officiating his fights. Importance Score: 70%
+//www.tapology.com/fightcenter/fighters/123111-ilias-bulaid]: Ilias "The Blade" Bulaid is a featherweight but has never lost, so cannot fit the query's "loser" requirement. Importance Score: 90%
+//www.tapology.com/search/mma-fights-by-referee/john-mccarthy]: John McCarthy has refereed featherweight title fights, but no evidence of a losing fighter nicknamed "Blade" in those bouts. Importance Score: 100%
+//www.sherdog.com/fighter/Mateus-Rodrigues-444564]: No record of a featherweight fighter nicknamed "Blade" losing in a McCarthy-officiated fight; such a matchup is not found in major databases. Importance Score: 90%
+The "Blade" nickname is more prevalent in regional circuits, making a McCarthy-officiated loss by a "Blade" featherweight unlikely at the UFC level. Importance Score: 85%
+Detailed stat lines like 0/4 takedowns are typically only available for UFC-level fights, but no such stat matches a "Blade" featherweight loser with McCarthy as referee. Importance Score: 80%
+summarize_learnings_response: 
+Clue [To identify the fight, cross-reference featherweight fighters nicknamed "Blade" (from Tapology/Sherdog) with detailed fight stats (from UFCStats/Sherdog) for a losing performance of 14/83 significant strikes and 0/4 takedowns. Importance Score: 100%
+Clue [Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 97%
+Clue [Tapology lists all fights refereed by John McCarthy, allowing direct filtering for featherweight bouts and cross-referencing with fighter nicknames. Importance Score: 95%
+Clue [Tapology lists all featherweight fights refereed by McCarthy, including fighter nationalities, making it possible to identify if both fighters shared the same nationality in any given bout. Importance Score: 93%
+Clue [Tapology allows direct filtering for featherweight bouts refereed by John McCarthy, which is essential for identifying if any "Blade" nicknamed fighter lost under his officiating. Importance Score: 90%
+Clue [Ilias Bulaid, nickname "The Blade", born May 1, 1995 (will be 29 or 30 in 2025), fights at featherweight (145.6 lbs), undefeated at 7-0, and is from the Netherlands. He fits all criteria: under 35, featherweight, "Blade" nickname (with "The" prefix). Importance Score: 85%
+Clue [Mateus Rodrigues, nicknamed "Blade", is a featherweight (145 lbs) amateur MMA fighter from Brazil with a 3-1-0 record, and is under 35 years old. Importance Score: 85%
+Clue [Tapology provides searchable lists of featherweight fights and nicknames, making it a key tool for matching the "Blade" nickname to a specific bout and stat line. Importance Score: 80%
+Clue [Tapology provides a searchable list of all MMA fights refereed by John McCarthy, allowing direct filtering for featherweight bouts before 2022. Importance Score: 78%
+Clue [John McCarthy refereed both men's and women's featherweight fights before 2022. Importance Score: 70%
+Clue [McCarthy's UFC refereeing ended in 2018, narrowing the possible fights to pre-2018 events. Importance Score: 65%
+Clue [The loser is the one with 14/83 significant strikes, so when searching fight stats, focus on the losing fighter's numbers, not the winner's. Importance Score: 60%
+Clue [A featherweight fight with 14/83 significant strikes for the loser is statistically unusual and would be highlighted in detailed post-event summaries or fight metric breakdowns. Importance Score: 50%
+Clue [Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two Mexican/Mexican-American fighters, both under 35 at the time of the bout. This is a key example of a same-nationality featherweight fight with both fighters under 35. Importance Score: 45%
+Clue [In the summary of John McCarthy's autobiography, it says, "A fixture of the sport, 'Big' John started refereeing at UFC 2 in 1994 when MMA was in its infancy..." This is a primary source (his own autobiography) and confirms the event and year. Importance Score: 40%
+Clue [John McCarthy was the referee for Jose Aldo vs. Conor McGregor, a major featherweight title fight. Importance Score: 38%
+Clue [John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 37%
+Clue [John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 34%
+Clue [Tapology provides a searchable list of MMA fights, including featherweight bouts, fighter ages, and nationalities, making it a primary resource for confirming which featherweight fights meet the criteria. Importance Score: 32%
+Clue [Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed. Importance Score: 30%
+Clue [UFC statistical summaries and fight metric databases track takedown attempts and significant strikes in detail; a 0/4 takedown and 14/83 significant strikes stat line for a loser would stand out and be findable in such databases. Importance Score: 28%
+Clue [No record found of a featherweight fighter with the nickname "Blade" losing in a McCarthy-refereed fight. Importance Score: 20%
+Clue [No public record confirms a "Blade" featherweight loss with 0/4 takedowns; this stat is likely unavailable for regional/amateur fights. Importance Score: 10%
+Clue [Mateus Rodrigues lost to Will Reis by submission at featherweight (Copa Thunder Fight 31, 2024-08-31), which matches the "losing" part of the query. However, takedown stats are not listed. Importance Score: 5%
+Clue [Detailed stat lines like 0/4 takedowns are typically only available for UFC-level fights, but no such stat matches a "Blade" featherweight loser with McCarthy as referee. Importance Score: 0%
+
+summarize_learnings_response: 
+Clue [To identify the fight, cross-reference featherweight fighters nicknamed "Blade" (from Tapology/Sherdog) with detailed fight stats (from UFCStats/Sherdog) for a losing performance of 14/83 significant strikes and 0/4 takedowns. Importance Score: 100%
+Clue [Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 97%
+Clue [Tapology lists all fights refereed by John McCarthy, allowing direct filtering for featherweight bouts and cross-referencing with fighter nicknames. Importance Score: 95%
+Clue [Tapology lists all featherweight fights refereed by McCarthy, including fighter nationalities, making it possible to identify if both fighters shared the same nationality in any given bout. Importance Score: 93%
+Clue [Tapology allows direct filtering for featherweight bouts refereed by John McCarthy, which is essential for identifying if any "Blade" nicknamed fighter lost under his officiating. Importance Score: 90%
+Clue [Ilias Bulaid, nickname "The Blade", born May 1, 1995 (will be 29 or 30 in 2025), fights at featherweight (145.6 lbs), undefeated at 7-0, and is from the Netherlands. He fits all criteria: under 35, featherweight, "Blade" nickname (with "The" prefix). Importance Score: 85%
+Clue [Mateus Rodrigues, nicknamed "Blade", is a featherweight (145 lbs) amateur MMA fighter from Brazil with a 3-1-0 record, and is under 35 years old. Importance Score: 85%
+Clue [Tapology provides searchable lists of featherweight fights and nicknames, making it a key tool for matching the "Blade" nickname to a specific bout and stat line. Importance Score: 80%
+Clue [Tapology provides a searchable list of all MMA fights refereed by John McCarthy, allowing direct filtering for featherweight bouts before 2022. Importance Score: 78%
+Clue [John McCarthy refereed both men's and women's featherweight fights before 2022. Importance Score: 70%
+Clue [McCarthy's UFC refereeing ended in 2018, narrowing the possible fights to pre-2018 events. Importance Score: 65%
+Clue [The loser is the one with 14/83 significant strikes, so when searching fight stats, focus on the losing fighter's numbers, not the winner's. Importance Score: 60%
+Clue [A featherweight fight with 14/83 significant strikes for the loser is statistically unusual and would be highlighted in detailed post-event summaries or fight metric breakdowns. Importance Score: 50%
+Clue [Leo Santa Cruz vs. Abner Mares is a featherweight title fight between two Mexican/Mexican-American fighters, both under 35 at the time of the bout. This is a key example of a same-nationality featherweight fight with both fighters under 35. Importance Score: 45%
+Clue [In the summary of John McCarthy's autobiography, it says, "A fixture of the sport, 'Big' John started refereeing at UFC 2 in 1994 when MMA was in its infancy..." This is a primary source (his own autobiography) and confirms the event and year. Importance Score: 40%
+Clue [John McCarthy was the referee for Jose Aldo vs. Conor McGregor, a major featherweight title fight. Importance Score: 38%
+Clue [John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 37%
+Clue [John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 34%
+Clue [Tapology provides a searchable list of MMA fights, including featherweight bouts, fighter ages, and nationalities, making it a primary resource for confirming which featherweight fights meet the criteria. Importance Score: 32%
+Clue [Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed. Importance Score: 30%
+Clue [UFC statistical summaries and fight metric databases track takedown attempts and significant strikes in detail; a 0/4 takedown and 14/83 significant strikes stat line for a loser would stand out and be findable in such databases. Importance Score: 28%
+Clue [No record found of a featherweight fighter with the nickname "Blade" losing in a McCarthy-refereed fight. Importance Score: 20%
+Clue [No public record confirms a "Blade" featherweight loss with 0/4 takedowns; this stat is likely unavailable for regional/amateur fights. Importance Score: 10%
+Clue [Mateus Rodrigues lost to Will Reis by submission at featherweight (Copa Thunder Fight 31, 2024-08-31), which matches the "losing" part of the query. However, takedown stats are not listed. Importance Score: 5%
+Clue [Detailed stat lines like 0/4 takedowns are typically only available for UFC-level fights, but no such stat matches a "Blade" featherweight loser with McCarthy as referee. Importance Score: 0%
+//en.wikipedia.org/wiki/List_of_UFC_records]: No record of any featherweight bout or fighter with under 20% strike accuracy among major UFC records; most listed are far higher. Importance Score: 80%
+//www.ufc.com/athlete/sodiq-yusuff, https://www.ufc.com/athlete/dan-hooker, https://www.ufc.com/athlete/gray-maynard, https://www.ufc.com/athlete/patricio-pitbull-freire]: Top and mid-tier featherweight fighters have significant strike accuracy rates well above 20%, suggesting that featherweight bouts with <20% accuracy are highly unusual. Importance Score: 75%
+//www.actionnetwork.com/mma/ufc-315-odds-predictions-expert-picks-previews-for-all-12-fights]: Daniel Santos, cited as inefficient, still lands 37% of strikes in featherweight, indicating that sub-20% accuracy is extremely rare in the division. Importance Score: 70%
+//www.tapology.com/profiles/jrscolwell/my-rankings/4788-comprehensive-featherweight-rankings]: Tapology fight summaries for featherweights discuss inefficiency but do not document any sub-20% strike accuracy bouts. Importance Score: 60%
+//www.reddit.com/r/MMA/comments/vigxn0/cumulative_significant_striking_accuracy_after/]: No featherweight champion or top-ranked fighter has a career or bout strike accuracy under 20%. Importance Score: 60%
+//www.ufcbetcompanion.com/event-fighter/3663-Yadier+del+Valle+vs+Connor+Matthews/fight-analysis/2104, https://en.wikipedia.org/wiki/Max_Holloway]: Prominent featherweight fights and prospects show high strike accuracy; no evidence of sub-20% accuracy in major events. Importance Score: 55%
+No documentation of a featherweight bout with a losing fighter landing under 20% of significant strikes in any major MMA database or summary. Importance Score: 90%
+//mixedmartialarts.fandom.com/wiki/UFC_4]: UFC 4 was held on December 16, 1994, with "Big" John McCarthy as the referee. The event used an open-weight tournament format (no weight classes), so there were no featherweight-specific fights at this event. Importance Score: 90%
+//bleacherreport.com/articles/159803-ufc-timeline-before-there-was-zuffa]: "Big" John McCarthy refereed for the first time in the UFC at UFC 2 (March 11, 1994), and continued at UFC 3 and UFC 4. Early UFC events had no weight classes, so there were no official featherweight fights in 1994. Importance Score: 95%
+//en.wikipedia.org/wiki/1994_in_UFC]: In 1994, the UFC held three events (UFC 2, 3, 4), all of which were open-weight tournaments with no featherweight division. Importance Score: 85%
+//rankingmma.com/top-10-ufc-rankings-1994/]: Top 10 UFC Rankings for 1994 list only open-weight fighters, with no featherweight rankings or fights. Importance Score: 80%
+//www.tapology.com/fightcenter/fighters/201946-luis-pajuelo]: Modern featherweight fights and referees are documented, but there is no record of featherweight fights in the UFC in 1994, nor of John McCarthy refereeing such a bout that year. Importance Score: 75%
+//www.mmafighting.com/weight-class/featherweight/archives/1994]: Featherweight as a recognized division did not exist in the UFC in 1994; the earliest featherweight fights in the UFC are from the 2000s. Importance Score: 85%
+//groundedmma.com/ufc-referees/]: John McCarthy debuted as a UFC referee in 1994 (UFC 2), but there were no featherweight fights in the UFC at that time. Importance Score: 90%
+//www.espn.com/mma/schedule/_/league/ufc/year/1994]: The 1994 UFC season included only three events, all open-weight, with no featherweight division or fights. Importance Score: 80%
+//www.tapology.com/fightcenter/fighters/398309-blade-king]: "Blade King" is an MMA fighter, age 22 as of 2024, but he fights at lightweight (155-157 lbs), not featherweight (145 lbs). Importance Score: 60%
+//www.tapology.com/fightcenter/fighters/398309-blade-king]: All listed fights for Blade King are at lightweight (155-157 lbs), not featherweight; no evidence he fought at featherweight. Importance Score: 50%
+Ilias Bulaid, nickname "The Blade," born May 1, 1995 (age 29-30 in 2025), undefeated at featherweight (145.6 lbs), fits all criteria: under 35, featherweight, "Blade" nickname. Importance Score: 85%
+Mateus Rodrigues, nickname "Blade," featherweight (145 lbs) amateur MMA fighter from Brazil, record 3-1-0, under 35. Importance Score: 85%
+//www.ufc.com/video/102885, https://www.tapology.com/rankings/5517-ufc-featherweight-rankings, https://www.ranker.com/list/best-current-ufc-featherweights/ranker-sports]: No featherweight in the UFC with the nickname "Blade" as of 2025. Importance Score: 30%
+//en.wikipedia.org/wiki/List_of_current_UFC_fighters]: Most current featherweights are under 35, but none with the nickname "Blade." Importance Score: 30%
+//www.tapology.com/fightcenter/fighters/398309-blade-king]: No such stat line for Blade King; his losses are by TKO at lightweight, and no detailed stat lines available for amateur/regional fights. Importance Score: 20%
+No public record confirms a featherweight fight with a "Blade" nickname, both fighters under 35, and detailed UFC-level stats (14/83 significant strikes, 0/4 takedowns) for the loser. Importance Score: 10%
+//www.tapology.com/fightcenter/fighters/398309-blade-king]: Tapology allows searching for fighters by nickname and weight class, making it a key tool for matching "Blade" nicknames to featherweight bouts. Importance Score: 80%
+Ilias Bulaid ("The Blade") and Mateus Rodrigues ("Blade") are featherweight MMA fighters under 35, matching the nickname and weight/age criteria. Importance Score: 85%
+No UFC or major promotion featherweight fight matches all criteria (nickname "Blade," both fighters under 35, detailed stats). Importance Score: 10%
+//www.tapology.com/fightcenter/fighters/398309-blade-king]: Tapology is essential for searching featherweight fights with "Blade" nicknames and verifying
+//www.soyuz.ru/search/index?search=featherweight+MMA+bout+before+2022,+loser+14+significant+strikes+(16.87%+=+14/83),+no+takedowns,+4+attempts,+nickname+swordsman+synonym,+same+nationality,+under+35,+referee+first+UFC+event+1994]: The fight in question is a featherweight MMA bout before 2022, where the loser landed 14 of 83 significant strikes (16.87%), went 0/4 on takedowns, has a nickname synonymous with "swordsman," both fighters are under 35, share the same nationality, and the referee is John McCarthy. Importance Score: 100%
+//en.wikipedia.org/wiki/List_of_UFC_champions]: Several TUF featherweight finals featured fighters of the same nationality, such as Rony Jason vs. Godofredo Pepey (Brazil) and Ning Guangyou vs. Yang Jianping (China), indicating that same-nationality featherweight fights do occur in high-level MMA. Importance Score: 80%
+//thekarateblog.com/best-ufc-fighters-of-all-time/]: Provides nationality and division for top featherweights, which is useful for cross-referencing same-nationality featherweight bouts, but does not directly address the 0/4 takedown stat. Importance Score: 40%
+//www.ufc.com/news/ufc-featherweight-title-lineage-aldo-mcgregor-holloway-volkanovski]: Confirms the featherweight division is well-documented, but does not provide direct evidence for a 0/4 takedown, same-nationality fight. Importance Score: 20%
+//www.reddit.com/r/MMA/comments/v8i3xx/oc_successful_takedowns_vs_takedowns_suffered_per/]: There are statistical breakdowns of takedown attempts and defenses for featherweights, but no specific fight is identified with a 0/4 stat and same-nationality fighters. Importance Score: 10%
+summarize_learnings_response: 
+Clue [To identify the fight, cross-reference featherweight fighters nicknamed "Blade" (from Tapology/Sherdog) with detailed fight stats (from UFCStats/Sherdog) for a losing performance of 14/83 significant strikes and 0/4 takedowns. Importance Score: 100%
+The fight in question is a featherweight MMA bout before 2022, where the loser landed 14 of 83 significant strikes (16.87%), went 0/4 on takedowns, has a nickname synonymous with "swordsman," both fighters are under 35, share the same nationality, and the referee is John McCarthy. Importance Score: 100%
+Clue [Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed before 2022. Importance Score: 97%
+Clue [Tapology lists all fights refereed by John McCarthy, allowing direct filtering for featherweight bouts and cross-referencing with fighter nicknames. Importance Score: 95%
+"Big" John McCarthy refereed for the first time in the UFC at UFC 2 (March 11, 1994), and continued at UFC 3 and UFC 4. Early UFC events had no weight classes, so there were no official featherweight fights in 1994. Importance Score: 95%
+Clue [Tapology lists all featherweight fights refereed by McCarthy, including fighter nationalities, making it possible to identify if both fighters shared the same nationality in any given bout. Importance Score: 93%
+Clue [Tapology allows direct filtering for featherweight bouts refereed by John McCarthy, which is essential for identifying if any "Blade" nicknamed fighter lost under his officiating. Importance Score: 90%
+Clue [No documentation of a featherweight bout with a losing fighter landing under 20% of significant strikes in any major MMA database or summary. Importance Score: 90%
+UFC 4 was held on December 16, 1994, with "Big" John McCarthy as the referee. The event used an open-weight tournament format (no weight classes), so there were no featherweight-specific fights at this event. Importance Score: 90%
+John McCarthy debuted as a UFC referee in 1994 (UFC 2), but there were no featherweight fights in the UFC at that time. Importance Score: 90%
+Clue [Ilias Bulaid, nickname "The Blade," born May 1, 1995 (age 29-30 in 2025), undefeated at featherweight (145.6 lbs), fits all criteria: under 35, featherweight, "Blade" nickname. Importance Score: 85%
+Clue [Ilias Bulaid ("The Blade") and Mateus Rodrigues ("Blade") are featherweight MMA fighters under 35, matching the nickname and weight/age criteria. Importance Score: 85%
+Clue [Mateus Rodrigues, nickname "Blade," featherweight (145 lbs) amateur MMA fighter from Brazil, record 3-1-0, under 35. Importance Score: 85%
+In 1994, the UFC held three events (UFC 2, 3, 4), all of which were open-weight tournaments with no featherweight division. Importance Score: 85%
+Featherweight as a recognized division did not exist in the UFC in 1994; the earliest featherweight fights in the UFC are from the 2000s. Importance Score: 85%
+Several TUF featherweight finals featured fighters of the same nationality, such as Rony Jason vs. Godofredo Pepey (Brazil) and Ning Guangyou vs. Yang Jianping (China), indicating that same-nationality featherweight fights do occur in high-level MMA. Importance Score: 80%
+No record of any featherweight bout or fighter with under 20% strike accuracy among major UFC records; most listed are far higher. Importance Score: 80%
+Tapology allows searching for fighters by nickname and weight class, making it a key tool for matching "Blade" nicknames to featherweight bouts. Importance Score: 80%
+The 1994 UFC season included only three events, all open-weight, with no featherweight division or fights. Importance Score: 80%
+Top 10 UFC Rankings for 1994 list only open-weight fighters, with no featherweight rankings or fights. Importance Score: 80%
+//www.ufc.com/athlete/dan-hooker, https://www.ufc.com/athlete/gray-maynard, https://www.ufc.com/athlete/patricio-pitbull-freire]: Top and mid-tier featherweight fighters have significant strike accuracy rates well above 20%, suggesting that featherweight bouts with <20% accuracy are highly unusual. Importance Score: 75%
+Modern featherweight fights and referees are documented, but there is no record of featherweight fights in the UFC in 1994, nor of John McCarthy refereeing such a bout that year. Importance Score: 75%
+Daniel Santos, cited as inefficient, still lands 37% of strikes in featherweight, indicating that sub-20% accuracy is extremely rare in the division. Importance Score: 70%
+Clue [John McCarthy refereed both men's and women's featherweight fights before 2022. Importance Score: 70%
+No featherweight champion or top-ranked fighter has a career or bout strike accuracy under 20%. Importance Score: 60%
+Tapology fight summaries for featherweights discuss inefficiency but do not document any sub-20% strike accuracy bouts. Importance Score: 60%
+"Blade King" is an MMA fighter, age 22 as of 2024, but he fights at lightweight (155-157 lbs), not featherweight (145 lbs). Importance Score: 60%
+Clue [The loser is the one with 14/83 significant strikes, so when searching fight stats, focus on the losing fighter's numbers, not the winner's. Importance Score: 60%
+//en.wikipedia.org/wiki/Max_Holloway]: Prominent featherweight fights and prospects show high strike accuracy; no evidence of sub-20% accuracy in major events. Importance Score: 55%
+Clue [A featherweight fight with 14/83 significant strikes for the loser is statistically unusual and would be highlighted in detailed post-event summaries or fight metric breakdowns. Importance Score: 50%
+All listed fights for Blade King are at lightweight (155-157 lbs), not featherweight; no evidence he fought at featherweight. Importance Score: 50%
+Clue [In the summary of John McCarthy's autobiography, it says, "A fixture of the sport, 'Big' John started refereeing at UFC 2 in 1994 when MMA was in its infancy..." This is a primary source (his own autobiography) and confirms the event and year. Importance Score: 40%
+Provides nationality and division for top featherweights, which is useful for cross-referencing same-nationality featherweight bouts, but does not directly address the 0/4 takedown stat. Importance Score: 40%
+Clue [John McCarthy was the referee for Jose Aldo vs. Conor McGregor, a major featherweight title fight. Importance Score: 38%
+Clue [John McCarthy officiated Jose Aldo vs. Conor McGregor (UFC 194, 2015), a featherweight title fight. This is a direct example of a pre-2022 featherweight fight officiated by McCarthy. Importance Score: 37%
+Clue [John McCarthy officiated Cris Cyborg vs. Holly Holm (UFC 219, 2017), a women's featherweight title fight, confirming his involvement in featherweight championship bouts pre-2022. Importance Score: 34%
+Clue [Tapology provides a searchable list of MMA fights, including featherweight bouts, fighter ages, and nationalities, making it a primary resource for confirming which featherweight fights meet the criteria. Importance Score: 32%
+//www.tapology.com/rankings/5517-ufc-featherweight-rankings, https://www.ranker.com/list/best-current-ufc-featherweights/ranker-sports]: No featherweight in the UFC with the nickname "Blade" as of 2025. Importance Score: 30%
+Most current featherweights are under 35, but none with the nickname "Blade." Importance Score: 30%
+Clue [Tapology provides a searchable list of MMA fights officiated by John McCarthy, including event, date, and fighters. This is a primary resource for confirming which featherweight fights he refereed. Importance Score: 30%
+Clue [UFC statistical summaries and fight metric databases track takedown attempts and significant strikes in detail; a 0/4 takedown and 14/83 significant strikes stat line for a loser would stand out and be findable in such databases. Importance Score: 28%
+Clue [No record found of a featherweight fighter with the nickname "Blade" losing in a McCarthy-refereed fight. Importance Score: 20%
+Confirms the featherweight division is well-documented, but does not provide direct evidence for a 0/4 takedown, same-nationality fight. Importance Score: 20%
+No such stat line for Blade King; his losses are by TKO at lightweight, and no detailed stat lines available for amateur/regional fights. Importance Score: 20%
+Clue [No public record confirms a featherweight fight with a "Blade" nickname, both fighters under 35, and detailed UFC-level stats (14/83 significant strikes, 0/4 takedowns) for the loser. Importance Score: 10%
+There are statistical breakdowns of takedown attempts and defenses for featherweights, but no specific fight is identified with a 0/4 stat and same-nationality fighters. Importance Score: 10%
+Clue [No UFC or major promotion featherweight fight matches all criteria (nickname "Blade," both fighters under 35, detailed stats). Importance Score: 10%
+Clue [No public record confirms a "Blade" featherweight loss with 0/4 takedowns; this stat is likely unavailable for regional/amateur fights. Importance Score: 10%
+Clue [Mateus Rodrigues lost to Will Reis by submission at featherweight (Copa Thunder Fight 31, 2024-08-31), which matches the "losing" part of the query. However, takedown stats are not listed. Importance Score: 5%
+Clue [Detailed stat lines like 0/4 takedowns are typically only available for UFC-level fights, but no such stat matches a "Blade" featherweight loser with McCarthy as referee. Importance Score: 0%
+

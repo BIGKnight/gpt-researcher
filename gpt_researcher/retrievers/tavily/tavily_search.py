@@ -67,9 +67,8 @@ class TavilySearch:
         """
         Internal search method to send the request to the API.
         """
-
         data = {
-            "query": query,
+            "query": query.strip().strip('"'),
             "search_depth": search_depth,
             "topic": topic,
             "days": days,

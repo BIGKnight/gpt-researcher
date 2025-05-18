@@ -1,110 +1,1233 @@
 generate_search_queries_response: 
-<thought Process>
-First, I want to clarify the key statistical constraints, focusing on the featherweight bout, significant strikes, takedowns, and age/nationality.
-Query: MMA featherweight bout 14/83 significant strikes under 35
-Reason: To identify bouts matching the specific fight stats and age/nationality.
+Query: MMA featherweight bouts loser 14 of 83 significant strikes  
+Reason: Directly targets bouts with exact striking statistics.
 
-<thought Process>
-Next, I want to focus on the nickname clue, searching for featherweight MMA fighters with a nickname synonymous with "swordsman."
-Query: MMA featherweight fighter swordsman synonym nickname
-Reason: To find fighters whose nickname matches the given clue.
+Query: MMA featherweight fighter nickname synonym swordsman  
+Reason: Narrows down fighters with a nickname meaning "swordsman."
 
-<thought Process>
-I also want to confirm the referee's identity, searching for MMA referees who debuted in 1994 with the promotion.
-Query: MMA referee first event 1994 same promotion
-Reason: To identify the referee, narrowing down the event.
+Query: MMA featherweight fights both fighters same nationality  
+Reason: Filters for bouts where both competitors share nationality.
+
+Query: MMA featherweight loser 0 of 4 takedown attempts  
+Reason: Focuses on failed takedown attempts by the losing fighter.
+
+Query: MMA referee first event 1994 featherweight bout  
+Reason: Identifies referees who started in 1994 and officiated featherweight fights.
+
+Query: MMA featherweight fighters under 35 years old pre-2022  
+Reason: Ensures both fighters were under 35 at the bout date.
+
+Query: MMA event featherweight significant strikes percentage 16.87%  
+Reason: Searches for bouts with the specific significant strike percentage.
 generate_search_queries_response: 
-<thought Process>
-Start by identifying referees who began officiating for major MMA promotions in 1994, focusing on those with featherweight divisions and detailed statistics. This narrows down possible promotions and referees.
-Query: MMA referees started 1994, featherweight divisions, detailed stats
-Reason: To find relevant promotions and referees matching the criteria.
+Query: Featherweight MMA fights same nationality both under 35
+Reason: Directly targets bouts matching both age and nationality criteria.
 
-<thought Process>
-Look for featherweight MMA fighters with nicknames synonymous with "swordsman" (e.g., Samurai, Blade, Knight, Duelist, Ronin) who fought before 2022. This helps identify possible losing fighters.
-Query: Featherweight MMA fighters nickname swordsman synonym before 2022
-Reason: To find fighters whose nicknames match the description.
+Query: UFC featherweight bouts both fighters under 35 years old
+Reason: Focuses on age filter to identify eligible bouts.
 
-<thought Process>
-Search for featherweight bouts before 2022 where a fighter landed only 14 significant strikes out of 83 attempts, with zero takedowns from four attempts. This targets the unique fight statistic.
-Query: Featherweight MMA bout 14/83 significant strikes, 0/4 takedowns
-Reason: To pinpoint the specific bout based on rare statistics.
+Query: MMA featherweight fights both fighters same nationality
+Reason: Isolates bouts where both competitors share nationality.
 
-<thought Process>
-Identify MMA events before 2022 where both featherweight fighters were under 35 and shared the same nationality. This could further filter candidate bouts.
-Query: Featherweight MMA bouts same nationality under 35 before 2022
-Reason: To match the age and nationality criteria for the fighters.
+Query: UFC featherweight fights loser nickname swordsman synonym
+Reason: Seeks bouts with the nickname clue, intersecting with age/nationality.
+
+Query: Featherweight MMA fights John McCarthy referee under 35
+Reason: Narrows to bouts officiated by McCarthy with both fighters under 35.
+
+Query: MMA featherweight fights loser 0 takedowns 4 attempts
+Reason: Adds technical stat filter, intersecting with age/nationality.
+
+Query: UFC featherweight fights loser 14 of 83 significant strikes
+Reason: Targets the rare striking stat, then cross-references age/nationality.
 generate_search_queries_response: 
-<thought Process>
-To identify the fight, I need to search for featherweight MMA bouts before 2022 where the loser landed 14 of 83 significant strikes (16.87%) and failed 4 takedown attempts. This will narrow down the candidate fights by the unique statline.
-Query: featherweight MMA fight 14 of 83 significant strikes
-Reason: To find fights with this rare statline.
+Query: Featherweight MMA nicknames synonym swordsman
+Reason: To identify featherweights with nicknames meaning "swordsman."
 
-<thought Process>
-Since the losing fighter’s nickname is a synonym for “swordsman,” searching for featherweights with such nicknames can help cross-reference with the statline.
-Query: featherweight MMA fighter nickname samurai blade ronin knight
-Reason: To identify fighters with swordsman-synonym nicknames.
+Query: MMA fighter nickname fencer featherweight
+Reason: "Fencer" is a direct swordsman synonym; checks for such nicknames.
 
-<thought Process>
-The referee officiated his first event for the promotion in 1994, likely “Big” John McCarthy. Searching for featherweight fights he refereed before 2022 can further filter candidates.
-Query: featherweight fights refereed by Big John McCarthy
-Reason: To match the referee criterion and limit the fight pool.
+Query: MMA featherweight nickname gladiator
+Reason: "Gladiator" is a common swordsman synonym; checks for match.
 
-<thought Process>
-Both fighters must be under 35 and share the same nationality. Searching for featherweight bouts before 2022 with both fighters of the same nationality and under 35 can help.
-Query: featherweight MMA same nationality both under 35 before 2022
-Reason: To ensure age and nationality criteria are met.
+Query: MMA featherweight nickname duelist
+Reason: "Duelist" is a synonym; explores less common nickname options.
+
+Query: MMA featherweight nickname blade
+Reason: "Blade" is a synonym for swordsman; checks for relevant nicknames.
+
+Query: MMA featherweight nickname swashbuckler
+Reason: "Swashbuckler" is a colorful synonym; explores creative nickname options.
+
+Query: MMA featherweight nickname samurai
+Reason: "Samurai" is a culturally specific swordsman synonym; checks for use.
 generate_search_queries_response: 
-<thought Process>
-I want to identify featherweight MMA bouts before 2022 where the losing fighter landed exactly 14 of 83 significant strikes (16.87%), failed all 4 takedown attempts, and both fighters were under 35 and shared nationality. This query targets the statistical match.
-Query: featherweight MMA fight loser 14/83 significant strikes
-Reason: To find fights with this rare statistical profile.
+Query: John McCarthy featherweight bouts before 2022
+Reason: To find featherweight fights officiated by McCarthy, matching the referee clue.
 
-<thought Process>
-The nickname clue is crucial. I need to search for featherweight MMA fighters with nicknames that are synonyms for "swordsman" (e.g., Samurai, Blade, Knight, Ronin) and see if any match the bout criteria.
-Query: featherweight MMA "Samurai" "Blade" "Knight" nickname
-Reason: To identify fighters with swordsman-synonym nicknames.
+Query: MMA featherweight fights with both fighters same nationality
+Reason: To identify candidate bouts where both fighters share nationality.
 
-<thought Process>
-The referee clue is unique. I want to list featherweight MMA bouts before 2022 officiated by Big John McCarthy, since he started in 1994 and fits the referee description.
-Query: featherweight MMA Big John McCarthy referee bouts
-Reason: To cross-reference referee and bout details.
+Query: Featherweight MMA fight loser 0 takedowns 4 attempts
+Reason: To locate fights where the losing featherweight failed 4 takedown attempts.
 
-<thought Process>
-To ensure the fighters meet the age and nationality criteria, I want to find featherweight MMA fights before 2022 where both competitors were under 35 and of the same nationality.
-Query: featherweight MMA both fighters under 35 same nationality
-Reason: To filter for age and nationality requirements.
+Query: Featherweight MMA loser 14 of 83 significant strikes
+Reason: To find bouts with the rare 16.87% significant strike rate.
+
+Query: Featherweight MMA nicknames swordsman synonym
+Reason: To identify featherweights with nicknames like "Swordsman" or synonyms.
+
+Query: MMA featherweight fighters under 35 same nationality
+Reason: To verify age and nationality conditions for candidate bouts.
+
+Query: John McCarthy first UFC event 1994 referee record
+Reason: To confirm McCarthy’s debut and officiating history for the promotion.
 generate_search_queries_response: 
-<thought Process>
-To identify featherweight MMA fighters with a nickname that is a synonym for "swordsman," I will search for a list of featherweight fighters and their nicknames, focusing on terms like Samurai, Blade, Knight, Ronin, etc.
-Query: featherweight mma fighters nicknames samurai blade knight ronin
-Reason: To find featherweights whose nicknames match swordsman synonyms.
+Query: Featherweight MMA fights before 2022, loser 14 of 83 strikes  
+Reason: Directly targets the rare striking stat to find matching bouts.
 
-<thought Process>
-To cross-reference known featherweight bouts before 2022 where the loser landed 14 of 83 significant strikes, I will search for fight statistics matching those numbers, then check the losing fighter's nickname.
-Query: featherweight mma fight 14 of 83 significant strikes
-Reason: To directly identify the bout and check the loser's nickname.
+Query: Featherweight MMA, loser 0/4 takedowns, both under 35, same nationality  
+Reason: Focuses on takedown stat, age, and nationality to filter candidates.
 
-<thought Process>
-Since the referee's first event was in 1994 (likely Big John McCarthy), I will look for featherweight fights he refereed before 2022, then check the losing fighter's nickname in those bouts.
-Query: big john mccarthy featherweight fights before 2022
-Reason: To narrow down fights by the referee and check nicknames.
+Query: Featherweight MMA fighters with "swordsman" synonym nickname  
+Reason: Identifies possible fighters matching the nickname clue.
 
-<thought Process>
-To ensure both fighters are under 35 and share nationality, I will search for featherweight bouts before 2022 with both fighters under 35 and the same nationality, then check the loser's nickname.
-Query: featherweight mma same nationality under 35 nicknames
-Reason: To filter for age, nationality, and nickname criteria.
+Query: MMA referees first event 1994, officiated featherweight fights  
+Reason: Narrows down events by referee history, likely John McCarthy.
+
+Query: Featherweight MMA fights, both fighters same nationality, under 35  
+Reason: Confirms frequency and plausibility of same-nationality, under-35 matchups.
+
+Query: MMA fight stats, lowest significant strike accuracy featherweight  
+Reason: Investigates if such low accuracy is recorded and notable.
+
+Query: Featherweight MMA, "Blade," "Samurai," "Gladiator" nicknames, lost bout  
+Reason: Explores alternate synonyms for "swordsman" among featherweights.
+
+Query: John McCarthy featherweight fights, loser attempted 4 takedowns  
+Reason: Cross-references referee, division, and specific takedown stat.
 generate_search_queries_response: 
-<thought Process>
-To verify the referee for the identified bout (Myles Jury vs. Ricky Glenn at UFC 219), I need to check the official fight record or event report for the referee's name.
-Query: UFC 219 Myles Jury vs Ricky Glenn referee
-Reason: Directly identifies the referee for the specific bout.
+Query: MMA featherweight bout loser 14 of 83 strikes  
+Reason: To find bouts with this exact striking statistic.
 
-<thought Process>
-To confirm the referee officiated his first event for the promotion in 1994, I should search for the referee's career start date in the UFC.
-Query: Big John McCarthy first UFC event year
-Reason: Confirms if referee started UFC officiating in 1994.
+Query: MMA featherweight loser nickname synonym swordsman  
+Reason: To identify fighters whose nickname matches "swordsman."
 
-<thought Process>
-To cross-verify the referee’s participation in featherweight bouts and his career timeline, I should check his officiating history in the UFC.
-Query: Big John McCarthy UFC referee history
-Reason: Ensures he refereed featherweight bouts and confirms career span.
+Query: MMA event referee debuted 1994 same promotion  
+Reason: To find referees who started in 1994 with the promotion.
+
+Query: MMA featherweight bout both fighters same nationality  
+Reason: To narrow down bouts where both fighters share nationality.
+
+Query: MMA featherweight bout loser 0 of 4 takedowns  
+Reason: To find bouts with this specific takedown statistic.
+
+Query: MMA featherweight bout both fighters under 35  
+Reason: To filter out bouts by fighters’ ages at event.
+
+Query: MMA featherweight event before 2022  
+Reason: To ensure the event occurred before 2022.
+generate_search_queries_response: 
+Query: MMA referees started in 1994 featherweight bout stats  
+Reason: To identify referees who debuted in 1994 and officiated featherweight fights with detailed statistics.
+
+Query: MMA promotions featherweight division established before 2022  
+Reason: To list major promotions with featherweight divisions active before 2022.
+
+Query: MMA fighters nickname gladiator samurai swordsman featherweight  
+Reason: To find featherweight fighters whose nicknames are synonyms for "swordsman."
+
+Query: Featherweight MMA bouts loser 14 significant strikes 0 takedowns  
+Reason: To locate fights with matching losing stats (14/83 significant strikes, 0/4 takedowns).
+
+Query: MMA featherweight same nationality both fighters under 35  
+Reason: To identify featherweight bouts where both fighters are under 35 and share nationality.
+
+Query: UFC featherweight referees first event 1994 detailed fight stats  
+Reason: To focus on UFC featherweight bouts with 1994 referee debuts and available bout statistics.
+
+Query: MMA event loser nickname swordsman synonym referee 1994 debut  
+Reason: To cross-reference events with a "swordsman" nickname loser and a referee debuting in 1994.
+generate_search_queries_response: 
+Query: MMA featherweight bouts loser 14/83 significant strikes before 2022  
+Reason: Directly targets the unique strike stats and timeframe.
+
+Query: MMA featherweight fighters nickname Gladiator Samurai Blade Duelist  
+Reason: Explores fighters with "swordsman" synonym nicknames.
+
+Query: MMA featherweight bouts both fighters same nationality under 35  
+Reason: Checks for age and nationality requirements in featherweight fights.
+
+Query: MMA referees first UFC event 1994 featherweight bouts  
+Reason: Identifies referees who debuted in 1994 and officiated featherweight fights.
+
+Query: Road to UFC 1.4 featherweight bout Angga vs Lu Kai stats  
+Reason: Verifies if this specific bout matches all statistical and nickname clues.
+
+Query: Steve Perceval referee debut year and featherweight bouts  
+Reason: Confirms referee’s career timeline and relevant featherweight matches.
+
+Query: John McCarthy featherweight bouts before 2022 MMA stats  
+Reason: Checks if McCarthy officiated any featherweight bouts matching the criteria.
+
+Query: MMA fight databases filter featherweight 0/4 takedowns 14/83 strikes  
+Reason: Searches databases for all fights with these exact fight stats.
+generate_search_queries_response: 
+Query: Featherweight MMA bouts both fighters under 35 same nationality  
+Reason: Directly targets bouts meeting both age and nationality criteria.
+
+Query: TUF featherweight finals same nationality under 35 fighters  
+Reason: TUF regional finals often feature age-matched, same-nationality featherweights.
+
+Query: Regional featherweight MMA events both fighters under 35  
+Reason: Regional events are more likely to have same-nationality, under-35 matchups.
+
+Query: UFC featherweight fights both fighters under 35 nationality  
+Reason: Examines if standard UFC events feature such age and nationality pairings.
+
+Query: Road to UFC featherweight fights same nationality under 35  
+Reason: Road to UFC tournaments are structured by nationality and age, fitting criteria.
+
+Query: Featherweight MMA fights 2010-2022 both fighters under 35  
+Reason: Narrows search to the relevant era for featherweight division and age.
+
+Query: MMA featherweight bouts “Gladiator” nickname same nationality  
+Reason: Focuses on the nickname clue plus nationality, intersecting with age filters.
+generate_search_queries_response: 
+Query: Featherweight MMA fighters with "Gladiator" nickname pre-2022  
+Reason: To find losers with a "swordsman" synonym nickname in the right weight class and timeframe.
+
+Query: Featherweight MMA fighters with "Samurai" nickname pre-2022  
+Reason: "Samurai" is another common synonym for "swordsman" and may appear as a nickname.
+
+Query: Featherweight MMA fighters with "Blade" nickname pre-2022  
+Reason: "Blade" is a direct synonym for "swordsman" and could be used as a nickname.
+
+Query: Featherweight MMA fighters with "Knight" nickname pre-2022  
+Reason: "Knight" is a recognized synonym for "swordsman" and might be used as a nickname.
+
+Query: Featherweight MMA fighters with "Duelist" nickname pre-2022  
+Reason: "Duelist" is a less common synonym but still relevant for thoroughness.
+
+Query: Featherweight MMA fighters with "Fencer" nickname pre-2022  
+Reason: "Fencer" is a technical synonym for "swordsman" and could be used as a nickname.
+
+Query: Featherweight MMA fighters with "Ronin" nickname pre-2022  
+Reason: "Ronin" is a synonym for "samurai" and thus a possible swordsman-related nickname.
+generate_search_queries_response: 
+Query: "Steve Perceval referee debut year UFC"
+Reason: To confirm the actual year Steve Perceval began refereeing in the UFC.
+
+Query: "Steve Perceval Road to UFC 1.4 referee history"
+Reason: To verify if Steve Perceval officiated the Lu Kai vs. Angga bout.
+
+Query: "John McCarthy first UFC event as referee"
+Reason: To clarify which referee started in 1994, for comparison.
+
+Query: "List of referees UFC 2 event 1994"
+Reason: To confirm all referees who debuted at UFC 2 in 1994.
+
+Query: "Steve Perceval earliest MMA refereeing record"
+Reason: To establish Steve Perceval's earliest professional refereeing date.
+
+Query: "UFC featherweight bouts refereed by John McCarthy"
+Reason: To check if John McCarthy ever refereed a similar featherweight bout.
+
+Query: "Steve Perceval UFC debut event details"
+Reason: To find the specific UFC event where Perceval first officiated.
+
+Query: "Road to UFC 1.4 official referee assignment"
+Reason: To confirm the official referee assignment for the event in question.
+generate_search_queries_response: 
+Query: MMA featherweight bout loser 14 of 83 strikes  
+Reason: To identify bouts with this unique strike stat.
+
+Query: MMA featherweight bout loser nickname swordsman synonym  
+Reason: To find fighters whose nickname matches "swordsman."
+
+Query: MMA featherweight bout both fighters same nationality  
+Reason: To narrow down to bouts with same-nationality fighters.
+
+Query: MMA featherweight bout both fighters under 35 years  
+Reason: To filter for bouts with younger competitors.
+
+Query: MMA featherweight bout loser 0 of 4 takedowns  
+Reason: To match the takedown attempt and success stats.
+
+Query: MMA referee first event 1994 same promotion  
+Reason: To identify the referee based on career start.
+
+Query: MMA featherweight event before 2022  
+Reason: To ensure the event occurred before 2022.
+generate_search_queries_response: 
+Query: MMA promotions with featherweight divisions before 2022  
+Reason: Identify relevant organizations for the bout.
+
+Query: Referees started officiating MMA in 1994  
+Reason: Narrow down referees matching the event clue.
+
+Query: MMA events with detailed featherweight bout statistics  
+Reason: Focus on events with comprehensive stat tracking.
+
+Query: MMA fighters nicknamed "Swordsman" or synonyms  
+Reason: Find fighters whose nickname matches the clue.
+
+Query: Featherweight bouts with 14 significant strikes landed  
+Reason: Locate specific bouts matching the strike statistics.
+
+Query: MMA bouts where both fighters share nationality, under 35  
+Reason: Filter for age and nationality criteria.
+
+Query: MMA losers 0 takedowns from 4 attempts, featherweight  
+Reason: Match takedown statistics for further narrowing.
+generate_search_queries_response: 
+Query: Featherweight MMA fights loser 14/83 significant strikes  
+Reason: Targets fights with exact significant strike stats.
+
+Query: Featherweight MMA 0/4 takedown attempts loser  
+Reason: Focuses on takedown attempts and failures by loser.
+
+Query: MMA featherweight fights both fighters same nationality  
+Reason: Narrows to bouts with fighters of same nationality.
+
+Query: MMA featherweight loser nickname synonym swordsman  
+Reason: Seeks fighters with a “swordsman”-related nickname.
+
+Query: MMA referee debuted 1994 featherweight fights  
+Reason: Identifies matches officiated by a referee with 1994 debut.
+
+Query: Featherweight MMA fights both fighters under 35 years  
+Reason: Ensures both competitors fit the age criteria.
+
+Query: MMA featherweight fight before 2022 detailed stats  
+Reason: Broad search for detailed featherweight fight statistics pre-2022.
+generate_search_queries_response: 
+Query: MMA featherweight bouts same nationality under 35  
+Reason: To find featherweight bouts where both fighters fit age and nationality criteria.
+
+Query: MMA featherweight losers 14 of 83 significant strikes  
+Reason: To identify bouts with the specific striking statistics for the loser.
+
+Query: MMA featherweight nickname synonym swordsman  
+Reason: To find fighters with a nickname meaning "swordsman," matching the loser.
+
+Query: MMA featherweight failed 4 takedowns no success  
+Reason: To locate bouts where the loser attempted but failed four takedowns.
+
+Query: MMA referees first event 1994 same promotion  
+Reason: To identify referees who started officiating in 1994 for cross-referencing.
+
+Query: MMA featherweight both fighters under 35 same nationality  
+Reason: To directly filter bouts by both age and nationality simultaneously.
+
+Query: MMA featherweight event before 2022 detailed stats  
+Reason: To find comprehensive statistics for relevant bouts before 2022.
+generate_search_queries_response: 
+Query: MMA featherweight bout loser 14 of 83 strikes  
+Reason: To find matches with this specific strike statistic.
+
+Query: MMA featherweight loser nickname synonym swordsman  
+Reason: To identify fighters with "swordsman"-like nicknames.
+
+Query: MMA referee first event 1994 same promotion  
+Reason: To determine which referees fit this career timeline.
+
+Query: MMA featherweight bout both fighters same nationality  
+Reason: To filter for bouts where both fighters share nationality.
+
+Query: MMA featherweight loser 4 takedown attempts zero success  
+Reason: To match the takedown attempt and failure statistic.
+
+Query: MMA featherweight fighters under 35 years old  
+Reason: To ensure both fighters meet the age constraint.
+generate_search_queries_response: 
+Query: MMA featherweight bout loser 14 of 83 strikes  
+Reason: To identify matches with this specific striking stat.
+
+Query: MMA featherweight bout loser nickname swordsman synonym  
+Reason: To find fighters with a nickname meaning "swordsman."
+
+Query: MMA featherweight bout both fighters same nationality  
+Reason: To narrow down bouts by shared nationality.
+
+Query: MMA featherweight bout loser 0 of 4 takedowns  
+Reason: To match failed takedown attempts with other stats.
+
+Query: MMA referee first event 1994 same promotion  
+Reason: To identify referees with this career timeline.
+
+Query: MMA featherweight bout both fighters under 35 years  
+Reason: To filter matches by fighters’ ages.
+
+Query: MMA featherweight bout before 2022 significant strikes percentage  
+Reason: To focus on pre-2022 events with low accuracy.
+generate_search_queries_response: 
+Query: MMA referees started in 1994 featherweight bouts statistics  
+Reason: To identify referees with 1994 debuts and access detailed stats.
+
+Query: Featherweight bouts same nationality both fighters under 35  
+Reason: To narrow down to bouts with both fighters under 35 and same nationality.
+
+Query: MMA fighter nickname samurai blade knight featherweight loss  
+Reason: To find featherweights with "swordsman"-synonym nicknames who lost.
+
+Query: MMA featherweight loser 14 of 83 significant strikes  
+Reason: To directly match the unique strike stats from the question.
+
+Query: MMA featherweight bout no takedowns four attempts loss  
+Reason: To find bouts where the loser attempted four but landed no takedowns.
+
+Query: Big John McCarthy featherweight bouts before 2022  
+Reason: To focus on bouts officiated by John McCarthy, likely the referee.
+
+Query: Prominent MMA promotions featherweight detailed fight statistics  
+Reason: To list promotions with featherweight divisions and detailed stat tracking.
+generate_search_queries_response: 
+Query: Featherweight MMA bouts loser 14 of 83 significant strikes  
+Reason: Directly targets the unique striking stat line for identification.
+
+Query: MMA featherweight loser nickname samurai blade knight gladiator  
+Reason: Explores possible nicknames synonymous with "swordsman" for the losing fighter.
+
+Query: MMA featherweight bouts both fighters same nationality under 35  
+Reason: Filters for bouts where both fighters share nationality and are under 35.
+
+Query: MMA referee first UFC event 1994 featherweight bout  
+Reason: Narrows down fights officiated by referees who debuted in 1994, likely John McCarthy.
+
+Query: Featherweight MMA loser 0 of 4 takedowns attempted  
+Reason: Focuses on the grappling stat—zero takedowns out of four attempts.
+
+Query: MMA featherweight bouts before 2022 significant strike percentage  
+Reason: Searches for featherweight bouts before 2022 with notable significant strike percentages.
+
+Query: MMA databases featherweight bout nickname swordsman synonym  
+Reason: Looks for comprehensive database entries linking featherweight bouts and relevant nicknames.
+generate_search_queries_response: 
+Query: Featherweight MMA bouts both fighters same nationality under 35  
+Reason: Directly targets bouts meeting the age and nationality criteria.
+
+Query: Featherweight MMA loser 14 of 83 significant strikes  
+Reason: Focuses on the unique low significant strike accuracy stat.
+
+Query: MMA featherweight fighter nickname samurai or swordsman synonym  
+Reason: Seeks fighters whose nickname matches the "swordsman" clue.
+
+Query: John McCarthy featherweight MMA bouts before 2022  
+Reason: Narrows to bouts officiated by the likely referee in question.
+
+Query: Featherweight MMA loser 0 of 4 takedown attempts  
+Reason: Isolates bouts with the specific failed takedown stat.
+
+Query: MMA featherweight bouts both fighters under 35 same country  
+Reason: Alternative phrasing to capture similar demographic matches.
+
+Query: MMA featherweight fight same nationality, referee started 1994  
+Reason: Cross-references referee history with nationality and division.
+generate_search_queries_response: 
+Query: Featherweight MMA fighters nicknamed "Samurai" fight history  
+Reason: "Samurai" is a direct synonym for "swordsman" and common nickname; reviewing their fight histories may reveal a matching bout.
+
+Query: Featherweight MMA fighters nicknamed "Blade" fight history  
+Reason: "Blade" is another synonym for "swordsman"; checking these fighters’ records could uncover the bout.
+
+Query: Featherweight MMA fighters nicknamed "Knight" fight history  
+Reason: "Knight" is a synonym for "swordsman"; exploring these nicknames may yield the correct fighter.
+
+Query: Featherweight MMA fighters nicknamed "Swordsman" fight history  
+Reason: Some fighters may use the literal nickname "Swordsman"; their records should be checked for the stat line.
+
+Query: Featherweight MMA fighters nicknamed "Warrior" fight history  
+Reason: "Warrior" is a broader synonym for "swordsman"; reviewing these nicknames covers more possibilities.
+
+Query: Featherweight MMA fighters nicknamed "Duelist" fight history  
+Reason: "Duelist" is a less common synonym; including it ensures thoroughness in identifying the correct nickname.
+
+Query: Featherweight MMA fighters nicknamed "Fencer" fight history  
+Reason: "Fencer" is a direct synonym; searching this nickname ensures no synonym is overlooked.
+generate_search_queries_response: 
+Query: "Big John McCarthy" first UFC event year  
+Reason: To confirm the referee began in UFC in 1994.
+
+Query: John McCarthy featherweight bouts before 2022  
+Reason: To find featherweight fights he officiated within the timeframe.
+
+Query: John McCarthy referee record UFC featherweight  
+Reason: To cross-reference his officiating history in featherweight division.
+
+Query: John McCarthy referee debut UFC 2 1994  
+Reason: To verify his first UFC event and establish timeline.
+
+Query: MMA featherweight fight "Samurai" John McCarthy referee  
+Reason: To link the fighter nickname, weight class, and referee.
+
+Query: UFC featherweight fight loser 14 of 83 strikes  
+Reason: To match the fight's unique statistical profile.
+
+Query: MMA referee started 1994 featherweight same nationality  
+Reason: To ensure the referee, year, and nationality criteria align.
+
+Query: John McCarthy officiated featherweight same nationality bout  
+Reason: To verify he refereed a featherweight bout with both fighters sharing nationality.
+generate_search_queries_response: 
+Query: MMA referees first event 1994 major promotion  
+Reason: To identify referees who started in 1994.
+
+Query: UFC referees started 1994  
+Reason: UFC is a major promotion; check for 1994 starters.
+
+Query: PRIDE referees first event 1994  
+Reason: PRIDE is another major promotion; check for 1994.
+
+Query: MMA referee debut 1994 Bellator  
+Reason: Bellator is a major promotion; verify 1994 referee debuts.
+
+Query: Notable MMA referees career start dates  
+Reason: To cross-reference referee start years across promotions.
+
+Query: Referee history MMA promotions 1994  
+Reason: To find promotions with referee debuts in 1994.
+
+Query: MMA referee nicknames and debut years  
+Reason: To link referee nickname clues with debut years.
+generate_search_queries_response: 
+Query: UFC featherweight bouts same nationality both under 35  
+Reason: Identifies all relevant bouts matching age and nationality criteria.
+
+Query: UFC featherweight fights loser nickname swordsman synonym  
+Reason: Finds bouts where the losing fighter's nickname matches "swordsman."
+
+Query: UFC featherweight fights loser 14 of 83 significant strikes  
+Reason: Targets bouts with the specific significant strike stats described.
+
+Query: UFC featherweight fights loser 0 takedowns 4 attempts  
+Reason: Narrows down to fights with the takedown stat pattern.
+
+Query: UFC featherweight fights John McCarthy referee before 2022  
+Reason: Focuses on bouts officiated by John McCarthy in the correct timeframe.
+
+Query: UFC featherweight fights both fighters same nationality under 35  
+Reason: Ensures inclusion of all qualifying bouts for comprehensive coverage.
+generate_search_queries_response: 
+Query: MMA featherweight bouts loser 14 of 83 significant strikes  
+Reason: Directly targets bouts with the exact significant strikes stats.
+
+Query: MMA featherweight 0 takedowns 4 attempts loser stats  
+Reason: Focuses on failed takedown attempts by the losing fighter.
+
+Query: MMA featherweight both fighters same nationality under 35  
+Reason: Explores bouts meeting the age and nationality criteria.
+
+Query: MMA featherweight loser nickname swordsman synonym  
+Reason: Seeks to identify fighters with a "swordsman" synonym nickname.
+
+Query: John McCarthy featherweight bouts before 2022  
+Reason: Narrows down to bouts refereed by McCarthy in the correct era.
+
+Query: MMA featherweight loser 16.87 percent significant strikes  
+Reason: Checks for matches with the specific accuracy percentage.
+
+Query: MMA featherweight both fighters under 35 same nationality  
+Reason: Ensures both fighters match age and nationality requirements.
+
+Query: MMA featherweight referee debut 1994 bout stats  
+Reason: Confirms referee’s participation aligns with the 1994 debut.
+generate_search_queries_response: 
+Query: Featherweight MMA losers nickname swordsman synonym  
+Reason: Directly targets featherweight fighters with relevant nicknames.
+
+Query: MMA fighter nicknames related to swordsman  
+Reason: Expands search to all divisions for broader nickname possibilities.
+
+Query: List of featherweight MMA fighters with unique nicknames  
+Reason: Aims to find featherweights with distinctive nicknames, possibly matching "swordsman."
+
+Query: MMA events loser 14 of 83 significant strikes  
+Reason: Narrows down events by the unique losing stat line.
+
+Query: MMA fighters same nationality under 35 featherweight  
+Reason: Ensures both fighters meet age and nationality criteria.
+
+Query: John McCarthy featherweight bouts before 2022  
+Reason: Focuses on bouts officiated by the likely referee.
+
+Query: Synonyms for swordsman used as MMA nicknames  
+Reason: Identifies all possible nickname variations matching "swordsman."
+generate_search_queries_response: 
+Query: "Lu Kai vs Angga featherweight fight referee name"
+Reason: Directly checks who officiated the only matching stat-line bout.
+
+Query: "John McCarthy referee record featherweight bouts before 2022"
+Reason: Confirms if McCarthy officiated this or similar featherweight fights.
+
+Query: "Official results Lu Kai vs Angga MMA event referee"
+Reason: Seeks event documentation listing the referee for verification.
+
+Query: "List of referees for featherweight MMA fights 2010-2022"
+Reason: Broadens scope to see if McCarthy or others officiated such bouts.
+
+Query: "MMA event with 14 of 83 significant strikes referee"
+Reason: Ensures no other event fits the unique stat line and referee clue.
+
+Query: "Big John McCarthy featherweight fight officiated events"
+Reason: Focuses on McCarthy's featherweight assignments for cross-verification.
+
+Query: "Angga MMA fighter record event referee details"
+Reason: Looks for Angga’s fight history with referee information for confirmation.
+generate_search_queries_response: 
+Query: "MMA referee started career UFC 1994"
+Reason: Directly identifies which referee began officiating in UFC in 1994.
+
+Query: "John McCarthy first UFC event year"
+Reason: Confirms if John McCarthy is the referee who debuted in 1994.
+
+Query: "Which MMA promotions John McCarthy officiated"
+Reason: Determines if McCarthy refereed only UFC or also other major promotions.
+
+Query: "UFC featherweight fights John McCarthy referee"
+Reason: Checks if McCarthy refereed featherweight bouts in UFC before 2022.
+
+Query: "First major MMA promotions in 1994"
+Reason: Establishes which promotions existed in 1994, narrowing possible answers.
+
+Query: "List of UFC referees debut years"
+Reason: Ensures no other referee besides McCarthy fits the 1994 clue.
+
+Query: "John McCarthy career timeline promotions"
+Reason: Verifies if McCarthy’s 1994 debut was exclusively with UFC or elsewhere.
+generate_search_queries_response: 
+Query: MMA featherweight bouts loser 14 of 83 significant strikes  
+Reason: Directly targets the unique striking statistic for identification.
+
+Query: MMA featherweight loser failed 4 takedown attempts  
+Reason: Focuses on the failed takedown attempts to narrow results.
+
+Query: MMA featherweight bouts both fighters same nationality  
+Reason: Ensures the bout meets the shared nationality requirement.
+
+Query: MMA featherweight loser nickname synonym swordsman  
+Reason: Seeks fighters with nicknames matching "swordsman" for identification.
+
+Query: MMA referee first officiated 1994 same promotion  
+Reason: Identifies referees with the specified officiating history.
+
+Query: MMA featherweight both fighters under 35 years old  
+Reason: Filters bouts by fighters’ ages to match the criteria.
+
+Query: MMA featherweight event before 2022 significant strikes percentage 16.87  
+Reason: Searches for the exact significant strike percentage for precision.
+generate_search_queries_response: 
+Query: Featherweight MMA bouts same nationality both under 35
+Reason: Directly targets bouts with both fighters under 35 and same nationality.
+
+Query: MMA featherweight losers 0 takedowns 4 attempts
+Reason: Narrows to fights where the loser failed all four takedown attempts.
+
+Query: MMA featherweight bout loser 14 of 83 strikes
+Reason: Focuses on the rare statistical output (14/83 significant strikes landed).
+
+Query: MMA featherweight fighters nicknamed Gladiator or Duelist
+Reason: Explores possible "swordsman" synonym nicknames among featherweights.
+
+Query: MMA referees first event 1994 featherweight bouts
+Reason: Identifies bouts officiated by referees who debuted in 1994, matching the referee clue.
+
+Query: MMA featherweight fights before 2022 both under 35
+Reason: Ensures events are pre-2022 and both fighters meet age criteria.
+
+Query: MMA featherweight same nationality fight significant strike stats
+Reason: Seeks statistical records for same-nationality featherweight bouts for cross-referencing.
+generate_search_queries_response: 
+Query: Featherweight MMA fighters with nickname "Gladiator" losses  
+Reason: "Gladiator" is a common swordsman synonym; check for losses.
+
+Query: Featherweight MMA fighters with nickname "Samurai" losses  
+Reason: "Samurai" is another swordsman synonym; explore this nickname.
+
+Query: Featherweight MMA fighters with nickname "Knight" losses  
+Reason: "Knight" is a swordsman synonym; might match the required nickname.
+
+Query: Featherweight MMA fighters with nickname "Fencer" losses  
+Reason: "Fencer" is a direct synonym for swordsman; check for possible matches.
+
+Query: Featherweight MMA fighters with nickname "Duelist" losses  
+Reason: "Duelist" is a synonym for swordsman; verify if any featherweight used it.
+
+Query: Featherweight MMA fighters with nickname "Blade" losses  
+Reason: "Blade" is a related nickname; could be a swordsman synonym.
+
+Query: Featherweight MMA fighters with nickname "Ronin" losses  
+Reason: "Ronin" is a swordsman-type nickname; check for relevant fighters.
+generate_search_queries_response: 
+Query: MMA featherweight bout loser 14 of 83 strikes  
+Reason: To identify bouts with this unique strike statistic.
+
+Query: MMA featherweight bout loser nickname swordsman synonym  
+Reason: To match fighters with relevant nicknames.
+
+Query: MMA featherweight bout both fighters same nationality  
+Reason: To filter bouts by shared nationality.
+
+Query: MMA featherweight bout loser 0 of 4 takedowns  
+Reason: To focus on takedown attempt statistics.
+
+Query: MMA referee first event 1994 same promotion  
+Reason: To identify referees matching the officiating history.
+
+Query: MMA featherweight bout both fighters under 35 years  
+Reason: To ensure age criteria are met for both fighters.
+
+Query: MMA featherweight event before 2022  
+Reason: To limit results to events before the specified year.
+generate_search_queries_response: 
+Query: MMA featherweight fight loser 14 of 83 significant strikes  
+Reason: Directly targets the unique significant strike stats in question.
+
+Query: MMA featherweight bout loser 0 of 4 takedowns  
+Reason: Focuses on takedown attempts and failures, narrowing the bout list.
+
+Query: MMA featherweight fighters same nationality under 35  
+Reason: Ensures both competitors match the age and nationality criteria.
+
+Query: MMA fighter nickname synonym swordsman featherweight  
+Reason: Seeks fighters whose nickname matches the "swordsman" clue.
+
+Query: MMA referee first event 1994 featherweight fight  
+Reason: Identifies bouts officiated by a referee who debuted in 1994.
+
+Query: Featherweight MMA fight both fighters under 35 same country  
+Reason: Cross-references age and nationality for further filtering.
+
+Query: MMA featherweight fight loser landed 16.87% significant strikes  
+Reason: Uses the exact percentage for precise statistical matching.
+generate_search_queries_response: 
+Query: Featherweight MMA fights both fighters under 35 same nationality  
+Reason: Directly targets bouts matching the age and nationality criteria.
+
+Query: MMA featherweight loser 14 of 83 significant strikes  
+Reason: Focuses on the rare statistical output to narrow possible matches.
+
+Query: MMA featherweight nickname gladiator dueler fencer swashbuckler  
+Reason: Searches for fighters with nicknames synonymous with "swordsman."
+
+Query: John McCarthy refereed featherweight MMA fights before 2022  
+Reason: Connects the referee clue with featherweight bouts in the correct timeframe.
+
+Query: MMA featherweight loser 0 of 4 takedown attempts  
+Reason: Isolates fights where the loser failed all four takedown attempts.
+
+Query: MMA featherweight both fighters same nationality under 35  
+Reason: Reinforces the search for same-nationality, under-35 featherweight matchups.
+
+Query: MMA featherweight fights John McCarthy same nationality  
+Reason: Cross-references referee and nationality for further narrowing.
+generate_search_queries_response: 
+Query: MMA featherweight bouts loser 14 of 83 strikes  
+Reason: Directly targets bouts with the exact strike stats.
+
+Query: MMA featherweight loser 4 takedown attempts zero success  
+Reason: Focuses on takedown attempts and failures for further filtering.
+
+Query: MMA featherweight fights both fighters under 35 same nationality  
+Reason: Narrows results to age and nationality, matching question details.
+
+Query: MMA featherweight loser nickname synonym swordsman  
+Reason: Investigates fighters with relevant nicknames for identification.
+
+Query: MMA featherweight referee debut 1994 same promotion  
+Reason: Seeks events officiated by a referee with the specified career start.
+
+Query: MMA featherweight significant strikes percentage 16.87%  
+Reason: Looks for matches with this unique strike percentage for cross-referencing.
+
+Query: MMA featherweight events before 2022 with detailed fight stats  
+Reason: Ensures only pre-2022 events with comprehensive statistics are considered.
+generate_search_queries_response: 
+Query: MMA featherweight fights under 35 age at event  
+Reason: Directly filters bouts by both fighters’ ages at event.
+
+Query: UFC featherweight same nationality both fighters under 35  
+Reason: Cross-references age and nationality for precise filtering.
+
+Query: Featherweight MMA fights loser under 35, 0 takedowns  
+Reason: Adds takedown stat to age filter for further narrowing.
+
+Query: MMA featherweight under 35, referee John McCarthy  
+Reason: Combines age filter with referee clue for event identification.
+
+Query: Featherweight MMA under 35, loser nickname swordsman synonym  
+Reason: Merges age with nickname clue to isolate possible matches.
+
+Query: UFC featherweight both fighters under 35, detailed stats  
+Reason: Ensures only bouts with complete, age-verified stats are considered.
+generate_search_queries_response: 
+Query: Featherweight MMA both fighters same nationality, detailed stats  
+Reason: To find fights with same-nationality competitors and full stat breakdowns for strike/takedown filtering.
+
+Query: UFC featherweight both under 35, same nationality, pre-2022  
+Reason: Narrows to UFC events, age, nationality, and correct time frame.
+
+Query: Featherweight MMA loser nickname fencer, gladiator, samurai, same nationality  
+Reason: Explores alternate "swordsman" synonyms for nicknames in same-nationality matchups.
+
+Query: MMA featherweight fights same nationality, referee John McCarthy  
+Reason: Targets bouts with same-nationality fighters and the likely referee.
+
+Query: Featherweight MMA same nationality, loser 0 of 4 takedowns  
+Reason: Focuses on takedown stat and nationality to cross-match with other clues.
+
+Query: Featherweight MMA both under 35, same nationality, low strike accuracy  
+Reason: Filters for age, nationality, and unusually low striking accuracy.
+
+Query: UFC featherweight same nationality, nickname swordmaster, under 35  
+Reason: Investigates possible rare nicknames and ensures age/nationality alignment.
+generate_search_queries_response: 
+Query: MMA featherweight nickname "Fencer" fight record  
+Reason: "Fencer" is a direct synonym for "swordsman" and could be a nickname used by a featherweight fighter; checking for such a nickname may yield the losing fighter in question.
+
+Query: MMA featherweight nickname "Gladiator" fight record  
+Reason: "Gladiator" is another common synonym for "swordsman" and a popular nickname in combat sports, possibly matching the loser.
+
+Query: MMA featherweight nickname "Samurai" fight record  
+Reason: "Samurai" is a well-known synonym and frequently used as a nickname, so searching for featherweights with this moniker could identify the fighter.
+
+Query: MMA featherweight nickname "Swordmaster" fight record  
+Reason: "Swordmaster" is a less common but plausible synonym for "swordsman" and may be used as a nickname.
+
+Query: MMA featherweight nickname "Blade" fight record  
+Reason: "Blade" is a synonym for "swordsman" and sometimes used as a nickname, so this could reveal relevant fighters.
+
+Query: MMA featherweight nickname "Swashbuckler" fight record  
+Reason: "Swashbuckler" is a colorful synonym for "swordsman" and could be an unusual but possible nickname.
+
+Query: MMA featherweight nickname "Swordfighter" fight record  
+Reason: "Swordfighter" is a direct synonym and, while rare, could be used as a nickname in MMA.
+generate_search_queries_response: 
+Query: John McCarthy first UFC event year confirmation  
+Reason: Directly verifies the referee’s debut year for the promotion.
+
+Query: List of referees UFC debut 1994 official records  
+Reason: Ensures no other referee than McCarthy started in UFC that year.
+
+Query: John McCarthy UFC featherweight bouts officiated  
+Reason: Establishes McCarthy’s involvement in featherweight bouts for context.
+
+Query: UFC referee history 1994-present official sources  
+Reason: Seeks official documentation of referee tenure and debut dates.
+
+Query: John McCarthy career timeline UFC referee milestones  
+Reason: Looks for biographical timelines confirming his UFC start in 1994.
+
+Query: UFC 2 event referee assignments official records  
+Reason: Checks if McCarthy was assigned at UFC 2 in 1994.
+
+Query: UFC referee debut years cross-reference featherweight bouts  
+Reason: Cross-checks debut years of referees against featherweight fight records.
+generate_search_queries_response: 
+Query: Featherweight MMA loser nickname "Gladiator" fight stats  
+Reason: "Gladiator" is a common synonym for "swordsman" and could match the nickname clue.
+
+Query: UFC featherweight fight loser 0 of 4 takedowns  
+Reason: Filters for the rare takedown stat to find matching bouts.
+
+Query: MMA featherweight fight loser 14 of 83 strikes  
+Reason: Directly targets the unique significant strikes stat for identification.
+
+Query: UFC featherweight both fighters under 35, same nationality  
+Reason: Ensures both age and nationality requirements are met for the event.
+
+Query: John McCarthy featherweight UFC bouts before 2022  
+Reason: Confirms referee assignment and narrows down eligible events.
+
+Query: MMA featherweight loser nickname "Samurai" fight stats  
+Reason: "Samurai" is another synonym for "swordsman" and may be used as a nickname.
+
+Query: Featherweight MMA loser nickname "Blade" fight record  
+Reason: "Blade" is a synonym for "swordsman" and could be the nickname in question.
+generate_search_queries_response: 
+Query: Featherweight MMA bouts loser 14 of 83 significant strikes  
+Reason: Directly targets the unique strike statistics in featherweight bouts.
+
+Query: MMA events loser nickname synonym swordsman  
+Reason: Focuses on the nickname clue to narrow down potential fighters.
+
+Query: MMA referee first event 1994 same promotion  
+Reason: Investigates referees with a long tenure to identify the official.
+
+Query: Featherweight bouts both fighters same nationality under 35  
+Reason: Filters bouts by age and nationality for further narrowing.
+
+Query: MMA events before 2022 failed 4 takedown attempts  
+Reason: Looks for matches where the loser attempted but failed four takedowns.
+
+Query: MMA featherweight losing fighter significant strike percentage 16.87%  
+Reason: Searches for the exact significant strike percentage for precision.
+
+Query: MMA event loser landed zero takedowns attempted four  
+Reason: Focuses on the takedown attempt and failure aspect.
+generate_search_queries_response: 
+Query: Featherweight MMA loser 4 takedown attempts zero landed  
+Reason: Narrows to bouts where loser attempted four takedowns unsuccessfully, matching the filter.
+
+Query: MMA featherweight loser nickname samurai gladiator warrior  
+Reason: Explores possible "swordsman" synonym nicknames to identify the losing fighter.
+
+Query: MMA featherweight both fighters same nationality under 35  
+Reason: Filters for bouts with both fighters under 35 and sharing nationality, matching clues.
+
+Query: MMA referee first UFC event 1994 featherweight bouts  
+Reason: Targets featherweight bouts officiated by a referee debuting in UFC 1994 for cross-referencing.
+
+Query: Featherweight MMA loser 14 significant strikes 83 attempted  
+Reason: Focuses on the unique strike output and accuracy for precise event identification.
+
+Query: MMA featherweight losers zero takedowns landed fight stats  
+Reason: Broadens to all featherweight losers with zero takedowns landed for comparison.
+
+Query: UFC featherweight fight loser nickname swordsman failed takedowns  
+Reason: Combines nickname and failed takedowns for a multi-clue targeted search.
+generate_search_queries_response: 
+Query: Featherweight MMA both fighters under 35 same nationality  
+Reason: Directly filters bouts by age and nationality, matching the objective.
+
+Query: MMA featherweight bouts both fighters birthdates nationality  
+Reason: Focuses on finding bouts with explicit birthdate and nationality data for both fighters.
+
+Query: UFC featherweight fights domestic matchups under 35  
+Reason: Targets UFC featherweight fights between fighters from the same country and under 35.
+
+Query: MMA featherweight fight statistics both fighters age nationality  
+Reason: Seeks statistical breakdowns including age and nationality for both fighters.
+
+Query: Featherweight MMA events both fighters under 35 years  
+Reason: Narrows to featherweight events with both fighters confirmed under 35.
+
+Query: MMA featherweight same-country matchups both fighters under 35  
+Reason: Looks for featherweight bouts with both fighters sharing nationality and under 35.
+
+Query: UFC featherweight fights both fighters born after 1987  
+Reason: Uses birth year as a proxy for age under 35 before 2022.
+generate_search_queries_response: 
+Query: MMA featherweight nicknames synonym swordsman list  
+Reason: Compiling a list of all featherweight fighters with nicknames synonymous with "swordsman" helps identify possible candidates for cross-referencing with fight stats.
+
+Query: MMA featherweight fighter nickname samurai  
+Reason: "Samurai" is a common synonym for "swordsman" and a popular nickname; searching specifically for this term may yield relevant fighters.
+
+Query: MMA featherweight fighter nickname gladiator  
+Reason: "Gladiator" is another synonym for "swordsman" and could be used as a nickname; this query explores alternative synonyms.
+
+Query: MMA featherweight fighter nickname ronin  
+Reason: "Ronin" is a less common but relevant synonym for "swordsman" and may be used as a unique nickname.
+
+Query: MMA featherweight fighter nickname blade  
+Reason: "Blade" is a direct reference to swords and may be chosen as a nickname by a fighter, offering another angle.
+
+Query: MMA featherweight fighter nickname warrior  
+Reason: "Warrior" is a broader synonym but sometimes used interchangeably with "swordsman" in nicknames.
+
+Query: MMA featherweight fighter nickname fencer  
+Reason: "Fencer" is a technical synonym for "swordsman" and could be an unusual but possible nickname.
+generate_search_queries_response: 
+Query: John McCarthy UFC referee debut year confirmation  
+Reason: Confirms referee's first UFC event was in 1994.
+
+Query: John McCarthy officiating history featherweight bouts  
+Reason: Verifies if McCarthy refereed featherweight fights, matching the bout.
+
+Query: List MMA referees started UFC 1994 promotion  
+Reason: Ensures no other referee fits the 1994 debut clue.
+
+Query: John McCarthy career timeline UFC referee tenure  
+Reason: Establishes continuous officiating for the same promotion.
+
+Query: John McCarthy official records MMA promotions  
+Reason: Checks if McCarthy worked for other MMA promotions.
+
+Query: John McCarthy notable featherweight UFC matches  
+Reason: Finds featherweight bouts he officiated, confirming involvement.
+
+Query: John McCarthy biography refereeing milestones UFC  
+Reason: Looks for biographical confirmation of career milestones.
+
+Query: UFC 2 referee roster and officiating assignments  
+Reason: Confirms McCarthy's debut and initial UFC role.
+generate_search_queries_response: 
+Query: Featherweight MMA fight loser nickname "Samurai" before 2022  
+Reason: Targets the most common "swordsman" synonym nickname for identification.
+
+Query: MMA featherweight fight loser 14 of 83 significant strikes  
+Reason: Focuses on the unique strike stat line to pinpoint the bout.
+
+Query: UFC featherweight fight both fighters same nationality under 35  
+Reason: Filters for domestic, youth matchups to match age and nationality clues.
+
+Query: MMA featherweight loser 0 takedowns 4 attempts fight stats  
+Reason: Narrows to fights where the loser failed all four takedown attempts.
+
+Query: John McCarthy featherweight UFC bouts referee history  
+Reason: Confirms if McCarthy officiated featherweight bouts matching the timeframe.
+
+Query: MMA featherweight fighter nickname "Gladiator" fight record  
+Reason: Explores another plausible "swordsman" synonym nickname for the loser.
+
+Query: MMA featherweight fight nickname swordsman referee debut 1994  
+Reason: Combines nickname and referee debut clues for a holistic search.
+
+Query: List MMA featherweight fighters nicknames synonym swordsman  
+Reason: Compiles all possible candidates for cross-referencing with bout stats.
+generate_search_queries_response: 
+Query: MMA featherweights with "swordsman" synonym nickname  
+Reason: To identify fighters matching the nickname clue.
+
+Query: Referees debuting in 1994 for major MMA promotions  
+Reason: To find referees who fit the officiating history requirement.
+
+Query: Featherweight bouts with both fighters same nationality, under 35  
+Reason: To filter bouts by age and nationality for further narrowing.
+
+Query: MMA events with 0/4 takedowns and 14/83 significant strikes  
+Reason: To directly match the unique fight statistics described.
+generate_search_queries_response: 
+Query: MMA featherweight bouts refereed by John McCarthy pre-2022  
+Reason: To cross-reference referee and event timeframe for candidate matches.
+
+Query: MMA featherweights nicknamed "Blade," "Fencer," or "Samurai"  
+Reason: To expand nickname search to all swordsman synonyms for potential losers.
+
+Query: MMA events where both fighters were Brazilian featherweights  
+Reason: To explore same-nationality bouts, focusing on a common MMA nationality.
+
+Query: MMA featherweight fights with loser 0 takedowns, 4 attempts  
+Reason: To isolate fights by takedown stats for further filtering.
+generate_search_queries_response: 
+Query: MMA featherweight bouts with loser nicknamed "Duelist"
+Reason: To check if "Duelist" (a swordsman synonym) matches any bout.
+
+Query: MMA featherweight bouts with loser nicknamed "Swashbuckler"
+Reason: To explore if "Swashbuckler" appears as a losing fighter's nickname.
+
+Query: MMA featherweight bouts with loser nicknamed "Knight"
+Reason: To determine if "Knight" (another synonym) matches any relevant bout.
+generate_search_queries_response: 
+Query: List John McCarthy-refereed featherweight bouts pre-2022  
+Reason: To identify eligible events by referee and timeframe.
+
+Query: Which featherweight bouts had loser land 14/83 strikes?  
+Reason: To directly match the unique striking statistics described.
+
+Query: Featherweight bouts with both fighters under 35, same nationality  
+Reason: To ensure the age and nationality criteria are met for both fighters.
+
+Query: Loser’s nickname in each filtered featherweight bout  
+Reason: To confirm if any losing fighter’s nickname matches a "swordsman" synonym.
+generate_search_queries_response: 
+Query: Joao Victor de Mello featherweight losses event names  
+Reason: To identify events where "The Swordsman" lost, matching nickname and weight class.
+
+Query: John McCarthy refereed featherweight bouts with Brazilian fighters  
+Reason: To find events matching referee, weight, and nationality criteria.
+
+Query: Featherweight MMA bouts with loser 14/83 significant strikes  
+Reason: To directly match the rare striking stats and isolate possible events.
+
+Query: MMA featherweight bouts with loser 0/4 takedowns attempted  
+Reason: To further filter for events with the specific takedown stat line.
+generate_search_queries_response: 
+Query: MMA featherweight bouts before 2022 with 14 of 83 significant strikes  
+Reason: To directly identify matches matching the unique strike statistics.
+
+Query: MMA featherweights with nickname meaning "swordsman"  
+Reason: To pinpoint fighters whose nickname is a synonym for "swordsman."
+
+Query: Referees first officiating for promotion in 1994  
+Reason: To identify referees who began with the promotion in 1994, narrowing possible events.
+
+Query: Featherweight bouts with both fighters under 35 and same nationality  
+Reason: To find matches where both fighters meet the age and nationality criteria.
+generate_search_queries_response: 
+Query: MMA featherweight events with Joao Victor de Mello as loser  
+Reason: To check if "The Swordsman" lost a featherweight bout matching criteria.
+
+Query: MMA events refereed by 1994 debut officials before 2022  
+Reason: To cross-reference bouts officiated by eligible referees with other parameters.
+
+Query: MMA featherweight bouts with loser 0/4 takedowns, 14/83 strikes  
+Reason: To directly identify events with the specific striking and takedown stats.
+generate_search_queries_response: 
+Query: Nationality of both fighters in the bout  
+Reason: To confirm both fighters shared the same nationality.
+
+Query: Ages of both featherweight fighters at event date  
+Reason: To verify both were under 35 during the event.
+
+Query: Official event records listing fighters’ ages and nationalities  
+Reason: To find authoritative documentation supporting both criteria.
+generate_search_queries_response: 
+Query: MMA nicknames synonym for "swordsman" in English  
+Reason: To confirm if "The Swordsman" is a direct synonym.
+
+Query: MMA featherweights with "Espadachim" or similar nickname  
+Reason: To check for synonyms in other languages (e.g., Portuguese).
+
+Query: List of MMA nicknames meaning "swordsman" globally  
+Reason: To verify if any other fighters use a synonym for "swordsman" as a nickname.
+generate_search_queries_response: 
+Query: Referee’s first MMA event for promotion in 1994  
+Reason: To confirm referee’s debut year with promotion.
+
+Query: Official list of referees starting in 1994  
+Reason: To identify all referees with a 1994 debut for cross-reference.
+
+Query: Referee assignments in featherweight MMA before 2022  
+Reason: To match referee history with specific featherweight events.
+generate_search_queries_response: 
+Query: Joao Victor de Mello featherweight losses before 2022  
+Reason: To confirm if any of his defeats match the stat line.
+
+Query: John McCarthy featherweight bouts before 2022  
+Reason: To cross-reference referee’s involvement in possible events.
+
+Query: Brazilian featherweight bouts with both fighters under 35  
+Reason: To identify events meeting age and nationality constraints.
+
+Query: MMA event with 14/83 significant strikes, 0/4 takedowns  
+Reason: To directly locate a bout with the exact performance stats.
+generate_search_queries_response: 
+Query: MMA featherweight bouts with 14 of 83 significant strikes  
+Reason: To find matches matching the unique strike statistics.
+
+Query: MMA fighters nicknamed "Swordsman" or synonyms  
+Reason: To identify possible losing fighters by nickname clue.
+
+Query: Referees debuting in 1994 for major MMA promotions  
+Reason: To determine referees who fit the officiating history.
+
+Query: Featherweight bouts before 2022, both fighters same nationality  
+Reason: To narrow events by shared nationality and time frame.
+generate_search_queries_response: 
+Query: MMA featherweight bouts with 0/4 takedown success  
+Reason: To match the failed takedown attempts criterion.
+
+Query: MMA featherweight fighters under 35 with "Blade" nickname  
+Reason: To identify losing fighters by age and nickname specificity.
+
+Query: MMA featherweight fights officiated by John McCarthy pre-2022  
+Reason: To cross-reference referee involvement with event timing.
+
+Query: Featherweight fights with both fighters under 35, same country  
+Reason: To ensure both age and nationality criteria are met.
+generate_search_queries_response: 
+Query: MMA featherweight bouts with "Blade" losing, 0/4 takedowns  
+Reason: To find bouts where a "Blade"-nicknamed featherweight lost with 0/4 takedowns, matching the unique stat line.
+
+Query: MMA featherweight fights, both fighters under 35, same nationality  
+Reason: To cross-reference age and nationality, ensuring both fighters match demographic criteria.
+
+Query: MMA featherweight fights, John McCarthy referee, losing fighter "Blade"  
+Reason: To confirm referee involvement with a "Blade"-nicknamed losing featherweight, narrowing the event.
+
+Query: MMA featherweight fights, loser 14/83 significant strikes, "Blade"  
+Reason: To directly match the rare strike stats and nickname, pinpointing the exact bout.
+generate_search_queries_response: 
+Query: John McCarthy first MMA event for UFC in 1994  
+Reason: To confirm the referee's debut year and promotion.
+
+Query: List of John McCarthy featherweight fights before 2022  
+Reason: To cross-check all featherweight bouts he officiated pre-2022.
+
+Query: MMA featherweight fights, both fighters same nationality, McCarthy referee  
+Reason: To find events matching nationality and referee criteria.
+
+Query: MMA featherweight fights, loser nickname "Blade", McCarthy referee  
+Reason: To verify if McCarthy officiated a "Blade" fighter's loss.
+generate_search_queries_response: 
+Query: MMA featherweight bouts with under 20% strike accuracy  
+Reason: To identify rare low-accuracy losing performances.
+
+Query: MMA featherweight fights, referee UFC debut 1994  
+Reason: To confirm referee identity and event eligibility.
+
+Query: MMA featherweight fights, both fighters under 35, "Blade"  
+Reason: To cross-reference age, nickname, and division for matches.
+
+Query: MMA featherweight fights, loser 0/4 takedowns, same nationality  
+Reason: To confirm takedown stat and nationality requirements together.
+generate_search_queries_response: 
+Query: MMA featherweight bouts with 14/83 significant strikes  
+Reason: To identify bouts matching the unique strike statistics.
+
+Query: MMA fighters with nickname meaning "swordsman"  
+Reason: To find possible fighters based on the nickname clue.
+
+Query: Referees debuting in 1994 for major MMA promotions  
+Reason: To narrow down referees matching the officiating history.
+
+Query: Featherweight bouts with both fighters under 35, same nationality  
+Reason: To filter bouts by age and nationality constraints.
+generate_search_queries_response: 
+Query: João Victor de Mello featherweight fight stats before 2022  
+Reason: To confirm if de Mello lost a featherweight bout with the given stats.
+
+Query: John McCarthy refereed featherweight bouts João Victor de Mello  
+Reason: To verify if McCarthy officiated a de Mello featherweight fight.
+
+Query: MMA featherweight bouts with 0/4 takedowns attempted, lost  
+Reason: To cross-reference fights with the specific failed takedown stat.
+generate_search_queries_response: 
+Query: MMA featherweight fights pre-2022 with 14/83 significant strikes  
+Reason: Find matches with this exact striking stat profile.
+
+Query: MMA featherweight losers nickname synonym for "swordsman"  
+Reason: Identify fighters whose nicknames match the clue.
+
+Query: MMA referees debuted 1994 officiated featherweight bouts pre-2022  
+Reason: Narrow down matches by referee's career start date.
+
+Query: MMA featherweight bouts both fighters under 35 same nationality  
+Reason: Filter fights by age and nationality to match criteria.
+generate_search_queries_response: 
+Query: MMA featherweight bouts with no takedowns landed, 4 attempts  
+Reason: Isolate fights where the loser attempted but failed all takedowns.
+
+Query: MMA featherweight fighters with nickname "Blade" or "Gladiator"  
+Reason: Identify fighters whose nicknames are strong synonyms for "swordsman."
+
+Query: John McCarthy refereed featherweight bouts, both fighters same nationality  
+Reason: Cross-reference referee, nationality, and division for eligible bouts.
+generate_search_queries_response: 
+Query: MMA featherweight fights with "Blade" nickname, 0/4 takedowns  
+Reason: Directly targets fighters matching nickname and takedown stats.
+
+Query: MMA featherweight bouts, both fighters under 35, same country  
+Reason: Narrows down eligible fights by age and nationality for cross-referencing.
+
+Query: John McCarthy refereed featherweight bouts, loser 14/83 strikes  
+Reason: Connects referee, division, and exact striking stats for precise identification.
+
+Query: MMA featherweight losers with "Fencer" or "Samurai" nickname  
+Reason: Explores additional nickname synonyms to ensure no eligible fighter is missed.
+generate_search_queries_response: 
+Query: List of featherweight bouts with "Blade" nickname loser
+Reason: Directly targets fights with the required nickname for the losing fighter.
+
+Query: Featherweight bouts with both fighters under 35, same country
+Reason: Ensures both competitors match the age and nationality criteria.
+
+Query: John McCarthy featherweight bouts, loser 0/4 takedowns
+Reason: Connects referee, division, and takedown stat for precise filtering.
+
+Query: MMA events pre-2022, loser 14/83 significant strikes
+Reason: Pinpoints events with the exact significant strikes stat profile.
+generate_search_queries_response: 
+Query: MMA featherweight bouts, loser "Blade" nickname, 0/4 takedowns  
+Reason: Directly targets fights with the required nickname and takedown stat.
+
+Query: John McCarthy refereed featherweight, both fighters under 35, same nationality  
+Reason: Ensures all demographic and referee constraints are met for eligible bouts.
+
+Query: Featherweight MMA events pre-2022, loser 14/83 significant strikes  
+Reason: Narrows search to events with the exact striking stat profile before 2022.
+
+Query: MMA featherweight fights, loser "Blade" nickname, both fighters same country  
+Reason: Confirms nationality and nickname criteria for the losing fighter.
